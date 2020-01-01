@@ -3,8 +3,13 @@ package main
 import (
 	"fmt"
 	"os/exec"
-	"strings"
+	"regexp"
+	_ "strings"
 )
+
+func main() {
+	FetchData()
+}
 
 func FetchData() {
 	var Domain_List [14]string
@@ -37,22 +42,13 @@ func FetchData() {
 			if err != nil {
 				fmt.Println(err)
 			}
-			// output := string(out[0:])
-			output := string(out[23:56]) // Select range
-			// filter_fields := strings.Split(output, ";")
-			filter_values := strings.Trim(output, ";</scri")
-			// filter_values := strings.Trim(output, ";url=")
-			// filter := filter_data(output)
-			// filter_values := filter_data(output)
-			// fmt.Println(filter_data(output))
-			fmt.Println("<ul>" + "<li>" + filter_values + "</li>" + "</ul>")
-			// output := string(out[0:])
-			// sp_values := strings.Split(output, "=")
-			// fmt.Println(output)
-			// fmt.Println(filter_values)
-			// fmt.Println(data_store1 + data_store2)
-
-			// fmt.Println("<xmp>")
+			output := string(out)
+			re := regexp.MustCompile(`<script.*?>;location.href='(.*)';</script>`)
+			submatchall := re.FindAllStringSubmatch(output, -1)
+			//fmt.Println(submatchall);
+			for _, element := range submatchall {
+				fmt.Println(element[1])
+			}
 
 		}
 		// fmt.Println("***********************************************************************************************")
@@ -71,8 +67,3 @@ func FetchData() {
 	}
 
 }
-
-func main() {
-	FetchData()
-}
-
