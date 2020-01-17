@@ -18,7 +18,7 @@ type DiskStatus struct {
 
 // disk usage of path/disk
 func DiskUsage(path string) (disk DiskStatus) {
-	fs := syscall.Statfs_t{}
+	fs := syscall.Statfs_t{} // used to get filesystem statistics
 	err := syscall.Statfs(path, &fs)
 	if err != nil {
 		return
@@ -27,7 +27,7 @@ func DiskUsage(path string) (disk DiskStatus) {
 	disk.Free = fs.Bfree * uint64(fs.Bsize)
 	disk.Used = disk.All - disk.Free
 	second_pair := disk.All + disk.Free
-	disk.PercentageUsed = ((float64(disk.Used) / float64(GB)) / (float64(second_pair) / float64(GB) / 2) * 100)
+	disk.PercentageUsed = (((float64(disk.Used) / float64(GB)) / (float64(second_pair) / float64(GB) / 2)) * 100)
 
 	if disk.PercentageUsed >= 80 {
 		hostname, error := os.Hostname()
@@ -36,9 +36,9 @@ func DiskUsage(path string) (disk DiskStatus) {
 		}
 		// Sending  email to admin
 		body := `warning: ` + hostname + ` is over 80% of disk`
-		from := "somthing@gmail.com"
-		pass := "yourpassword"
-		to := "something@gmail.com"
+		from := "kuldeep.avsar@gmail.com"
+		pass := "kdsingh9599625299"
+		to := "kuldeep.avsar@gmail.com"
 		msg := "From: " + from + "\n" +
 			"To: " + to + "\n" +
 			"Subject: Disk Storage Alert\n\n" +
@@ -51,10 +51,10 @@ func DiskUsage(path string) (disk DiskStatus) {
 			log.Printf("smtp error: %s", err)
 			return
 		}
-		log.Print("sent, visit", to)
+		log.Print("sent, visit ", to)
 		return
 	} else {
-		fmt.Printf("you have %.2f GB available\n", float64(disk.Free)/float64(GB))
+		fmt.Printf("you have %.4f GB available\n", float64(disk.Free)/float64(GB))
 		return
 	}
 	return
@@ -68,9 +68,9 @@ const (
 )
 
 func main() {
-	disk := DiskUsage("/dev/loop0")
+	disk := DiskUsage("/boot")
 	fmt.Printf("All: %.2f GB\n", float64(disk.All)/float64(GB))
-	fmt.Printf("Used: %.2f GB\n", float64(disk.Used)/float64(GB))
-	fmt.Printf("Free: %.2f GB\n", float64(disk.Free)/float64(GB))
+	fmt.Printf("Used: %.4f GB\n", float64(disk.Used)/float64(GB))
+	fmt.Printf("Free: %.4f GB\n", float64(disk.Free)/float64(GB))
 	fmt.Printf("Percentage used of disk : %.2f\n", disk.PercentageUsed)
 }
