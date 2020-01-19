@@ -36,9 +36,9 @@ func DiskUsage(path string) (disk DiskStatus) {
 		}
 		// Sending  email to admin
 		body := `warning: ` + hostname + ` is over 80% of disk`
-		from := "kuldeep.avsar@gmail.com"
-		pass := "kdsingh9599625299"
-		to := "kuldeep.avsar@gmail.com"
+		from := "somebody@gmail.com"
+		pass := ""
+		to := "somebody@gmail.com"
 		msg := "From: " + from + "\n" +
 			"To: " + to + "\n" +
 			"Subject: Disk Storage Alert\n\n" +
