@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"io/ioutil"
 	"log"
 	"net/http"
 	"net/smtp"
@@ -9,20 +10,40 @@ import (
 	"time"
 )
 
-func main() {
-
-	var urls = []string{
-		"https://chaufferjob.us",
-		"https://qkids.com/",
+func FetchDomains() {
+	//fetch data from given url
+	response, err := http.Get("http://s.tutree.com:7635/v1/driver_websites")
+	if err != nil {
+		log.Fatal(err)
 	}
 
-	for _, url := range urls {
+	defer response.Body.Close()
+	// Read data from url
+	body, err := ioutil.ReadAll(response.Body)
+	if err != nil {
+		log.Fatal(err)
+	}
+	storeDomains := string(body)
+	trimdata := strings.Split(storeDomains, "\n")
+	for _, url := range trimdata {
 		checkURL(url)
 	}
 }
 
+func main() {
+	// var urls = []string{
+	// 	"https://chaufferjob.us",
+	// 	"https://qkids.com/",
+	// }
+	FetchDomains()
+	// urls := []string FetchDomains(url)
+	// for _, url := range urls {
+	// 	checkURL(url)
+	// }
+}
+
 func checkURL(url string) {
-	resp, err := http.Head(url)
+	resp, err := http.Head("https://" + url)
 	if err != nil {
 		log.Printf("Unable to get %q: %s\n", url, err)
 		return
@@ -46,9 +67,9 @@ func checkURL(url string) {
 			if expiredate <= 0 {
 				// Sending  email to admin
 				body := "Certificate for " + name + " from " + issuer + " Expired"
-				from := "somebody@gmail.com"
+				from := "leadrepository@gmail.com"
 				pass := ""
-				to := "somebody@gmail.com"
+				to := "errors@tutree.com"
 				msg := "From: " + from + "\n" +
 					"To: " + to + "\n" +
 					"Subject: Certificate Expire Alert\n" +
