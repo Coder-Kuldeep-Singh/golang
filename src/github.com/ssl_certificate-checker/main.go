@@ -18,7 +18,7 @@ var Expired []string
 
 func FetchDomains() {
 	//fetch data from given url
-	response, err := http.Get("http://s.tutree.com:7635/v1/driver_websites")
+	response, err := http.Get("http://s.tutree.com:7635/v1/groups")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -32,7 +32,23 @@ func FetchDomains() {
 	storeDomains := string(body)
 	trimdata := strings.Split(storeDomains, "\n")
 	for _, url := range trimdata {
-		checkURL(url)
+		response, err := http.Get("http://s.tutree.com:7635/v1/" + url)
+		if err != nil {
+			log.Fatal(err)
+		}
+
+		defer response.Body.Close()
+		// Read data from url
+		body, err := ioutil.ReadAll(response.Body)
+		if err != nil {
+			log.Fatal(err)
+		}
+		storeDomains := string(body)
+		trimdata := strings.Split(storeDomains, "\n")
+		for _, url := range trimdata {
+			checkURL(url)
+
+		}
 	}
 }
 
