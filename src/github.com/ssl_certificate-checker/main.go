@@ -10,6 +10,12 @@ import (
 	"time"
 )
 
+// type Expired struct {
+// 	Domains []string
+// }
+
+var Expired []string
+
 func FetchDomains() {
 	//fetch data from given url
 	response, err := http.Get("http://s.tutree.com:7635/v1/driver_websites")
@@ -66,24 +72,32 @@ func checkURL(url string) {
 			fmt.Printf("Certificate for %q from %q expires %s (%.0f days).\n", name, issuer, dates, expiredate)
 			if expiredate <= 0 {
 				// Sending  email to admin
-				body := "Certificate for " + name + " from " + issuer + " Expired"
-				from := "leadrepository@gmail.com"
-				pass := ""
-				to := "errors@tutree.com"
-				msg := "From: " + from + "\n" +
-					"To: " + to + "\n" +
-					"Subject: Certificate Expire Alert\n" +
-					body
-				err := smtp.SendMail("smtp.gmail.com:587",
-					smtp.PlainAuth("", from, pass, "smtp.gmail.com"),
-					from, []string{to}, []byte(msg))
-
-				if err != nil {
-					log.Printf("smtp error: %s", err)
-					return
-				}
-				log.Print("sent, visit ", to)
+				// changeType := strconv.Itoa(dates)
+				// changeType2 := strconv.Itoa(expiredate)
+				// Expired = append(Expired, name)
+				body := "Certificate for " + name + " from " + issuer + " Expired "
+				sendEmail(body)
 			}
 		}
 	}
+}
+
+func sendEmail(body string) {
+	// body := "Certificate for " + name + " from " + issuer + " Expired" + dates + expiredate
+	from := "leadrepository@gmail.com"
+	pass := ""
+	to := "errors@tutree.com"
+	msg := "From: " + from + "\n" +
+		"To: " + to + "\n" +
+		"Subject: Certificate Expire Alert\n" +
+		body
+	err := smtp.SendMail("smtp.gmail.com:587",
+		smtp.PlainAuth("", from, pass, "smtp.gmail.com"),
+		from, []string{to}, []byte(msg))
+
+	if err != nil {
+		log.Printf("smtp error: %s", err)
+		return
+	}
+	log.Print("sent, visit ", to)
 }
