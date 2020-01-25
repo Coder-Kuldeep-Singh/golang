@@ -6,6 +6,7 @@ import (
 	"log"
 	"net/http"
 	"net/smtp"
+	"os"
 	"strings"
 	"time"
 )
@@ -100,9 +101,9 @@ func checkURL(url string) {
 
 func sendEmail(body string) {
 	// body := "Certificate for " + name + " from " + issuer + " Expired" + dates + expiredate
-	from := "leadrepository@gmail.com"
-	pass := ""
-	to := "errors@tutree.com"
+	from := os.Getenv("FROM")
+	pass := os.Getenv("PASS")
+	to := os.Getenv("TO")
 	msg := "From: " + from + "\n" +
 		"To: " + to + "\n" +
 		"Subject: Certificate Expire Alert\n" +
