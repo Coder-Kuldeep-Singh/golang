@@ -46,5 +46,6 @@ func Domains(w http.ResponseWriter, req *http.Request) {
 
 func main() {
 	http.HandleFunc("/v1/domains", Domains)
+	fmt.Println("Development Server Started on localhost:8000/v1/domains")
 	log.Fatal(http.ListenAndServe(":8000", nil))
 }
