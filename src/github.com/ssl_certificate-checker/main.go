@@ -15,7 +15,9 @@ import (
 // 	Domains []string
 // }
 
-var Expired []string
+// type Expired struct {
+// 	Domains string
+// }
 
 func FetchDomains() {
 	//fetch data from given url
@@ -67,6 +69,7 @@ func main() {
 
 func checkURL(url string) {
 	resp, err := http.Head("https://" + url)
+	// errorCounts := 0
 	if err != nil {
 		log.Printf("Unable to get %q: %s\n", url, err)
 		return
@@ -92,13 +95,16 @@ func checkURL(url string) {
 				// changeType := strconv.Itoa(dates)
 				// changeType2 := strconv.Itoa(expiredate)
 				// Expired = append(Expired, name)
+				// errorCounts = strings(name)
 				body := "Certificate for " + name + " from " + issuer + " Expired "
+				// body := Expired{Domains: name}
 				sendEmail(body)
 			}
 		}
 	}
 }
 
+//sendEmail function sends msg to admin
 func sendEmail(body string) {
 	// body := "Certificate for " + name + " from " + issuer + " Expired" + dates + expiredate
 	from := os.Getenv("FROM")

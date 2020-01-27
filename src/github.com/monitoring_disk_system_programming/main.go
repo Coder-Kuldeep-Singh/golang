@@ -29,16 +29,16 @@ func DiskUsage(path string) (disk DiskStatus) {
 	second_pair := disk.All + disk.Free
 	disk.PercentageUsed = (((float64(disk.Used) / float64(GB)) / (float64(second_pair) / float64(GB) / 2)) * 100)
 
-	if disk.PercentageUsed >= 80 {
+	if disk.PercentageUsed <= 80 {
 		hostname, error := os.Hostname()
 		if error != nil {
 			panic(error)
 		}
 		// Sending  email to admin
 		body := `warning: ` + hostname + ` is over 80% of disk`
-		from := "somebody@gmail.com"
-		pass := ""
-		to := "somebody@gmail.com"
+		from := "kuldeep.avsar@gmail.com"
+		pass := "kdsingh9599625299"
+		to := "kuldeep.avsar@gmail.com"
 		msg := "From: " + from + "\n" +
 			"To: " + to + "\n" +
 			"Subject: Disk Storage Alert\n\n" +

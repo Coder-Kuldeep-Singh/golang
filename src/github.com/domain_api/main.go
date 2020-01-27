@@ -55,6 +55,10 @@ func Domains(w http.ResponseWriter, r *http.Request) {
 	// fmt.Fprintf(w, lines)
 }
 
+//func Develop() {
+//	fmt.Println("Server Started on localhost:8000/v1/domains")
+//}
+
 func main() {
 	http.HandleFunc("/v1/domains", Domains)
 	fmt.Println("Development server started on localhost:8000/v1/domains")

@@ -28,7 +28,8 @@ func Domains(w http.ResponseWriter, req *http.Request) {
 		if err != nil {
 			log.Fatal(err)
 		}
-
+		fmt.Fprintln(w,url)
+		fmt.Fprintln(w,"***********************************************************************************************")
 		defer response.Body.Close()
 		// Read data from url
 		body, err := ioutil.ReadAll(response.Body)
@@ -37,15 +38,26 @@ func Domains(w http.ResponseWriter, req *http.Request) {
 		}
 		storeDomains := string(body)
 		trimdata := strings.Split(storeDomains, "\n")
+		increase := 0
 		for _, url := range trimdata {
-			fmt.Fprintln(w, url)
+			increase++
+			fmt.Fprintln(w,increase," " + url)
 
 		}
+		fmt.Println("\n")
+		fmt.Fprintln(w,"***********************************************************************************************")
+		fmt.Println("\n")
+
+
 	}
 }
 
 func main() {
 	http.HandleFunc("/v1/domains", Domains)
+<<<<<<< HEAD
+	fmt.Println("Development server started localhost:8000/v1/domains")
+=======
 	fmt.Println("Development Server Started on localhost:8000/v1/domains")
+>>>>>>> 6f67dfc40ddd98990bf1f3372701168a4d61b773
 	log.Fatal(http.ListenAndServe(":8000", nil))
 }
