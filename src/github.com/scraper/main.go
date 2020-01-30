@@ -7,6 +7,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"regexp"
 	"strings"
 
 	"github.com/gookit/color"
@@ -31,7 +32,8 @@ func readLines(path string) ([]string, error) {
 func main() {
 	fmt.Println(" ---------------------> Broken")
 	fmt.Println(" <--------------------- Not Broken")
-	lines, err := readLines("urls.txt")
+	// filename := os.Args[1:]
+	lines, err := readLines("octo+driver.txt")
 	if err != nil {
 		log.Fatalf("readLines: %s", err)
 	}
@@ -76,22 +78,29 @@ func main() {
 								}
 
 								// fmt.Println(url + " ----------------> " + imgSrcUrl)
-
-								re := strings.Replace(imgSrcUrl, "/open-positions/", "", -1)
+								saveimage := imgSrcUrl
+								// re := strings.Replace(imgSrcUrl, "/open-positions/", "", -1)
 								// log.Println("imageUrl " + re)
-
-								resp, err := http.Get(url + re)
-								red := color.FgRed.Render
-								if err != nil {
-									fmt.Println(err)
+								regex := regexp.MustCompile(`(.*)/open-`)
+								selectAll := regex.FindAllStringSubmatch(saveimage, -1)
+								for _, tags := range selectAll {
+									// fmt.Println(tags[1])
+									imageSrc := strings.Replace(imgSrcUrl, tags[1], "", -1)
+									url = strings.Replace(url, "/open-positions/", "", -1)
+									// fmt.Println(url + "  " + imageSrc)
+									resp, err := http.Get(url + imageSrc)
+									red := color.FgRed.Render
+									if err != nil {
+										fmt.Println(err)
+									}
+									if resp.StatusCode >= 200 && resp.StatusCode <= 299 {
+										fmt.Println(url + " <-------------- " + imgSrcUrl)
+										fmt.Print()
+									} else {
+										fmt.Println(url + " --------------> " + red(imgSrcUrl))
+									}
 								}
-								if resp.StatusCode >= 200 && resp.StatusCode <= 299 {
-									fmt.Println(url + " <-------------- " + re)
-									fmt.Print()
-								} else {
-									fmt.Println(url + " --------------> " + red(re))
-								}
-								defer resp.Body.Close()
+								// defer resp.Body.Close()
 								// resp.Body.Close()
 								// bodyElement, err := ioutil.ReadAll(resp)
 							}
