@@ -47,9 +47,12 @@ func login(w http.ResponseWriter, req *http.Request) {
 			return
 		}
 		// fmt.Fprintf(w, "Post from website! r.PostFrom = %v\n", req.PostForm)
+		username := req.FormValue("user")
+		useremail := req.FormValue("email")
+		siteid := req.FormValue("siteid")
 		comment_text := req.FormValue("comment_text")
 		organization := req.FormValue("organization")
-		insertStatment(comment_text, organization)
+		insertStatment(username, useremail, siteid, comment_text, organization)
 		fmt.Fprintf(w, "Comment_text = %s\n", comment_text)
 		http.Redirect(w, req, "/", 301)
 		// fmt.Fprintf(w, "Password = %s\n", password)
@@ -58,15 +61,15 @@ func login(w http.ResponseWriter, req *http.Request) {
 	}
 }
 
-func insertStatment(comment_text string, organization string) {
+func insertStatment(username string, useremail string, siteid string, comment_text string, organization string) {
 	db := database_connection_value()
 	// dbtable := os.Getenv("DBTABLE")
-	insForm, err := db.Prepare("INSERT INTO comment(comment_text, organization) VALUES(?,?)")
+	insForm, err := db.Prepare("INSERT INTO comment(username,email,comment_text, organization,sid) VALUES(?,?,?,?,?)")
 	if err != nil {
 		panic(err.Error())
 	}
-	insForm.Exec(comment_text, organization)
-	log.Println("INSERT: Comment_text: " + comment_text)
+	insForm.Exec(username, useremail, siteid, comment_text, organization)
+	log.Println("INSERT: Username And UserEmail: " + username + "||" + useremail)
 	defer db.Close()
 }
 
