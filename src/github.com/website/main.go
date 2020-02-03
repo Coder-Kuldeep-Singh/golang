@@ -2,9 +2,14 @@ package main
 
 import (
 	"fmt"
+	"html/template"
 	"log"
 	"net/http"
 )
+
+type Page struct {
+	Title string
+}
 
 func main() {
 	http.HandleFunc("/", Homepage)
@@ -15,14 +20,21 @@ func main() {
 	}
 }
 func Homepage(w http.ResponseWriter, req *http.Request) {
-	// if req.URL.Path != "/" {
-	// 	http.Error(w, "404 not found.", http.StatusNotFound)
-	// 	return
-	// }
-	if req.Method == "GET" {
-		http.ServeFile(w, req, "/templates/header.html")
-	} else {
-		fmt.Fprint(w, "Not Found")
-	}
+	titles := Page{Title: "Home Page"}
+	homepage, err := template.ParseFiles("./templates/header.html")
+	Error(err)
+	homepage.Execute(w, titles)
+}
 
+// func Homepage(w http.ResponseWriter, req *http.Request) {
+// 	titles := Page{Title: "Home Page"}
+// 	homepage, err := template.ParseFiles("./templates/header.html")
+// 	Error(err)
+// 	homepage.Execute(w, titles)
+// }
+
+func Error(err error) {
+	if err != nil {
+		fmt.Println(err)
+	}
 }
