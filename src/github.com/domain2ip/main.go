@@ -1,19 +1,19 @@
 package main
 
 import (
-	"encoding/json"
 	"fmt"
 	"io/ioutil"
 	"log"
+	"net"
 	"net/http"
 	"os"
 	"strings"
 )
 
-type Domains struct {
-	Domain []string `json:"domain"`
-	// IP     []int    `json:"ip"`
-}
+// type Domains struct {
+// 	Domain []string `json:"domain"`
+// 	// IP     []int    `json:"ip"`
+// }
 
 func main() {
 	url, err := http.Get("http://s.tutree.com:7635/v1/groups")
@@ -34,7 +34,7 @@ func main() {
 		trim := strings.Split(converter, "\n")
 		// fmt.Println(converter)
 		for _, domains := range trim {
-			fmt.Println(string(domains))
+			// fmt.Println(string(domains))
 			convertdomain2ip(string(domains))
 		}
 	}
@@ -48,20 +48,20 @@ func Error(err error) {
 }
 
 func convertdomain2ip(name string) {
-	// addr, err := net.ResolveIPAddr("ip", name)
-	// if err != nil {
-	// 	fmt.Println("Resolution error", err.Error())
-	// 	// os.Exit()
-	// }
-	var data []Domains
-	// for _, names := range name {
-	data = append(data, Domains{
-		Domain: []string{name},
-		// IP:     []int{addr},
-	})
-	// }
-	write, _ := json.MarshalIndent(data, "", "")
-	fmt.Println(string(write))
-	_ = ioutil.WriteFile("domain2ip.json", write, 0644)
-	// fmt.Println("domain=" + name + "\t" + "ip=" + addr.String())
+	addr, err := net.ResolveIPAddr("ip", name)
+	if err != nil {
+		fmt.Println("Resolution error", err.Error())
+		// os.Exit()
+	}
+	// var data []Domains
+	// // for _, names := range name {
+	// data = append(data, Domains{
+	// 	Domain: []string{name},
+	// 	// IP:     []int{addr},
+	// })
+	// // }
+	// write, _ := json.MarshalIndent(data, "", "")
+	// fmt.Println(string(write))
+	// _ = ioutil.WriteFile("domain2ip.json", write, 0644)
+	fmt.Println("domain=" + name + "\t" + "ip=" + addr.String())
 }
