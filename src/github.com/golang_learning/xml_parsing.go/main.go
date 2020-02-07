@@ -44,11 +44,23 @@ func xmldatacollect(xmlfile string) {
 	Error(err)
 	defer response.Body.Close()
 	responsebody, err := ioutil.ReadAll(response.Body)
+	Error(err)
 	// fmt.Println(string(responsebody))
 	// parseXmldata(responsebody)
+	bodyxml(responsebody)
+	// return string(responsebody)
+}
+
+func bodyxml(data []uint8) {
 	var s SitemapIndex
-	xml.Unmarshal(responsebody, &s)
-	fmt.Println(s.Locations)
+	xml.Unmarshal(data, &s)
+	// fmt.Println(s.Locations)
+	lastindex := len(s.Locations) - 1
+	// for _, Location := range s.Locations {
+	fmt.Printf("%s\n", s.Locations[lastindex])
+	// xmldatacollect(string(s.Locations[lastindex])
+	// }
+	// return s.Locations
 }
 
 func xmlfinder(domain string) {
