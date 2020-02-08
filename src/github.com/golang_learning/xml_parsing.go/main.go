@@ -29,11 +29,19 @@ func main() {
 	Error(err)
 	str := string(responsebody)
 	xmlfinder(str)
+
+	//xml parsing
+	response, err = http.Get(*protocol + "://" + *domain + "/robots.txt")
+	Error(err)
+	defer response.Body.Close()
+	responsebody, err = ioutil.ReadAll(response.Body)
+	Error(err)
+	str = string(responsebody)
 	// fmt.Println(str)
 }
 
-// func parseXmldata(xmldata string) {
-
+// func XMldatatype(xmldata []uint8) string {
+// 	return string(xmldata)
 // }
 func (l Location) String() string {
 	return fmt.Sprintf(l.Loc)
@@ -55,12 +63,11 @@ func bodyxml(data []uint8) {
 	var s SitemapIndex
 	xml.Unmarshal(data, &s)
 	// fmt.Println(s.Locations)
-	lastindex := len(s.Locations) - 1
-	// for _, Location := range s.Locations {
-	fmt.Printf("%s\n", s.Locations[lastindex])
-	// xmldatacollect(string(s.Locations[lastindex])
-	// }
-	// return s.Locations
+	// lastindex := len(s.Locations) - 1
+	for _, Location := range s.Locations {
+		// fmt.Printf("%s\n", s.Locations[lastindex])
+		fmt.Printf("%s\n", Location)
+	}
 }
 
 func xmlfinder(domain string) {
