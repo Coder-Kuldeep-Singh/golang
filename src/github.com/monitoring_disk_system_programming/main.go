@@ -24,7 +24,8 @@ func DiskUsage(path string) (disk DiskStatus) {
 		return
 	}
 	disk.All = fs.Blocks * uint64(fs.Bsize)
-	disk.Free = fs.Bfree * uint64(fs.Bsize)
+	// disk.Free = fs.Bfree * uint64(fs.Bsize)
+	disk.Free = fs.Bavail * uint64(fs.Bsize)
 	disk.Used = disk.All - disk.Free
 	second_pair := disk.All + disk.Free
 	disk.PercentageUsed = (((float64(disk.Used) / float64(GB)) / (float64(second_pair) / float64(GB) / 2)) * 100)
@@ -70,7 +71,7 @@ const (
 func main() {
 	disk := DiskUsage("/boot")
 	fmt.Printf("All: %.2f GB\n", float64(disk.All)/float64(GB))
-	fmt.Printf("Used: %.4f GB\n", float64(disk.Used)/float64(GB))
-	fmt.Printf("Free: %.4f GB\n", float64(disk.Free)/float64(GB))
+	fmt.Printf("Used: %.2f GB\n", float64(disk.Used)/float64(GB))
+	fmt.Printf("Avail: %.2f GB\n", float64(disk.Free)/float64(GB))
 	fmt.Printf("Percentage used of disk : %.2f\n", disk.PercentageUsed)
 }
