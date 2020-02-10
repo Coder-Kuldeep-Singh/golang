@@ -46,8 +46,8 @@ func main() {
 		if err != nil {
 			panic(err)
 		}
-		fmt.Println("Data Inserted")
 	}
+	fmt.Println("Data Inserted")
 	os.Exit(0)
 }
 
