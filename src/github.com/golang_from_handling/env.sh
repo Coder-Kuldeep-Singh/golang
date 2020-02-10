@@ -1,0 +1,6 @@
+export DBHOST="localhost"
+export DBUSER="root"
+export DBPASSWORD="12qwaszx"
+export DBPORT="3306"
+export DB="form_handling"
+#export DBTABLE="comment"

@@ -9,11 +9,10 @@ import (
 	"strings"
 
 	_ "github.com/go-sql-driver/mysql"
-
 )
 
 func getDatabaseConnection() *sql.DB {
-	connectionString := "root:@tcp(localhost:3306)/deliveryjobsnyc"
+	connectionString := "root:12qwaszx@tcp(localhost:3306)/tutree_jobs"
 	db, err := sql.Open("mysql", connectionString)
 	if err != nil {
 		panic(err)

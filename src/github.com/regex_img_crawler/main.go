@@ -86,8 +86,8 @@ func Domains(w http.ResponseWriter, req *http.Request) {
 					storeDomains := string(out[i])
 					// re := regexp.MustCompile(`https://chaufferjob.us/(.*)`)
 					// re := regexp.MustCompile(`http://(.*)`)
-					// re := strings.TrimRight(storeDomains, "https://chaufferjobs.us")
-					re := strings.Replace(storeDomains, "https://chaufferjob.us", "", -1)
+					re := strings.Replace(storeDomains, "http://chaufferjobs.us", "", -1)
+					re = strings.Replace(storeDomains, "https://chaufferjob.us", "", -1)
 					// outs := make([]string, len(re))
 					// fmt.Fprintln(w, re)
 					// for _, i := range re {

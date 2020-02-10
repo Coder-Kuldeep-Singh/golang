@@ -67,77 +67,77 @@ func Domains() {
 		storeurls := string(bdy)
 		regx := regexp.MustCompile(`<loc>(.*)</loc>`)
 		submatch := regx.FindAllStringSubmatch(storeurls, -1)
-		lastindex = len(submatch) - 1
-		urls = (submatch[lastindex][1])
+		// lastindex = len(submatch) - 1
+		// urls = (submatch[lastindex][1])
 		// fmt.Println(storeurls)
-		// for _, elements := range submatch {
-		// fmt.Println(elements[1])
-		if resp, err := http.Get(urls); err == nil {
-			defer resp.Body.Close()
+		for _, elements := range submatch {
+			// fmt.Println(elements[1])
+			if resp, err := http.Get(elements[1]); err == nil {
+				defer resp.Body.Close()
 
-			// log.Println("Load page complete")
+				// log.Println("Load page complete")
 
-			if resp != nil {
-				// log.Println("Page response is NOT nil")
-				// --------------
-				data, _ := ioutil.ReadAll(resp.Body)
-				hdata := strings.Replace(string(data), "<noscript>", "", -1)
-				hdata = strings.Replace(hdata, "</noscript>", "", -1)
-				// --------------
+				if resp != nil {
+					// log.Println("Page response is NOT nil")
+					// --------------
+					data, _ := ioutil.ReadAll(resp.Body)
+					hdata := strings.Replace(string(data), "<noscript>", "", -1)
+					hdata = strings.Replace(hdata, "</noscript>", "", -1)
+					// --------------
 
-				if document, err := html.Parse(strings.NewReader(hdata)); err == nil {
-					yellow := color.FgYellow.Render
-					var parser func(*html.Node)
-					parser = func(n *html.Node) {
-						if n.Type == html.ElementNode && n.Data == "img" {
+					if document, err := html.Parse(strings.NewReader(hdata)); err == nil {
+						yellow := color.FgYellow.Render
+						var parser func(*html.Node)
+						parser = func(n *html.Node) {
+							if n.Type == html.ElementNode && n.Data == "img" {
 
-							var imgSrcUrl string
+								var imgSrcUrl string
 
-							for _, element := range n.Attr {
-								if element.Key == "src" {
-									imgSrcUrl = element.Val
+								for _, element := range n.Attr {
+									if element.Key == "src" {
+										imgSrcUrl = element.Val
+									}
+									// if element.Key == "data-original" {
+									// 	imgDataOriginal = element.Val
+									// }
 								}
-								// if element.Key == "data-original" {
-								// 	imgDataOriginal = element.Val
-								// }
-							}
-							// fmt.Println(*domain + " ---------> " + imgSrcUrl)
-							re := strings.Replace(imgSrcUrl, *protocol+"://"+*domain, "", -1)
-							// log.Println("imageUrl " + re)
+								// fmt.Println(*domain + " ---------> " + imgSrcUrl)
+								re := strings.Replace(imgSrcUrl, *protocol+"://"+*domain, "", -1)
+								re = strings.Replace(imgSrcUrl, "http://"+*domain, "", -1)
+								// log.Println("imageUrl " + re)
 
-							resp, err := http.Get(*protocol + "://" + *domain + re)
-							red := color.FgRed.Render
+								resp, err := http.Get(*protocol + "://" + *domain + re)
+								red := color.FgRed.Render
 
-							if err != nil {
-								fmt.Println(err)
+								if err != nil {
+									fmt.Println(err)
+								}
+								if resp.StatusCode >= 200 && resp.StatusCode <= 299 {
+									fmt.Println(re)
+									fmt.Print()
+								} else {
+									fmt.Println(red(re))
+								}
+								// resp.Body.Close()
+								// bodyElement,err := ioutil.ReadAll(resp)
 							}
-							if resp.StatusCode >= 200 && resp.StatusCode <= 299 {
-								fmt.Println(re)
-								fmt.Print()
-							} else {
-								fmt.Println(red(re))
+
+							for c := n.FirstChild; c != nil; c = c.NextSibling {
+								parser(c)
 							}
-							// resp.Body.Close()
-							// bodyElement,err := ioutil.ReadAll(resp)
+
 						}
-
-						for c := n.FirstChild; c != nil; c = c.NextSibling {
-							parser(c)
-						}
-
+						fmt.Println(yellow("***************************************************************************************************"))
+						parser(document)
+					} else {
+						log.Panicln("Parse html error", err)
 					}
-					fmt.Println(yellow("***************************************************************************************************"))
-					parser(document)
-				} else {
-					log.Panicln("Parse html error", err)
-				}
 
-			} else {
-				log.Println("Page response IS nil")
+				} else {
+					log.Println("Page response IS nil")
+				}
 			}
 		}
-		// }
-
 	}
 
 }
