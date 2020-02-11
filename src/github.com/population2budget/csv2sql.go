@@ -4,6 +4,7 @@ import (
 	//"bufio"
 	"database/sql"
 	"encoding/csv"
+	"flag"
 	"fmt"
 	"io"
 	"log"
@@ -14,7 +15,9 @@ import (
 
 func main() {
 	// Open the file
-	csvfile, err := os.Open("output.csv")
+	filename := flag.String("f", "", "provide path of the file")
+	flag.Parse()
+	csvfile, err := os.Open(*filename)
 	if err != nil {
 		log.Fatalln("Couldn't open the csv file", err)
 	}
@@ -33,13 +36,6 @@ func main() {
 		if err != nil {
 			log.Fatal(err)
 		}
-		// fmt.Printf("Date: %s\n", record[0])
-		// fmt.Printf("JobTitle: %s\n", record[1])
-		// fmt.Printf("City: %s\n", record[2])
-		// fmt.Printf("Population: %s\n", record[3])
-		// fmt.Println("********************************************************************")
-		// fmt.Println(record)
-		// dbrows, err := db.Query("Insert into id, job_title, job_description from site")
 		sqlStatement := `INSERT INTO Populations (date, jobtitle, city, population)
 							VALUES (?, ?, ?, ?)`
 		_, err = db.Exec(sqlStatement, record[0], record[1], record[2], record[3])
