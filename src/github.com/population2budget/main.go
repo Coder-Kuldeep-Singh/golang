@@ -29,7 +29,7 @@ func CheckErrors(err error) {
 	}
 }
 
-// Offer represents a job
+// Population
 type Populations struct {
 	ID         int
 	Date       string
