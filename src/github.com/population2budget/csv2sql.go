@@ -36,9 +36,9 @@ func main() {
 		if err != nil {
 			log.Fatal(err)
 		}
-		sqlStatement := `INSERT INTO Populations (date, jobtitle, city, population)
+		sqlStatement := `INSERT INTO Populations (date, jobtitle, dma, population,City)
 							VALUES (?, ?, ?, ?)`
-		_, err = db.Exec(sqlStatement, record[0], record[1], record[2], record[3])
+		_, err = db.Exec(sqlStatement, record[0], record[1], record[2], record[3], record[4])
 		if err != nil {
 			panic(err)
 		}
