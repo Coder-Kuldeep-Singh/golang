@@ -2,6 +2,7 @@ package main
 
 import (
 	"database/sql"
+	"flag"
 	"fmt"
 	"os"
 
@@ -31,41 +32,43 @@ func CheckErrors(err error) {
 
 // Population
 type Populations struct {
-	ID         int
-	Date       string
-	Jobtitle   string
-	City       string
+	ID int
+	// Date       string
+	// Jobtitle   string
+	// City       string
 	population int
 }
 
 func getPopulations() {
 	db := getDatabaseConnection()
-	dbrows, err := db.Query("select id,date, jobtitle, city, population from Populations")
+	flags := flag.String("l", "0", "provide the limit of the data you want from database")
+	flag.Parse()
+	dbrows, err := db.Query("select id, population from offer order by population desc limit " + *flags)
 	if err != nil {
 		fmt.Println("BAD SQL", err)
 	}
 	// offers := []Offer{}
 	for dbrows.Next() {
 		var id int
-		var date string
-		var jobTitle string
-		var city string
+		// var date string
+		// var jobTitle string
+		// var city string
 		var poplations int
-		err = dbrows.Scan(&id, &date, &jobTitle, &city, &poplations)
+		err = dbrows.Scan(&id, &poplations)
 		if err != nil {
 			fmt.Println(err)
 		}
 		var population Populations
 		population.ID = id
-		population.Date = date
-		population.Jobtitle = jobTitle
-		population.City = city
+		// population.Date = date
+		// population.Jobtitle = jobTitle
+		// population.City = city
 		population.population = poplations
 		// fmt.Println(population.ID, "------->", population.Date, "------->", population.Jobtitle, "------->", population.City, "------->", population.population)
 		fmt.Println("ID : ", population.ID)
-		fmt.Println("Date : ", population.Date)
-		fmt.Println("JobTitle : ", population.Jobtitle)
-		fmt.Println("City : ", population.City)
+		// fmt.Println("Date : ", population.Date)
+		// fmt.Println("JobTitle : ", population.Jobtitle)
+		// fmt.Println("City : ", population.City)
 		fmt.Println("Population : ", population.population)
 		fmt.Println("***************************************************************************")
 		// offers = append(offers, offer)
