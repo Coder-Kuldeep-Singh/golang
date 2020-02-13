@@ -2,10 +2,8 @@ package main
 
 import (
 	"bufio"
-	"encoding/csv"
 	"flag"
 	"fmt"
-	"io"
 	"log"
 	"os"
 	"path/filepath"
@@ -34,78 +32,108 @@ func main() {
 //CsvFileReader  reader the All data of the csv file
 func CsvFileReader(filename string) {
 	// Open the file
-	csvfile, err := os.Open(filename)
+	csvfile, err := scanLines(filename)
 	if err != nil {
 		log.Fatalln("Couldn't open the csv file", err)
 	}
-
-	defer csvfile.Close()
-	// Parse the file
-	r := csv.NewReader(csvfile)
-	// Iterate through the records
-	for {
-		// Read each record from csv
-		record, err := r.Read()
-		if err == io.EOF {
-			break
-		}
-		if err != nil {
-			log.Fatal(err)
-		}
-		fmt.Println(record)
+	for _, line := range csvfile {
+		fmt.Println(line)
 	}
+	// defer csvfile.Close()
+	// // Parse the file
+	// r := csv.NewReader(csvfile)
+	// // Iterate through the records
+	// for {
+	// 	// Read each record from csv
+	// 	record, err := r.Read()
+	// 	if err == io.EOF {
+	// 		break
+	// 	}
+	// 	if err != nil {
+	// 		log.Fatal(err)
+	// 	}
+	// 	fmt.Println(record)
+	// }
 }
 
 //TxtFileReader  reader the All data of the txt file
 func TxtFileReader(filename string) {
 	//Open the file
-	txtfile, err := os.Open(filename)
+	txtfile, err := scanLines(filename)
 	if err != nil {
 		log.Fatalln("Couldn't open the txt file", err)
 	}
-	defer txtfile.Close()
-	var lines []string
-	//Parsing the txt file
-	scanner := bufio.NewScanner(txtfile)
-	//Iterate
-	for scanner.Scan() {
-		lines = append(lines, scanner.Text())
+	// fmt.Println(txtfile)
+	// var lines []string
+	// //Parsing the txt file
+	// scanner := bufio.NewScanner(txtfile)
+	// //Iterate
+	// for scanner.Scan() {
+	// 	lines = append(lines, scanner.Text())
+	// }
+	// fmt.Println(lines)
+	for _, line := range txtfile {
+		fmt.Println(line)
 	}
-	fmt.Println(lines)
+
 }
 
 //XmlFileReader reader the All data of the xml file
 func XmlFileReader(filename string) {
 	//Open the file
-	xmlfile, err := os.Open(filename)
+	xmlfile, err := scanLines(filename)
 	if err != nil {
 		log.Fatalln("Couldn't open the xml file", err)
 	}
-	defer xmlfile.Close()
-	var lines []string
-	//Parsing the txt file
-	scanner := bufio.NewScanner(xmlfile)
-	//Iterate
-	for scanner.Scan() {
-		lines = append(lines, scanner.Text())
+	// defer xmlfile.Close()
+	// fmt.Println(xmlfile)
+	// var lines []string
+	// // Parsing the txt file
+	// scanner := bufio.NewScanner(xmlfile)
+	// // Iterate
+	// for scanner.Scan() {
+	// 	lines = append(lines, scanner.Text())
+	// }
+	// fmt.Println(lines)
+	for _, line := range xmlfile {
+		fmt.Println(line)
 	}
-	fmt.Println(lines)
 }
 
 //JsonFileReader  reader the All data of the json file in array
 func JsonFilereader(filename string) {
 	//Open the file
-	jsonFile, err := os.Open(filename)
+	jsonFile, err := scanLines(filename)
 	if err != nil {
 		log.Fatalln("Couldn't open the json file", err)
 	}
-	defer jsonFile.Close()
+	for _, line := range jsonFile {
+		fmt.Println(line)
+	}
+	// defer jsonFile.Close()
+	// // fmt.Println(jsonFile)
+	// var lines []string
+	// //Parsing the txt file
+	// scanner := bufio.NewScanner(jsonFile)
+	// //Iterate
+	// for scanner.Scan() {
+	// 	lines = append(lines, scanner.Text())
+	// }
+	// fmt.Println(lines)
+}
+
+//scanLines line by line in all format files
+func scanLines(path string) ([]string, error) {
+	file, err := os.Open(path)
+	if err != nil {
+		return nil, err
+	}
+	defer file.Close()
+	scanner := bufio.NewScanner(file)
+	scanner.Split(bufio.ScanLines)
 	var lines []string
-	//Parsing the txt file
-	scanner := bufio.NewScanner(jsonFile)
-	//Iterate
 	for scanner.Scan() {
 		lines = append(lines, scanner.Text())
 	}
-	fmt.Println(lines)
+	return lines, nil
 }
