@@ -4,7 +4,6 @@ import (
 	"bufio"
 	"flag"
 	"fmt"
-	"log"
 	"os"
 	"path/filepath"
 )
@@ -34,26 +33,11 @@ func CsvFileReader(filename string) {
 	// Open the file
 	csvfile, err := scanLines(filename)
 	if err != nil {
-		log.Fatalln("Couldn't open the csv file", err)
+		panic(err)
 	}
 	for _, line := range csvfile {
 		fmt.Println(line)
 	}
-	// defer csvfile.Close()
-	// // Parse the file
-	// r := csv.NewReader(csvfile)
-	// // Iterate through the records
-	// for {
-	// 	// Read each record from csv
-	// 	record, err := r.Read()
-	// 	if err == io.EOF {
-	// 		break
-	// 	}
-	// 	if err != nil {
-	// 		log.Fatal(err)
-	// 	}
-	// 	fmt.Println(record)
-	// }
 }
 
 //TxtFileReader  reader the All data of the txt file
@@ -61,17 +45,8 @@ func TxtFileReader(filename string) {
 	//Open the file
 	txtfile, err := scanLines(filename)
 	if err != nil {
-		log.Fatalln("Couldn't open the txt file", err)
+		panic(err)
 	}
-	// fmt.Println(txtfile)
-	// var lines []string
-	// //Parsing the txt file
-	// scanner := bufio.NewScanner(txtfile)
-	// //Iterate
-	// for scanner.Scan() {
-	// 	lines = append(lines, scanner.Text())
-	// }
-	// fmt.Println(lines)
 	for _, line := range txtfile {
 		fmt.Println(line)
 	}
@@ -83,18 +58,8 @@ func XmlFileReader(filename string) {
 	//Open the file
 	xmlfile, err := scanLines(filename)
 	if err != nil {
-		log.Fatalln("Couldn't open the xml file", err)
+		panic(err)
 	}
-	// defer xmlfile.Close()
-	// fmt.Println(xmlfile)
-	// var lines []string
-	// // Parsing the txt file
-	// scanner := bufio.NewScanner(xmlfile)
-	// // Iterate
-	// for scanner.Scan() {
-	// 	lines = append(lines, scanner.Text())
-	// }
-	// fmt.Println(lines)
 	for _, line := range xmlfile {
 		fmt.Println(line)
 	}
@@ -105,21 +70,11 @@ func JsonFilereader(filename string) {
 	//Open the file
 	jsonFile, err := scanLines(filename)
 	if err != nil {
-		log.Fatalln("Couldn't open the json file", err)
+		panic(err)
 	}
 	for _, line := range jsonFile {
 		fmt.Println(line)
 	}
-	// defer jsonFile.Close()
-	// // fmt.Println(jsonFile)
-	// var lines []string
-	// //Parsing the txt file
-	// scanner := bufio.NewScanner(jsonFile)
-	// //Iterate
-	// for scanner.Scan() {
-	// 	lines = append(lines, scanner.Text())
-	// }
-	// fmt.Println(lines)
 }
 
 //scanLines line by line in all format files
