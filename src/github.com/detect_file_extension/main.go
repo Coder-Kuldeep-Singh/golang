@@ -2,8 +2,11 @@ package main
 
 import (
 	"bufio"
+	"encoding/csv"
 	"flag"
 	"fmt"
+	"io"
+	"log"
 	"os"
 	"path/filepath"
 )
@@ -31,12 +34,35 @@ func main() {
 //CsvFileReader  reader the All data of the csv file
 func CsvFileReader(filename string) {
 	// Open the file
-	csvfile, err := scanLines(filename)
+	csvfile, err := os.Open(filename)
 	if err != nil {
 		panic(err)
 	}
-	for _, line := range csvfile {
-		fmt.Println(line)
+	defer csvfile.Close()
+	// str2 := strings.Join(csvfile, " ")
+	// str2 = string(str2)
+	// t := strings.Split(str2, "\n")
+	// fmt.Println(string(t[1]))
+	// for _, line := range csvfile {
+	// 	str := string(line)
+	//
+	// fmt.Println(string(t))
+	// for _, single := range t {
+	// 	fmt.Println(string(single))
+	// }
+	// }
+	r := csv.NewReader(csvfile)
+	// Iterate through the records
+	for {
+		// Read each record from csv
+		record, err := r.Read()
+		if err == io.EOF {
+			break
+		}
+		if err != nil {
+			log.Fatal(err)
+		}
+		fmt.Println(record[0])
 	}
 }
 
