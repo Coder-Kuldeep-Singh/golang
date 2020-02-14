@@ -37,13 +37,14 @@ type Populations struct {
 	// Jobtitle   string
 	// City       string
 	population int
+	Zipcode    int
 }
 
 func getPopulations() {
 	db := getDatabaseConnection()
 	flags := flag.String("l", "0", "provide the limit of the data you want from database")
 	flag.Parse()
-	dbrows, err := db.Query("select id, population from offer order by population desc limit " + *flags)
+	dbrows, err := db.Query("select id, population,zipcode from offer order by population desc limit " + *flags)
 	if err != nil {
 		fmt.Println("BAD SQL", err)
 	}
@@ -54,7 +55,8 @@ func getPopulations() {
 		// var jobTitle string
 		// var city string
 		var poplations int
-		err = dbrows.Scan(&id, &poplations)
+		var zipcode int
+		err = dbrows.Scan(&id, &poplations, &zipcode)
 		if err != nil {
 			fmt.Println(err)
 		}
@@ -64,11 +66,13 @@ func getPopulations() {
 		// population.Jobtitle = jobTitle
 		// population.City = city
 		population.population = poplations
+		population.Zipcode = zipcode
 		// fmt.Println(population.ID, "------->", population.Date, "------->", population.Jobtitle, "------->", population.City, "------->", population.population)
 		fmt.Println("ID : ", population.ID)
 		// fmt.Println("Date : ", population.Date)
 		// fmt.Println("JobTitle : ", population.Jobtitle)
 		// fmt.Println("City : ", population.City)
+		fmt.Println("Zipcode : ", population.Zipcode)
 		fmt.Println("Population : ", population.population)
 		fmt.Println("***************************************************************************")
 		// offers = append(offers, offer)
