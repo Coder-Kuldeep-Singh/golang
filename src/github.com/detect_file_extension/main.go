@@ -9,6 +9,9 @@ import (
 	"log"
 	"os"
 	"path/filepath"
+
+	pdfcontent "github.com/unidoc/unidoc/pdf/contentstream"
+	pdf "github.com/unidoc/unidoc/pdf/model"
 )
 
 func main() {
@@ -24,6 +27,8 @@ func main() {
 		XmlFileReader(*filename)
 	} else if fileextension == ".json" {
 		JsonFilereader(*filename)
+	} else if fileextension == ".pdf" {
+		PdfFileReader(*filename)
 	} else {
 		fmt.Println("This Tool doesn't support " + fileextension + " file")
 	}
@@ -122,6 +127,70 @@ func JsonFilereader(filename string) {
 	}
 	for _, line := range jsonFile {
 		fmt.Println(line)
+	}
+}
+
+//PdfFileReader function Read the All content of the Pdf file
+func PdfFileReader(filename string) {
+	file, err := os.Open(filename)
+	if err != nil {
+		panic(err)
+	}
+	defer file.Close()
+	pdfReader, err := pdf.NewPdfReader(file)
+	if err != nil {
+		panic(err)
+	}
+
+	isEncrypted, err := pdfReader.IsEncrypted()
+	if err != nil {
+		panic(err)
+	}
+
+	if isEncrypted {
+		_, err = pdfReader.Decrypt([]byte(""))
+		if err != nil {
+			panic(err)
+		}
+	}
+
+	numPages, err := pdfReader.GetNumPages()
+	if err != nil {
+		panic(err)
+	}
+	fmt.Println(numPages)
+	fmt.Printf("--------------------\n")
+	fmt.Printf("PDF to text extraction:\n")
+	fmt.Printf("--------------------\n")
+	for i := 0; i < numPages; i++ {
+		pageNum := i + 1
+
+		page, err := pdfReader.GetPage(pageNum)
+		if err != nil {
+			panic(err)
+		}
+		// fmt.Println(pageNum)
+
+		contentStreams, err := page.GetContentStreams()
+		if err != nil {
+			panic(err)
+		}
+		// fmt.Println(contentStreams)
+
+		// If the value is an array, the effect shall be as if all of the streams in the array were concatenated,
+		// in order, to form a single stream.
+		pageContentStr := ""
+		for _, cstream := range contentStreams {
+			pageContentStr += cstream
+		}
+
+		// fmt.Printf("Page %d - content streams %d:\n", pageNum, len(contentStreams))
+		cstreamParser := pdfcontent.NewContentStreamParser(pageContentStr)
+		txt, err := cstreamParser.ExtractText()
+		if err != nil {
+			panic(err)
+		}
+		fmt.Printf("\"%s\"\n", txt)
 	}
 }
 
