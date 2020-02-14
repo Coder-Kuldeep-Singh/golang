@@ -43,16 +43,27 @@ func CsvFileReader(filename string) {
 	// str2 = string(str2)
 	// t := strings.Split(str2, "\n")
 	// fmt.Println(string(t[1]))
+	// fmt.Println(" Date JobTitle City Trending ")
 	// for _, line := range csvfile {
-	// 	str := string(line)
-	//
-	// fmt.Println(string(t))
-	// for _, single := range t {
-	// 	fmt.Println(string(single))
-	// }
+	// 	// str := string(line)
+	// 	// fmt.Println(string(t))
+	// 	// fmt.Println(line)
+	// 	// for _, single := range t {
+	// 	// 	fmt.Println(string(single))
+	// 	// }
 	// }
 	r := csv.NewReader(csvfile)
 	// Iterate through the records
+	html := "<center>"
+	html += "<table border='1' style='border-collapse: collapse;text-align:center'>"
+	html += "<thead>"
+	html += "<tr>"
+	html += "<th>Date</th>"
+	html += "<th>JobTitle</th>"
+	html += "<th>City</th>"
+	html += "<th>Trending</th>"
+	html += "</tr>"
+	html += "</thead>"
 	for {
 		// Read each record from csv
 		record, err := r.Read()
@@ -62,8 +73,19 @@ func CsvFileReader(filename string) {
 		if err != nil {
 			log.Fatal(err)
 		}
-		fmt.Println(record[0])
+		// fmt.Println(record[0])
+		html += "<tbody>"
+		html += "<tr>"
+		html += "<td>" + record[0] + "</td>"
+		html += "<td>" + record[1] + "</td>"
+		html += "<td>" + record[2] + "</td>"
+		html += "<td>" + record[3] + "</td>"
+		html += "</tr>"
+		html += "</tbody>"
 	}
+	html += "</table>"
+	html += "</center>"
+	fmt.Println(html)
 }
 
 //TxtFileReader  reader the All data of the txt file
