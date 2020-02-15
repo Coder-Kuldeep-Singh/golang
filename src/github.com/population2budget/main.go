@@ -32,47 +32,34 @@ func CheckErrors(err error) {
 
 // Population
 type Populations struct {
-	ID int
-	// Date       string
-	// Jobtitle   string
-	// City       string
+	Latitude   float64
+	Longitude  float64
 	population int
-	Zipcode    int
 }
 
 func getPopulations() {
 	db := getDatabaseConnection()
 	flags := flag.String("l", "0", "provide the limit of the data you want from database")
 	flag.Parse()
-	dbrows, err := db.Query("select id, population,zipcode from offer order by population desc limit " + *flags)
+	dbrows, err := db.Query("select latitude,longitude, population from offer order by population desc limit " + *flags)
 	if err != nil {
 		fmt.Println("BAD SQL", err)
 	}
 	// offers := []Offer{}
 	for dbrows.Next() {
-		var id int
-		// var date string
-		// var jobTitle string
-		// var city string
+		var latitude float64
+		var longitude float64
 		var poplations int
-		var zipcode int
-		err = dbrows.Scan(&id, &poplations, &zipcode)
+		err = dbrows.Scan(&latitude, &longitude, &poplations)
 		if err != nil {
 			fmt.Println(err)
 		}
 		var population Populations
-		population.ID = id
-		// population.Date = date
-		// population.Jobtitle = jobTitle
-		// population.City = city
+		population.Latitude = latitude
+		population.Longitude = longitude
 		population.population = poplations
-		population.Zipcode = zipcode
-		// fmt.Println(population.ID, "------->", population.Date, "------->", population.Jobtitle, "------->", population.City, "------->", population.population)
-		fmt.Println("ID : ", population.ID)
-		// fmt.Println("Date : ", population.Date)
-		// fmt.Println("JobTitle : ", population.Jobtitle)
-		// fmt.Println("City : ", population.City)
-		fmt.Println("Zipcode : ", population.Zipcode)
+		fmt.Println("Latitude : ", population.Longitude)
+		fmt.Println("Longitude : ", population.Longitude)
 		fmt.Println("Population : ", population.population)
 		fmt.Println("***************************************************************************")
 		// offers = append(offers, offer)
