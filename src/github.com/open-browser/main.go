@@ -19,11 +19,23 @@ func OpenBrowser(url string) {
 
 	switch runtime.GOOS {
 	case "linux":
-		err = exec.Command("xdg-open", url).Start()
+		err := exec.Command("xdg-open", url)
+		err.Start()
+		// if error := err.Process.Kill(); error != nil {
+		// 	log.Fatal("close the opened browser failed", error)
+		// }
 	case "windows":
-		err = exec.Command("rundll32", "url.dll,FileProtocolHandler", url).Start()
+		err := exec.Command("rundll32", "url.dll,FileProtocolHandler", url)
+		err.Start()
+		// if error := err.Process.Kill(); error != nil {
+		// 	log.Fatal("close the opened browser failed", error)
+		// }
 	case "darwin":
-		err = exec.Command("open", url).Start()
+		err := exec.Command("open", url)
+		err.Start()
+		// if error := err.Process.Kill(); error != nil {
+		// 	log.Fatal("close the opened browser failed", error)
+		// }
 	default:
 		err = fmt.Errorf("unsupported platform")
 	}
