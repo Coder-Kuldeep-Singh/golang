@@ -3,12 +3,14 @@ package main
 import (
 	"bufio"
 	"encoding/csv"
+	"encoding/json"
 	"flag"
 	"fmt"
 	"io"
 	"log"
 	"os"
 	"path/filepath"
+	"strconv"
 )
 
 func main() {
@@ -92,6 +94,17 @@ func XmlFileReader(filename string) {
 	fmt.Println(lines)
 }
 
+type Users struct {
+	Users []User `json:"users"`
+}
+
+type User struct {
+	Name   string `json:"name"`
+	Type   string `json:"type"`
+	Age    int    `json:"Age"`
+	Social Social `json:"social"`
+}
+
 //JsonFileReader  reader the All data of the json file in array
 func JsonFilereader(filename string) {
 	//Open the file
@@ -100,13 +113,29 @@ func JsonFilereader(filename string) {
 		log.Fatalln("Couldn't open the json file", err)
 	}
 	defer jsonFile.Close()
-	// fmt.Println(jsonFile)
-	var lines []string
-	//Parsing the txt file
-	scanner := bufio.NewScanner(jsonFile)
-	//Iterate
-	for scanner.Scan() {
-		lines = append(lines, scanner.Text())
+
+	// we initialize our Users array
+	var users Users
+
+	// we unmarshal our byteArray which contains our
+	// jsonFile's content into 'users' which we defined above
+	json.Unmarshal(byteValue, &users)
+
+	// we iterate through every user within our users array and
+	// print out the user Type, their name, and their facebook url
+	// as just an example
+	for i := 0; i < len(users.Users); i++ {
+		fmt.Println("User Type: " + users.Users[i].Type)
+		fmt.Println("User Age: " + strconv.Itoa(users.Users[i].Age))
+		fmt.Println("User Name: " + users.Users[i].Name)
 	}
-	fmt.Println(lines)
+	// fmt.Println(jsonFile)
+	// var lines []string
+	// //Parsing the txt file
+	// scanner := bufio.NewScanner(jsonFile)
+	// //Iterate
+	// for scanner.Scan() {
+	// 	lines = append(lines, scanner.Text())
+	// }
+	// fmt.Println(lines)
 }
