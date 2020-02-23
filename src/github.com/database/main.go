@@ -9,7 +9,7 @@ import (
 )
 
 func database_connection_values() {
-	db, err := sql.Open("mysql", "root:@tcp(127.0.0.1:3306)/")
+	db, err := sql.Open("mysql", "root:12qwaszx@tcp(127.0.0.1:3306)/")
 	if err != nil {
 		log.Print("Error in connection")
 		log.Fatal(err)
