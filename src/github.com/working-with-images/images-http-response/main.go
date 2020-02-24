@@ -46,7 +46,7 @@ func redHandler(response http.ResponseWriter, req *http.Request) {
 var ImageTemplate string = `
 <!Doctype html>
 <html lang="en"><head></head>
-<body><img src="data:image/jpg;base64,{{.Image}}"></body></html>`
+<body><img src="data:image/jpeg;base64,{{.Image}}"></body></html>`
 
 //Writeimagewithtemplate encodes an image 'img' in jpeg
 //format and writes it into ResponseWriter using a template
