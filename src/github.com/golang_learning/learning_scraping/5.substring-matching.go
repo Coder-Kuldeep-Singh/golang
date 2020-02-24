@@ -7,8 +7,15 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"regexp"
 	"strings"
 )
+
+type ImagesUrl struct {
+	images string
+}
+
+var ImgMap = map[int]ImagesUrl{}
 
 func main() {
 	url := flag.String("u", "", "Provide the url")
@@ -25,19 +32,33 @@ func main() {
 	pageContent := string(dataInBytes)
 
 	//find a substr
-	titleStartIndex := strings.Index(pageContent, "<head>")
-	if titleStartIndex == -1 {
-		fmt.Println("No title element found")
+	Openingtag := "<style>"
+	ClosingTag := "</style>"
+	Length := len(Openingtag)
+	StartIndex := strings.Index(pageContent, Openingtag)
+	if StartIndex == -1 {
+		fmt.Println("No element found")
 		os.Exit(0)
 	}
 	//Find the index of the closing tag
-	titleEndIndex := strings.Index(pageContent, "</head>")
-	if titleEndIndex == -1 {
-		fmt.Println("No closing tag for title found.")
+	EndIndex := strings.Index(pageContent, ClosingTag)
+	if EndIndex == -1 {
+		fmt.Println("No closing tag found.")
 		os.Exit(0)
 	}
 
-	pageTitle := []byte(pageContent[titleStartIndex:titleEndIndex])
-
-	fmt.Printf("Page title: %s\n", pageTitle)
+	pageImages := []byte(pageContent[StartIndex+Length : EndIndex])
+	re := regexp.MustCompile(`background-image:(.*);`)
+	bgimages := re.FindAllString(string(pageImages), -1)
+	if bgimages == nil {
+		fmt.Println("No matches.")
+	} else {
+		for _, bgimage := range bgimages {
+			ImgMap[1] = ImagesUrl{images: bgimage}
+			ImgMap[2] = ImagesUrl{images: bgimage}
+			// fmt.Println(bgimage)
+			fmt.Printf("1 -> %v\n", ImgMap)
+		}
+	}
+	// fmt.Printf("Page title: %s\n", pageTitle)
 }
