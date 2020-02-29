@@ -53,9 +53,9 @@ func main() {
 	if bgimages == nil {
 		fmt.Println("No matches.")
 	} else {
-		for _, bgimage := range bgimages {
-			ImgMap[1] = ImagesUrl{images: bgimage}
-			ImgMap[2] = ImagesUrl{images: bgimage}
+		for i, bgimage := range bgimages {
+			ImgMap[i] = ImagesUrl{images: bgimage}
+			// ImgMap[i] = ImagesUrl{images: bgimage}
 			// fmt.Println(bgimage)
 			fmt.Printf("1 -> %v\n", ImgMap)
 		}

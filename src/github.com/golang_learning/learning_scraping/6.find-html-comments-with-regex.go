@@ -29,9 +29,7 @@ func main() {
 	//create regular expression to find html tags and contents
 	// re := regexp.MustCompile("<!--(.|\n)*?-->")
 	// re := regexp.MustCompile("<img (.*)*/>")
-	re := regexp.MustCompile(`<style>
-	(.*)
-	</style>`)
+	re := regexp.MustCompile(`<script>(.|\n)*?</script>`)
 	comments := re.FindAllString(string(body), -1)
 	if comments == nil {
 		fmt.Println("No matches.")
