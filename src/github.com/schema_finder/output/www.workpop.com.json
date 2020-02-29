@@ -1,0 +1,41 @@
+{
+    "@context" : "http://schema.org/",
+    "@type" : "JobPosting",
+    "title" : "Greeter",
+"description" : "<p><strong>Houston 's Kirby</strong> is currently seeking Greeter candidates to join our successful team.</p><p>Energy, poise, and an elevated sense of personal style are important.</p><p>Upscale restaurant experience can be a plus, but these roles are open to candidates from all backgrounds.</p><p>Compensation begins at approximately <b>$14-$18/hr</b> commensurate with experience.</p><ul><li>Medical/dental benefits are available after an introductory period.</li><li>Part-time and full-time positions available. Some weekend availability is required. We cannot offer short-term seasonal positions at this time. </li></ul><p>To learn more, visit us at www.hillstone.com, or read this profile in Bon Appetit magazine: http://www.hillstone.com/press/bonappetit</p><p><strong>We look forward to meeting you soon!</strong></p>",
+"identifier": {
+    "@type": "PropertyValue",
+    "name": "Houston's",
+    "value": "LBzRp48MgXcoejZfi"
+  },
+"datePosted" : "2020-02-09T21:06:49+00:00",
+"validThrough" : "2020-03-10T21:06:49+00:00",
+"employmentType" : "PART_TIME",
+"hiringOrganization" : {
+    "@type" : "Organization",
+    "name" : "Houston's",
+    "sameAs" : "https://www.workpop.com/careers/hillstone-restaurant-group"
+  },
+"jobLocation" : {
+    "@type" : "Place",
+    "address" : {
+    "@type" : "PostalAddress",
+    "streetAddress" : "4848 Kirby Dr",
+    "addressLocality" : "Houston",
+    "addressRegion" : "TX",
+    "postalCode" : "77098",
+    "addressCountry": "US"
+  }
+  },
+"industry": "FOOD",
+"baseSalary": {
+    "@type": "MonetaryAmount",
+    "currency": "USD",
+    "value": {
+    "@type": "QuantitativeValue",
+    "minValue": 14.00,
+    "maxValue": 18.00,
+    "unitText": "HOUR"
+  }
+  }
+  }

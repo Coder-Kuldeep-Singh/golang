@@ -1,0 +1,44 @@
+
+    {
+    "@context" : "http://schema.org/",
+    "@type" : "JobPosting",
+    "title" : "Part-Time Housekeeper in Lincoln Park: $30+ per hour",
+    "description" : "
+    Family with main residence in Lincoln Park of Chicago with two young children is seeking an experienced, organized and detail oriented Part-Time Housekeeper who will efficiently clean a 6,000 square foot residence. Schedule can be a combination of two, three, four or five days per week. Family is flexible for housekeeper's preferred days and hours (e.g., 15-20 hours per week). A set and consistent schedule is required for the position. The ability to work around the family's schedule while at the same time cleaning and organizing in an efficient manner is important. Candidates must be comfortable working around children and English Bulldog. Housekeeper must be willing to travel domestically to family's other 10,000 square foot residence in New Buffalo, Michigan when necessary (minimal amount required). Applicants need to be honest, trustworthy, understand the importance of maintaining discretion, collaborative to work with domestic staff, experienced working with Principals that are around residence often (discreet and staying out of the way is important), adept at organizing and general cleaning, knowledgeable with cleaning various surfaces and artwork, experienced assisting with entertaining at family's residence, skilled with laundry and proficient with ironing. Candidates with many years of private part-time and/or full-time housekeeper experience working in a 4,000+ square foot or larger residence is required. Full-Time Nanny/Family Assistant works on Monday - Friday. Uniform is required (e.g., white or black collared shirt, black or khaki pants, house shoes, etc.). Start date is ASAP, but flexible for the right candidate. RESPONSIBILITIES: \u2022 Strong knowledge and proper care for various surfaces\u2022 Cleaning and preparation of guest bedrooms\u2022 Sweep, scrub, mop and polish floors\u2022 Vacuum carpets, rugs and draperies\u2022 Dust and polish furniture and fittings\u2022 Knowledge of cleaning artwork\u2022 Clean metal fixtures and fittings\u2022 Empty and clean trash containers\u2022 Dispose of trash in a sanitary manner\u2022 Clean wash basins, mirrors, tubs and showers\u2022 Wipe down glass surfaces\u2022 Wipe down refrigerators, wine fridge, mini fridges, etc.\u2022 Dispose of expired food in refrigerator, freezer and pantry\u2022 Make up beds and change linens\u2022 Tidy up rooms\u2022 Organize closets, storage, etc. \u2022 Keep cleaning supply and household inventory (use inventory for creating lists to run errands)\u2022 Keep light bulb inventory\u2022 Change light bulbs\u2022 Sort, wash, fold and put away laundry\u2022 Iron and press clothing and linens \u2022 Maintain all cleaning equipment and materials in a safe and sanitary working condition\u2022 Monitor and report necessary domestic repairs and replacements\u2022 Wash dishes and clean kitchen according to agreed hygiene standards\u2022 Clean appliances\u2022 Manage dry cleaning, dry cleaning inventory and inspect clothing upon return\u2022 Run errands (e. g., dry cleaner, seamstress, dropping off donations, etc.)\u2022 Declutter and organizational projects, as directed by Principal \u2022 Take items for donation, as directed by Principal \u2022 Clean entryway of home\u2022 Care for indoor/outdoor plants\u2022\u00a0Polish silver\u2022 Clean up and organizing outdoor living spaces (e.g., rooftops, decks, etc.)\u2022 Assistance with dog (e.g., letting them out, walking, feeding, cleaning dog run, taking vet and groomer, etc.)\u2022 Minimal assistance with entertaining (e.g., setting up/preparing for event, helping during event, clean up, etc.) QUALIFICATIONS:\u2022 Ability to travel domestically to New Buffalo, Michigan when requested by family (80 minute drive from Chicago) \u2022 Understand the importance of maintaining discretion (confidentiality agreement is required) \u2022 Ability to read and comprehend simple instructions, short correspondence and memos along with ability to write simple correspondence\u2022 Technology proficient (e. g., email and text messages for communication, search engines for choosing resources, etc.)\u2022 Physical stamina and mobility including ability to reach, kneel and bend\u2022 Professional with good attitude, hard working and pleasant to be around \u2022 High energy level\u2022 Active and fit \u2022 Discreet and calm demeanor \u2022 Non-smokerREQUIREMENTS:\u2022 2-5+ years of part-time and/or full-time housekeeper experience with one consistent family \u2022 Minimum of two-three references\u2022 Eligible to work in the United States\u2022 Seeking longevity (e.g., 2-5+ year commitment) \u2022 Live a close proximity to family's residence in Lincoln Park\u2022 Fluent in English \u2022 Driver's license and clean driving record\u2022 Willing to run extensive background checks, motor vehicle checks, drug tests and psychological evaluation\u2022 Comfortable with English Bulldog",
+    "identifier": {
+    "@type": "PropertyValue",
+    "name": "Louer",
+    "value": "3843477"
+    },
+    "datePosted" : "2020-02-17",
+    "validThrough" : "2020-04-02",
+    "employmentType" : "PART_TIME",
+    "hiringOrganization" : {
+    "@type" : "Organization",
+    "name" : "Louer",
+    "url " : "https://www.jobboard.estatejobs.com",
+    "logo" : "https://www.jobboard.estatejobs.com/clibrand/estate/logo-transLG-e1463591452300.png",
+    "sameAs" : ""
+    },
+    "jobLocation" : {
+    "@type" : "Place",
+    "address" : {
+    "@type" : "PostalAddress",
+    "streetAddress" : "",
+    "addressLocality" : "Chicago",
+    "addressRegion" : "IL",
+    "postalCode" : "60614",
+    "addressCountry": "US"
+    }
+    },
+   "baseSalary": {
+   "@type": "MonetaryAmount",
+   "currency": "USD",
+   "value": {
+     "@type": "QuantitativeValue",
+     "minValue": "",
+     "maxValue": "",
+     "unitText": ""
+   }
+   }
+}

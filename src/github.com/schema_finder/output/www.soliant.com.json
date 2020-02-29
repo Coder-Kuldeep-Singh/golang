@@ -1,0 +1,28 @@
+
+	[{
+		"@context": "http://schema.org",
+		"@type": "JobPosting",
+		"title":"Immediate Opening Education Diagnostician Job near Houston Texas",
+		"occupationalCategory":"Schools - Educational Diagnostician",
+		"jobLocation":
+			{"@type":"place", 
+			"address":{
+				"@type": "PostalAddress",
+				"addressLocality":"Houston", 
+				"addressRegion":"Texas", 
+                "postalCode":"77000",
+				"addressCountry":"USA"
+				}},
+		"datePosted":"2/5/2020",
+		"employmentType":"Contract",
+		"description":"<p> Soliant Health is immediately scheduling interviews for an Education Diagnostician to finish out this school year, with the strong chance for renewal in 19/20 </p> <p> Details: </p> <li> Full-Time </li> <li> ASAP- June 2019 </li> <li> Requires State Cert In Hand (or ability to attain) </li> <li> Caseload TBD On Experience and Interview </li> <li> New Grads Welcome To Apply </li> <li> Scheduling Interviews Today </li> <p> Benefits: </p> <li> Competitive Compensation Package </li> <li> Health Benefits, Vision, Dental, and 401k offered </li> <li> Tax Free Stipends Available </li> <li> Relocation/Licensure Reimbursement offered </li> <p> </p> <p> Please contact Syd Logan directly at 678-459-1160 or email your resume to Sydney.logan@soliant.com with highlighted pertinent info for this opportunity. </p> <p> Interviewing Immediately! </p> <p> Syd Logan | Soliant Accounts Executive </p> <p> #LI-SL1 </p>",
+		
+		"hiringOrganization": {
+		"@type": "Organization",
+				"name": "Soliant Health",
+		"url":"https://www.soliant.com",
+				"logo": "https://www.soliant.com/images/soliant-logo.png"
+	},
+		"industry":"Healthcare"
+		}]
+	

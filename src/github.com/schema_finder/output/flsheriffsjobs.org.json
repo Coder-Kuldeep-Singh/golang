@@ -1,0 +1,49 @@
+
+		{
+			"@context": "http://schema.org",
+			"@graph":[ {
+					"@type": "WebSite",
+					"name": "FLSheriffs Career Center",
+					"alternateName": "Florida Sheriffs Association Jobs",
+					"url": "https://FLSheriffsJobs.org"
+				},
+					{
+						"@type": "JobPosting",
+						"url": "https://FLSheriffsJobs.org/job/911-emergency-communications-specialist/42743089/",
+						"datePosted": "2020-02-24",
+						"description": "<p>**Candidates who are hired as 911 Emergency Communications Specialist and achieve the 911&nbsp;state certification will be given a $2,000 Signing Allowance.**</p> <p>Emergency Communications Specialist respond to emergency and non-emergency calls for service, using a computer aided dispatch terminal for entering call data. They must train and certify in at least two positions: Call Taker, Radio Dispatcher, and Teletype Operator. Bilingual candidates encouraged to apply.</p>",
+						"baseSalary" : {
+							"@type": "MonetaryAmount",
+							"value": {
+								"@type": "QuantitativeValue",
+								"value": 16.31,
+								"unitText": "HOUR"
+							}
+						},
+						"employmentType": "FULL_TIME",
+						"hiringOrganization": {
+							"@type": "organization", 
+							"name": "Orange County Sheriff's Office", 
+							"url": "https://FLSheriffsJobs.org/job/911-emergency-communications-specialist/42743089/"
+						},
+						"identifier": "42743089",
+						"jobLocation": [
+								{
+									"@type": "Place",
+									"address": {
+										"@type": "PostalAddress",
+										"addressLocality": "Orlando",
+										"addressRegion": "FL",
+										"postalCode": "32804",
+										"addressCountry": "US"
+									}
+								}
+						],
+						"qualifications": "<p><strong>Qualifications:</strong></p> <ul> <li>Good work history.</li> <li>At least 18 years of age.</li> <li>Accredited high school&nbsp;or GED diploma (cannot accept a certificate of completion).</li> <li>Must be a U.S. citizen or possess a current permanent resident card</li> <li>Must not have been convicted of a felony.</li> <li>No illegal drug usage over the past two years. Other drug usage will be evaluated on a case by case basis.</li> <li>Must not have received a dishonorable discharge from the United States Armed Forces.</li> <li>One (1) to two (2) years of college, military, or related experience and/or training preferred.</li> <li>Knowledge of Orange County geography helpful.</li> <li>Must be able to work various shifts with rotating days off, as well as weekends and holidays.</li> <li>Must be able to speak and understand English.</li> <li>Must successfully complete a job related \"CritiCall\" test.</li> <li>Must be computer literate..</li> <li>Must have good typing skills (approximately 30wpm).</li> </ul> <p><strong>Training:</strong></p> <p>Candidates hired as 911 Emergency Communications Specialist receive some of the best training in the industry.&nbsp; Upon employment, new hires attend six weeks of classroom training at the Communications Center.&nbsp; &nbsp; After successful completion of the academy phase, candidates are prepared to take their state certification test and move on to the hands-on phase of their training.&nbsp; This phase consists of 480 hours of hands-on training, working directly with a Communications Training Officer.&nbsp; After successful completion of training, candidates are placed on a shift (typically nights) and begin their work as a 911 Emergency Communications Specialist&mdash;the direct connection between our citizens and deputies.</p> <p><strong>Additional Processing:</strong></p> <ul> <li>CritiCall testing: This is a computerized technical test that measures the following skills and abilities: typing speed, data entry, memory recall, map reading, spelling, multitasking and reading comprehension. We recommend you practice typing to prepare, including using the number pad. There are several free practice tests offered online that are similar to what you will be taking.</li> <li>Psychological evaluation (after conditional offer)</li> </ul> <p><strong>Salary: </strong></p> <ul> <li>Minimum salary - $16.31/hour&nbsp;or $33,924/annually</li> <li>Shift differential pay provided once training is completed, for working evenings and midnights</li> <li>Candidates who are hired as 911 Emergency Communications Specialists and achieve the 911&nbsp;state certification will be given a $2,000 Signing Allowance. Rehired Orange County Sheriff's Office (OCSO) Emergency Communications Specialists and current OCSO employees are not eligible for a signing allowance.</li> </ul> <p><em>Please visit our website </em><a href=\"http://www.ocso.com/\"><em>www.ocso.com</em></a><em> and review the job requirements listed in the \"Civilian Positions&rdquo; section under \"Careers\". In order to be considered for this position, you MUST complete your online application on that website. This posting is for the Orange County Sheriff's Office located in Orlando, Florida.</em></p> <p>The Orange County Sheriff's Office is a Veteran Friendly, Equal Opportunity Employer.</p>",
+						"title": "911 Emergency Communications Specialist",
+						"validThrough": "2020-03-25"
+					}
+			]
+		}
+		
+		
