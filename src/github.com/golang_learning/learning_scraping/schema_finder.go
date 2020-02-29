@@ -18,12 +18,13 @@ func main() {
 	readfile, err := ioutil.ReadFile(*path)
 	if err != nil {
 		log.Println("Error to reading the file", err)
+		os.Exit(1)
 	}
 	split := strings.Split(string(readfile), "\n")
 	for _, line := range split {
 		doc, err := goquery.NewDocument(line)
 		if err != nil {
-			log.Fatal(err)
+			log.Println(err)
 		}
 		//Parsing url
 		dom, err := url.Parse(line)
@@ -31,7 +32,6 @@ func main() {
 			log.Println(err)
 		}
 		filename := dom.Host
-
 		output := ""
 		// use CSS selector found with the browser inspector
 		// for each, use index and item

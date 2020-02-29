@@ -80,7 +80,7 @@ func main() {
 }
 
 func createfile(filename, output string) {
-	out, err := os.Create(filename + ".txt")
+	out, err := os.Create(filename + ".json")
 	if err != nil {
 		log.Println(err)
 		return
@@ -94,4 +94,3 @@ func createfile(filename, output string) {
 		return
 	}
 }
-

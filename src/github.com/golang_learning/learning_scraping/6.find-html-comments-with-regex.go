@@ -26,11 +26,12 @@ func main() {
 		log.Fatal("Error reading HTTP body", err.Error())
 		os.Exit(1)
 	}
+	// fmt.Println(string(body))
 	//create regular expression to find html tags and contents
 	// re := regexp.MustCompile("<!--(.|\n)*?-->")
 	// re := regexp.MustCompile("<img (.*)*/>")
-	re := regexp.MustCompile(`<script>(.|\n)*?</script>`)
-	comments := re.FindAllString(string(body), -1)
+	re := regexp.MustCompile(`<script[type=\"application/ld+json\"]>(.|\n)*?</script>`)
+	comments := re.FindAllStringSubmatch(string(body), -1)
 	if comments == nil {
 		fmt.Println("No matches.")
 	} else {
