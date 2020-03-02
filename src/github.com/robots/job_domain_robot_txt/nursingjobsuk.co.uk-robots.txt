@@ -1,0 +1,28 @@
+User-agent: rogerbot
+crawl-delay: 5
+Disallow: /admin$
+Disallow: /admin/*
+Disallow: /api
+Allow: /blog*?*
+Disallow: /*?*
+Disallow: /users/auth*
+Disallow: /sso*
+Disallow: /jobs/*/apply
+Disallow: /jobs/*/save_job
+Disallow: /jobs/*/unsave_job
+
+User-agent: trovitBot
+Disallow: /
+
+User-Agent: *
+Disallow: /admin$
+Disallow: /admin/*
+Disallow: /api
+Allow: /blog*?*
+Disallow: /*?*
+Disallow: /users/auth*
+Disallow: /sso*
+Disallow: /jobs/*/apply
+Disallow: /jobs/*/save_job
+Disallow: /jobs/*/unsave_job
+Sitemap: https://www.nursingjobsuk.co.uk/sitemap.xml

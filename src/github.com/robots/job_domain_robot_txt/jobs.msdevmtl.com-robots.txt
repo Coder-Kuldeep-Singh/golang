@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /views/
+
+
+
+sitemap: http://jobs.msdevmtl.com/sitemap.xml

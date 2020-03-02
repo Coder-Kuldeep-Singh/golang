@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /App_Data/
+Disallow: /App_Themes/
+Disallow: /aspnet_client/
+Disallow: /bin/
+Disallow: /Flags/
+Disallow: /IITJobsFiles/
+Disallow: /IITJobsImages/
+Disallow: /iitjobssite/
+Disallow: /images/
+Disallow: /Javascripts/
+Disallow: /w3c/
+Disallow: /XMLSchema/
+Sitemap: http://www.iitjobs.com/sitemap.xml

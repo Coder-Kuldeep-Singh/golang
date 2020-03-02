@@ -1,0 +1,14 @@
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: SEMrushBot
+Disallow: /
+
+User-agent: *
+Disallow: /action/
+Disallow: /api/
+Disallow: /account/login
+Disallow: /feed/private
+Disallow: /feed/podcast/*/private/*.rss
+
+SITEMAP: https://jobsonchain.substack.com/sitemap.xml

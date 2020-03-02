@@ -1,0 +1,21 @@
+User-agent: *
+Disallow: */phenomtrack.min.js
+Disallow: */jobcart
+
+Sitemap: https://careers.footlocker.com/my/en/sitemap.xml
+Sitemap: https://careers.footlocker.com/it/it/sitemap.xml
+Sitemap: https://careers.footlocker.com/pl/pl/sitemap.xml
+Sitemap: https://careers.footlocker.com/ca/fr/sitemap.xml
+Sitemap: https://careers.footlocker.com/tr/tr/sitemap.xml
+Sitemap: https://careers.footlocker.com/sg/en/sitemap.xml
+Sitemap: https://careers.footlocker.com/fr/fr/sitemap.xml
+Sitemap: https://careers.footlocker.com/de/de/sitemap.xml
+Sitemap: https://careers.footlocker.com/hu/hu/sitemap.xml
+Sitemap: https://careers.footlocker.com/cz/cz/sitemap.xml
+Sitemap: https://careers.footlocker.com/us/en/sitemap.xml
+Sitemap: https://careers.footlocker.com/latam/es/sitemap.xml
+Sitemap: https://careers.footlocker.com/global/pt/sitemap.xml
+Sitemap: https://careers.footlocker.com/hk/en/sitemap.xml
+Sitemap: https://careers.footlocker.com/nl/nl/sitemap.xml
+Sitemap: https://careers.footlocker.com/gr/gr/sitemap.xml
+Sitemap: https://careers.footlocker.com/pt/pt/sitemap.xml

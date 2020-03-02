@@ -1,0 +1,12 @@
+# robots.txt for Umbraco
+User-agent: *
+Disallow: /App_Browsers/
+Disallow: /App_Code/
+Disallow: /App_Plugins/
+Disallow: /bin/
+Disallow: /Config/
+Disallow: /Service References/
+Disallow: /umbraco/
+Disallow: /umbraco_client/
+Disallow: /Views/
+Sitemap: https://www.networkmarketingjobs.com/sitemap

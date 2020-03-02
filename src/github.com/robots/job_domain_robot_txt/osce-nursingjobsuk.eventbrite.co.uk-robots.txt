@@ -1,0 +1,1632 @@
+# http://www.google.co.uk/adsbot.html - AdsBot ignores * wildcard
+User-agent: Googlebot
+Disallow: /rest/
+Disallow: /xml/
+Disallow: /json/
+Disallow: /atom/
+Disallow: /opml/
+Disallow: /widget/
+Disallow: /register
+Disallow: /review
+Disallow: /orderconfirmation
+Disallow: /venues/
+Disallow: /affiliate-register?*
+Disallow: /tickets-external?*
+Disallow: /preview?*
+Disallow: /myevents?*
+Disallow: /rss/
+Disallow: /rsvp-update-response
+Disallow: /inviteunsubscribe
+Disallow: /affirm_checkout
+Disallow: /bancontact_checkout
+Disallow: /esi_cache/
+Disallow: /esi_nocache/
+Disallow: /passes/
+Disallow: /payment-options
+Disallow: /orderstart
+Disallow: /things-to-do/
+Disallow: /event/
+Disallow: /events/rss/
+Disallow: /events/atom/
+Disallow: /myevent/
+Disallow: /org/
+Disallow: /upload/
+Disallow: /directory/
+Allow: /directory/sitemap/
+Disallow: *&amp;ter*
+Disallow: *?ter*
+Disallow: *&amp;referrer*
+Disallow: *?referrer*
+Disallow: *&amp;tid*
+Disallow: *?tid*
+Disallow: *&amp;is_paid*
+Disallow: *?is_paid*
+Disallow: *&amp;user_type*
+Disallow: *?user_type*
+Disallow: *&amp;user_type_sig*
+Disallow: *?user_type_sig*
+Disallow: *&amp;calendar*
+Disallow: *?calendar*
+Disallow: *&amp;ref*
+Disallow: *?ref*
+Disallow: *&amp;past*
+Disallow: *?past*
+Disallow: *&amp;show_onboarding*
+Disallow: *?show_onboarding*
+Disallow: *&amp;rank*
+Disallow: *?rank*
+Disallow: *&amp;is_miles*
+Disallow: *?is_miles*
+Disallow: *&amp;radius*
+Disallow: *?radius*
+Disallow: *&amp;lat*
+Disallow: *?lat*
+Disallow: *&amp;lng*
+Disallow: *?lng*
+Disallow: *&amp;slat*
+Disallow: *?slat*
+Disallow: *&amp;slng*
+Disallow: *?slng*
+Disallow: *&amp;sid*
+Disallow: *?sid*
+Disallow: *&amp;vp_ne_lat*
+Disallow: *?vp_ne_lat*
+Disallow: *&amp;vp_sw_lat*
+Disallow: *?vp_sw_lat*
+Disallow: *&amp;vp_ne_lng*
+Disallow: *?vp_ne_lng*
+Disallow: *&amp;vp_sw_lng*
+Disallow: *?vp_sw_lng*
+Disallow: *&amp;source*
+Disallow: *?source*
+Disallow: *&amp;lid*
+Disallow: *?lid*
+Disallow: *&amp;spot*
+Disallow: *?spot*
+Disallow: *&amp;date*
+Disallow: *?date*
+Disallow: *&amp;view*
+Disallow: *?view*
+Disallow: *&amp;__hstc*
+Disallow: *?__hstc*
+Disallow: *&amp;__hssc*
+Disallow: *?__hssc*
+Disallow: *&amp;__hsfp*
+Disallow: *?__hsfp*
+Disallow: *&amp;_eboga*
+Disallow: *?_eboga*
+Disallow: *&amp;loc*
+Disallow: *?loc*
+Disallow: *&amp;discount*
+Disallow: *?discount*
+Disallow: *&amp;nomo*
+Disallow: *?nomo*
+Disallow: *&amp;nopas*
+Disallow: *?nopas*
+Disallow: *&amp;team_reg_type*
+Disallow: *?team_reg_type*
+Disallow: *&amp;q*
+Disallow: *?q*
+Disallow: *&amp;city*
+Disallow: *?city*
+Disallow: *&amp;sort*
+Disallow: *?sort*
+Disallow: *&amp;invite*
+Disallow: *?invite*
+Disallow: *&amp;price*
+Disallow: *?price*
+Disallow: *&amp;err*
+Disallow: *?err*
+Disallow: *&amp;afu*
+Disallow: *?afu*
+Disallow: *&amp;mc_cid*
+Disallow: *?mc_cid*
+Disallow: *&amp;mc_eid*
+Disallow: *?mc_eid*
+Disallow: *&amp;cart_uuid*
+Disallow: *?cart_uuid*
+Disallow: *&amp;crt*
+Disallow: *?crt*
+Disallow: *&amp;nocache*
+Disallow: *?nocache*
+Disallow: *&amp;cloc*
+Disallow: *?cloc*
+Disallow: *&amp;DB_OEM_ID*
+Disallow: *?DB_OEM_ID*
+Disallow: *&amp;SPSID*
+Disallow: *?SPSID*
+Disallow: *&amp;x*
+Disallow: *?x*
+Disallow: *&amp;platform*
+Disallow: *?platform*
+Disallow: *&amp;SPID*
+Disallow: *?SPID*
+Disallow: *&amp;srnk*
+Disallow: *?srnk*
+Disallow: *&amp;orderid*
+Disallow: *?orderid*
+Disallow: *&amp;i*
+Disallow: *?i*
+Disallow: *&amp;client_token*
+Disallow: *?client_token*
+Disallow: *&amp;subcat*
+Disallow: *?subcat*
+Disallow: *&amp;tracking_code*
+Disallow: *?tracking_code*
+Disallow: *&amp;format*
+Disallow: *?format*
+Disallow: *&amp;crumb*
+Disallow: *?crumb*
+Disallow: *&amp;access*
+Disallow: *?access*
+Disallow: *&amp;gonnado_ads*
+Disallow: *?gonnado_ads*
+Disallow: *&amp;webSyncID*
+Disallow: *?webSyncID*
+Disallow: *&amp;sessionGUID*
+Disallow: *?sessionGUID*
+Disallow: *&amp;_ga*
+Disallow: *?_ga*
+Disallow: *&amp;affiliate*
+Disallow: *?affiliate*
+Disallow: *&amp;eventpassword*
+Disallow: *?eventpassword*
+Disallow: *&amp;team_token*
+Disallow: *?team_token*
+Disallow: *&amp;mode*
+Disallow: *?mode*
+Disallow: *&amp;%3Binvite*
+Disallow: *?amp%3Binvite*
+Disallow: *&amp;ct*
+Disallow: *?ct*
+Disallow: *&amp;ebtv*
+Disallow: *?ebtv*
+Disallow: *&amp;__utmx*
+Disallow: *?__utmx*
+Disallow: *&amp;__utmz*
+Disallow: *?__utmz*
+Disallow: *&amp;__utmb*
+Disallow: *?__utmb*
+Disallow: *&amp;__utmc*
+Disallow: *?__utmc*
+Disallow: *&amp;__utma*
+Disallow: *?__utma*
+Disallow: *&amp;__utmk*
+Disallow: *?__utmk*
+Disallow: *&amp;__utmv*
+Disallow: *?__utmv*
+Disallow: *&amp;internal_ref*
+Disallow: *?internal_ref*
+Disallow: *&amp;id*
+Disallow: *?id*
+Disallow: *&amp;paged_section*
+Disallow: *?paged_section*
+Disallow: *&amp;_hsenc*
+Disallow: *?_hsenc*
+Disallow: *&amp;_hsmi*
+Disallow: *?_hsmi*
+Disallow: *&amp;r*
+Disallow: *?r*
+Disallow: *&amp;do*
+Disallow: *?do*
+Disallow: *&amp;*
+Disallow: *?amp*
+Disallow: *&amp;name*
+Disallow: *?name*
+Disallow: *&amp;viwe*
+Disallow: *?viwe*
+Disallow: *&amp;sig*
+Disallow: *?sig*
+Disallow: *&amp;hsCtaTracking*
+Disallow: *?hsCtaTracking*
+Disallow: *&amp;location*
+Disallow: *?location*
+Disallow: *&amp;option*
+Disallow: *?option*
+Disallow: *&amp;showPrivate*
+Disallow: *?showPrivate*
+Disallow: *&amp;selecteddate*
+Disallow: *?selecteddate*
+Disallow: *&amp;Itemid*
+Disallow: *?Itemid*
+Disallow: *&amp;ref*
+Disallow: *?amp;ref*
+Disallow: *&amp;w*
+Disallow: *?w*
+Disallow: *&amp;start*
+Disallow: *?start*
+Disallow: *&amp;src*
+Disallow: *?src*
+Disallow: *&amp;fb_action_ids*
+Disallow: *?fb_action_ids*
+Disallow: *&amp;fb_action_types*
+Disallow: *?fb_action_types*
+Disallow: *&amp;mkt_tok*
+Disallow: *?mkt_tok*
+Disallow: *&amp;jvi*
+Disallow: *?jvi*
+Disallow: *&amp;_cldee*
+Disallow: *?_cldee*
+Disallow: *&amp;afftrack*
+Disallow: *?afftrack*
+Disallow: *&amp;%3Bref*
+Disallow: *?%3Bref*
+Disallow: *&amp;%3Bv*
+Disallow: *?%3Bv*
+Disallow: *&amp;event_types*
+Disallow: *?event_types*
+Disallow: *&amp;height*
+Disallow: *?height*
+Disallow: *&amp;width*
+Disallow: *?width*
+Disallow: *&amp;action*
+Disallow: *?action*
+Disallow: *&amp;affid*
+Disallow: *?affid*
+Disallow: *&amp;o*
+Disallow: *?o*
+Disallow: *&amp;url*
+Disallow: *?url*
+Disallow: *&amp;page_id*
+Disallow: *?page_id*
+Disallow: *&amp;wmode*
+Disallow: *?wmode*
+Disallow: *&amp;CFID*
+Disallow: *?CFID*
+Disallow: *&amp;CFTOKEN*
+Disallow: *?CFTOKEN*
+Disallow: *&amp;gclid*
+Disallow: *?gclid*
+Disallow: *&amp;kw*
+Disallow: *?kw*
+Disallow: *&amp;spellcheck*
+Disallow: *?spellcheck*
+Disallow: *&amp;cr*
+Disallow: *?cr*
+Disallow: *&amp;oid*
+Disallow: *?oid*
+Disallow: *®*
+Disallow: *?reg*
+Disallow: *&amp;utm-term*
+Disallow: *?utm-term*
+Disallow: *&amp;utm_term*
+Disallow: *?utm_term*
+Disallow: *&amp;utm_content*
+Disallow: *?utm_content*
+Disallow: *&amp;utm-content*
+Disallow: *?utm-content*
+Disallow: *&amp;utm-source*
+Disallow: *?utm-source*
+Disallow: *&amp;utm_media*
+Disallow: *?utm_media*
+Disallow: *&amp;utm_compaign*
+Disallow: *?utm_compaign*
+Disallow: *&amp;utm-content*
+Disallow: *?amp;utm-content*
+Disallow: *&amp;utm-term*
+Disallow: *?amp;utm-term*
+Disallow: *&amp;utm_term*
+Disallow: *?amp;utm_term*
+
+User-agent: Facebot
+Crawl-delay: 0.5
+Disallow: /rest/
+Disallow: /xml/
+Disallow: /json/
+Disallow: /atom/
+Disallow: /opml/
+Disallow: /widget/
+Disallow: /register
+Disallow: /review
+Disallow: /orderconfirmation
+Disallow: /venues/
+Disallow: /affiliate-register?*
+Disallow: /tickets-external?*
+Disallow: /preview?*
+Disallow: /myevents?*
+Disallow: /rss/
+Disallow: /rsvp-update-response
+Disallow: /inviteunsubscribe
+Disallow: /affirm_checkout
+Disallow: /bancontact_checkout
+Disallow: /esi_cache/
+Disallow: /esi_nocache/
+Disallow: /passes/
+Disallow: /payment-options
+Disallow: /orderstart
+Disallow: /things-to-do/
+Disallow: /event/
+Disallow: /events/rss/
+Disallow: /events/atom/
+Disallow: /myevent/
+Disallow: /org/
+Disallow: /upload/
+Disallow: /directory/
+Allow: /directory/sitemap/
+Disallow: *&amp;ter*
+Disallow: *?ter*
+Disallow: *&amp;referrer*
+Disallow: *?referrer*
+Disallow: *&amp;tid*
+Disallow: *?tid*
+Disallow: *&amp;is_paid*
+Disallow: *?is_paid*
+Disallow: *&amp;user_type*
+Disallow: *?user_type*
+Disallow: *&amp;user_type_sig*
+Disallow: *?user_type_sig*
+Disallow: *&amp;calendar*
+Disallow: *?calendar*
+Disallow: *&amp;ref*
+Disallow: *?ref*
+Disallow: *&amp;past*
+Disallow: *?past*
+Disallow: *&amp;show_onboarding*
+Disallow: *?show_onboarding*
+Disallow: *&amp;rank*
+Disallow: *?rank*
+Disallow: *&amp;s*
+Disallow: *?s*
+Disallow: *&amp;is_miles*
+Disallow: *?is_miles*
+Disallow: *&amp;radius*
+Disallow: *?radius*
+Disallow: *&amp;lat*
+Disallow: *?lat*
+Disallow: *&amp;lng*
+Disallow: *?lng*
+Disallow: *&amp;slat*
+Disallow: *?slat*
+Disallow: *&amp;slng*
+Disallow: *?slng*
+Disallow: *&amp;sid*
+Disallow: *?sid*
+Disallow: *&amp;vp_ne_lat*
+Disallow: *?vp_ne_lat*
+Disallow: *&amp;vp_sw_lat*
+Disallow: *?vp_sw_lat*
+Disallow: *&amp;vp_ne_lng*
+Disallow: *?vp_ne_lng*
+Disallow: *&amp;vp_sw_lng*
+Disallow: *?vp_sw_lng*
+Disallow: *&amp;source*
+Disallow: *?source*
+Disallow: *&amp;lid*
+Disallow: *?lid*
+Disallow: *&amp;spot*
+Disallow: *?spot*
+Disallow: *&amp;date*
+Disallow: *?date*
+Disallow: *&amp;view*
+Disallow: *?view*
+Disallow: *&amp;__hstc*
+Disallow: *?__hstc*
+Disallow: *&amp;__hssc*
+Disallow: *?__hssc*
+Disallow: *&amp;__hsfp*
+Disallow: *?__hsfp*
+Disallow: *&amp;_eboga*
+Disallow: *?_eboga*
+Disallow: *&amp;loc*
+Disallow: *?loc*
+Disallow: *&amp;discount*
+Disallow: *?discount*
+Disallow: *&amp;nomo*
+Disallow: *?nomo*
+Disallow: *&amp;nopas*
+Disallow: *?nopas*
+Disallow: *&amp;team_reg_type*
+Disallow: *?team_reg_type*
+Disallow: *&amp;q*
+Disallow: *?q*
+Disallow: *&amp;city*
+Disallow: *?city*
+Disallow: *&amp;sort*
+Disallow: *?sort*
+Disallow: *&amp;invite*
+Disallow: *?invite*
+Disallow: *&amp;price*
+Disallow: *?price*
+Disallow: *&amp;err*
+Disallow: *?err*
+Disallow: *&amp;afu*
+Disallow: *?afu*
+Disallow: *&amp;mc_cid*
+Disallow: *?mc_cid*
+Disallow: *&amp;mc_eid*
+Disallow: *?mc_eid*
+Disallow: *&amp;cart_uuid*
+Disallow: *?cart_uuid*
+Disallow: *&amp;cat*
+Disallow: *?cat*
+Disallow: *&amp;crt*
+Disallow: *?crt*
+Disallow: *&amp;nocache*
+Disallow: *?nocache*
+Disallow: *&amp;cloc*
+Disallow: *?cloc*
+Disallow: *&amp;DB_OEM_ID*
+Disallow: *?DB_OEM_ID*
+Disallow: *&amp;SPSID*
+Disallow: *?SPSID*
+Disallow: *&amp;x*
+Disallow: *?x*
+Disallow: *&amp;platform*
+Disallow: *?platform*
+Disallow: *&amp;SPID*
+Disallow: *?SPID*
+Disallow: *&amp;srnk*
+Disallow: *?srnk*
+Disallow: *&amp;orderid*
+Disallow: *?orderid*
+Disallow: *&amp;i*
+Disallow: *?i*
+Disallow: *&amp;client_token*
+Disallow: *?client_token*
+Disallow: *&amp;subcat*
+Disallow: *?subcat*
+Disallow: *&amp;tracking_code*
+Disallow: *?tracking_code*
+Disallow: *&amp;format*
+Disallow: *?format*
+Disallow: *&amp;crumb*
+Disallow: *?crumb*
+Disallow: *&amp;access*
+Disallow: *?access*
+Disallow: *&amp;gonnado_ads*
+Disallow: *?gonnado_ads*
+Disallow: *&amp;webSyncID*
+Disallow: *?webSyncID*
+Disallow: *&amp;sessionGUID*
+Disallow: *?sessionGUID*
+Disallow: *&amp;_ga*
+Disallow: *?_ga*
+Disallow: *&amp;affiliate*
+Disallow: *?affiliate*
+Disallow: *&amp;eventpassword*
+Disallow: *?eventpassword*
+Disallow: *&amp;team_token*
+Disallow: *?team_token*
+Disallow: *&amp;mode*
+Disallow: *?mode*
+Disallow: *&amp;%3Binvite*
+Disallow: *?amp%3Binvite*
+Disallow: *&amp;ct*
+Disallow: *?ct*
+Disallow: *&amp;ebtv*
+Disallow: *?ebtv*
+Disallow: *&amp;__utmx*
+Disallow: *?__utmx*
+Disallow: *&amp;__utmz*
+Disallow: *?__utmz*
+Disallow: *&amp;__utmb*
+Disallow: *?__utmb*
+Disallow: *&amp;__utmc*
+Disallow: *?__utmc*
+Disallow: *&amp;__utma*
+Disallow: *?__utma*
+Disallow: *&amp;__utmk*
+Disallow: *?__utmk*
+Disallow: *&amp;__utmv*
+Disallow: *?__utmv*
+Disallow: *&amp;internal_ref*
+Disallow: *?internal_ref*
+Disallow: *&amp;id*
+Disallow: *?id*
+Disallow: *&amp;paged_section*
+Disallow: *?paged_section*
+Disallow: *&amp;_hsenc*
+Disallow: *?_hsenc*
+Disallow: *&amp;_hsmi*
+Disallow: *?_hsmi*
+Disallow: *&amp;r*
+Disallow: *?r*
+Disallow: *&amp;do*
+Disallow: *?do*
+Disallow: *&amp;*
+Disallow: *?amp*
+Disallow: *&amp;name*
+Disallow: *?name*
+Disallow: *&amp;viwe*
+Disallow: *?viwe*
+Disallow: *&amp;sig*
+Disallow: *?sig*
+Disallow: *&amp;hsCtaTracking*
+Disallow: *?hsCtaTracking*
+Disallow: *&amp;location*
+Disallow: *?location*
+Disallow: *&amp;option*
+Disallow: *?option*
+Disallow: *&amp;showPrivate*
+Disallow: *?showPrivate*
+Disallow: *&amp;selecteddate*
+Disallow: *?selecteddate*
+Disallow: *&amp;Itemid*
+Disallow: *?Itemid*
+Disallow: *&amp;ref*
+Disallow: *?amp;ref*
+Disallow: *&amp;w*
+Disallow: *?w*
+Disallow: *&amp;start*
+Disallow: *?start*
+Disallow: *&amp;src*
+Disallow: *?src*
+Disallow: *&amp;categories*
+Disallow: *?categories*
+Disallow: *&amp;fb_action_ids*
+Disallow: *?fb_action_ids*
+Disallow: *&amp;fb_action_types*
+Disallow: *?fb_action_types*
+Disallow: *&amp;mkt_tok*
+Disallow: *?mkt_tok*
+Disallow: *&amp;jvi*
+Disallow: *?jvi*
+Disallow: *&amp;_cldee*
+Disallow: *?_cldee*
+Disallow: *&amp;afftrack*
+Disallow: *?afftrack*
+Disallow: *&amp;%3Bref*
+Disallow: *?%3Bref*
+Disallow: *&amp;%3Bv*
+Disallow: *?%3Bv*
+Disallow: *&amp;event_types*
+Disallow: *?event_types*
+Disallow: *&amp;height*
+Disallow: *?height*
+Disallow: *&amp;width*
+Disallow: *?width*
+Disallow: *&amp;action*
+Disallow: *?action*
+Disallow: *&amp;affid*
+Disallow: *?affid*
+Disallow: *&amp;o*
+Disallow: *?o*
+Disallow: *&amp;url*
+Disallow: *?url*
+Disallow: *&amp;page_id*
+Disallow: *?page_id*
+Disallow: *&amp;wmode*
+Disallow: *?wmode*
+Disallow: *&amp;CFID*
+Disallow: *?CFID*
+Disallow: *&amp;CFTOKEN*
+Disallow: *?CFTOKEN*
+Disallow: *&amp;gclid*
+Disallow: *?gclid*
+Disallow: *&amp;kw*
+Disallow: *?kw*
+Disallow: *&amp;spellcheck*
+Disallow: *?spellcheck*
+Disallow: *&amp;cr*
+Disallow: *?cr*
+Disallow: *&amp;oid*
+Disallow: *?oid*
+Disallow: *®*
+Disallow: *?reg*
+
+User-agent: AhrefsBot
+crawl-delay: 2
+Disallow: /rest/
+Disallow: /xml/
+Disallow: /json/
+Disallow: /atom/
+Disallow: /opml/
+Disallow: /widget/
+Disallow: /register
+Disallow: /review
+Disallow: /orderconfirmation
+Disallow: /venues/
+Disallow: /affiliate-register?*
+Disallow: /tickets-external?*
+Disallow: /preview?*
+Disallow: /myevents?*
+Disallow: /rss/
+Disallow: /rsvp-update-response
+Disallow: /inviteunsubscribe
+Disallow: /affirm_checkout
+Disallow: /bancontact_checkout
+Disallow: /esi_cache/
+Disallow: /esi_nocache/
+Disallow: /passes/
+Disallow: /payment-options
+Disallow: /orderstart
+Disallow: /things-to-do/
+Disallow: /event/
+Disallow: /events/rss/
+Disallow: /events/atom/
+Disallow: /myevent/
+Disallow: /org/
+Disallow: /upload/
+Disallow: /directory/
+Allow: /directory/sitemap/
+Disallow: *&amp;ter*
+Disallow: *?ter*
+Disallow: *&amp;referrer*
+Disallow: *?referrer*
+Disallow: *&amp;tid*
+Disallow: *?tid*
+Disallow: *&amp;is_paid*
+Disallow: *?is_paid*
+Disallow: *&amp;user_type*
+Disallow: *?user_type*
+Disallow: *&amp;user_type_sig*
+Disallow: *?user_type_sig*
+Disallow: *&amp;calendar*
+Disallow: *?calendar*
+Disallow: *&amp;ref*
+Disallow: *?ref*
+Disallow: *&amp;past*
+Disallow: *?past*
+Disallow: *&amp;show_onboarding*
+Disallow: *?show_onboarding*
+Disallow: *&amp;rank*
+Disallow: *?rank*
+Disallow: *&amp;s*
+Disallow: *?s*
+Disallow: *&amp;is_miles*
+Disallow: *?is_miles*
+Disallow: *&amp;radius*
+Disallow: *?radius*
+Disallow: *&amp;lat*
+Disallow: *?lat*
+Disallow: *&amp;lng*
+Disallow: *?lng*
+Disallow: *&amp;slat*
+Disallow: *?slat*
+Disallow: *&amp;slng*
+Disallow: *?slng*
+Disallow: *&amp;sid*
+Disallow: *?sid*
+Disallow: *&amp;vp_ne_lat*
+Disallow: *?vp_ne_lat*
+Disallow: *&amp;vp_sw_lat*
+Disallow: *?vp_sw_lat*
+Disallow: *&amp;vp_ne_lng*
+Disallow: *?vp_ne_lng*
+Disallow: *&amp;vp_sw_lng*
+Disallow: *?vp_sw_lng*
+Disallow: *&amp;source*
+Disallow: *?source*
+Disallow: *&amp;lid*
+Disallow: *?lid*
+Disallow: *&amp;spot*
+Disallow: *?spot*
+Disallow: *&amp;date*
+Disallow: *?date*
+Disallow: *&amp;view*
+Disallow: *?view*
+Disallow: *&amp;__hstc*
+Disallow: *?__hstc*
+Disallow: *&amp;__hssc*
+Disallow: *?__hssc*
+Disallow: *&amp;__hsfp*
+Disallow: *?__hsfp*
+Disallow: *&amp;_eboga*
+Disallow: *?_eboga*
+Disallow: *&amp;loc*
+Disallow: *?loc*
+Disallow: *&amp;discount*
+Disallow: *?discount*
+Disallow: *&amp;nomo*
+Disallow: *?nomo*
+Disallow: *&amp;nopas*
+Disallow: *?nopas*
+Disallow: *&amp;team_reg_type*
+Disallow: *?team_reg_type*
+Disallow: *&amp;q*
+Disallow: *?q*
+Disallow: *&amp;city*
+Disallow: *?city*
+Disallow: *&amp;sort*
+Disallow: *?sort*
+Disallow: *&amp;invite*
+Disallow: *?invite*
+Disallow: *&amp;price*
+Disallow: *?price*
+Disallow: *&amp;err*
+Disallow: *?err*
+Disallow: *&amp;afu*
+Disallow: *?afu*
+Disallow: *&amp;mc_cid*
+Disallow: *?mc_cid*
+Disallow: *&amp;mc_eid*
+Disallow: *?mc_eid*
+Disallow: *&amp;cart_uuid*
+Disallow: *?cart_uuid*
+Disallow: *&amp;cat*
+Disallow: *?cat*
+Disallow: *&amp;crt*
+Disallow: *?crt*
+Disallow: *&amp;nocache*
+Disallow: *?nocache*
+Disallow: *&amp;cloc*
+Disallow: *?cloc*
+Disallow: *&amp;DB_OEM_ID*
+Disallow: *?DB_OEM_ID*
+Disallow: *&amp;SPSID*
+Disallow: *?SPSID*
+Disallow: *&amp;x*
+Disallow: *?x*
+Disallow: *&amp;platform*
+Disallow: *?platform*
+Disallow: *&amp;SPID*
+Disallow: *?SPID*
+Disallow: *&amp;srnk*
+Disallow: *?srnk*
+Disallow: *&amp;orderid*
+Disallow: *?orderid*
+Disallow: *&amp;i*
+Disallow: *?i*
+Disallow: *&amp;client_token*
+Disallow: *?client_token*
+Disallow: *&amp;subcat*
+Disallow: *?subcat*
+Disallow: *&amp;tracking_code*
+Disallow: *?tracking_code*
+Disallow: *&amp;format*
+Disallow: *?format*
+Disallow: *&amp;crumb*
+Disallow: *?crumb*
+Disallow: *&amp;access*
+Disallow: *?access*
+Disallow: *&amp;gonnado_ads*
+Disallow: *?gonnado_ads*
+Disallow: *&amp;webSyncID*
+Disallow: *?webSyncID*
+Disallow: *&amp;sessionGUID*
+Disallow: *?sessionGUID*
+Disallow: *&amp;_ga*
+Disallow: *?_ga*
+Disallow: *&amp;affiliate*
+Disallow: *?affiliate*
+Disallow: *&amp;eventpassword*
+Disallow: *?eventpassword*
+Disallow: *&amp;team_token*
+Disallow: *?team_token*
+Disallow: *&amp;mode*
+Disallow: *?mode*
+Disallow: *&amp;%3Binvite*
+Disallow: *?amp%3Binvite*
+Disallow: *&amp;ct*
+Disallow: *?ct*
+Disallow: *&amp;ebtv*
+Disallow: *?ebtv*
+Disallow: *&amp;__utmx*
+Disallow: *?__utmx*
+Disallow: *&amp;__utmz*
+Disallow: *?__utmz*
+Disallow: *&amp;__utmb*
+Disallow: *?__utmb*
+Disallow: *&amp;__utmc*
+Disallow: *?__utmc*
+Disallow: *&amp;__utma*
+Disallow: *?__utma*
+Disallow: *&amp;__utmk*
+Disallow: *?__utmk*
+Disallow: *&amp;__utmv*
+Disallow: *?__utmv*
+Disallow: *&amp;internal_ref*
+Disallow: *?internal_ref*
+Disallow: *&amp;id*
+Disallow: *?id*
+Disallow: *&amp;paged_section*
+Disallow: *?paged_section*
+Disallow: *&amp;_hsenc*
+Disallow: *?_hsenc*
+Disallow: *&amp;_hsmi*
+Disallow: *?_hsmi*
+Disallow: *&amp;r*
+Disallow: *?r*
+Disallow: *&amp;do*
+Disallow: *?do*
+Disallow: *&amp;*
+Disallow: *?amp*
+Disallow: *&amp;name*
+Disallow: *?name*
+Disallow: *&amp;viwe*
+Disallow: *?viwe*
+Disallow: *&amp;sig*
+Disallow: *?sig*
+Disallow: *&amp;hsCtaTracking*
+Disallow: *?hsCtaTracking*
+Disallow: *&amp;location*
+Disallow: *?location*
+Disallow: *&amp;option*
+Disallow: *?option*
+Disallow: *&amp;showPrivate*
+Disallow: *?showPrivate*
+Disallow: *&amp;selecteddate*
+Disallow: *?selecteddate*
+Disallow: *&amp;Itemid*
+Disallow: *?Itemid*
+Disallow: *&amp;ref*
+Disallow: *?amp;ref*
+Disallow: *&amp;w*
+Disallow: *?w*
+Disallow: *&amp;start*
+Disallow: *?start*
+Disallow: *&amp;src*
+Disallow: *?src*
+Disallow: *&amp;categories*
+Disallow: *?categories*
+Disallow: *&amp;fb_action_ids*
+Disallow: *?fb_action_ids*
+Disallow: *&amp;fb_action_types*
+Disallow: *?fb_action_types*
+Disallow: *&amp;mkt_tok*
+Disallow: *?mkt_tok*
+Disallow: *&amp;jvi*
+Disallow: *?jvi*
+Disallow: *&amp;_cldee*
+Disallow: *?_cldee*
+Disallow: *&amp;afftrack*
+Disallow: *?afftrack*
+Disallow: *&amp;%3Bref*
+Disallow: *?%3Bref*
+Disallow: *&amp;%3Bv*
+Disallow: *?%3Bv*
+Disallow: *&amp;event_types*
+Disallow: *?event_types*
+Disallow: *&amp;height*
+Disallow: *?height*
+Disallow: *&amp;width*
+Disallow: *?width*
+Disallow: *&amp;action*
+Disallow: *?action*
+Disallow: *&amp;affid*
+Disallow: *?affid*
+Disallow: *&amp;o*
+Disallow: *?o*
+Disallow: *&amp;url*
+Disallow: *?url*
+Disallow: *&amp;page_id*
+Disallow: *?page_id*
+Disallow: *&amp;wmode*
+Disallow: *?wmode*
+Disallow: *&amp;CFID*
+Disallow: *?CFID*
+Disallow: *&amp;CFTOKEN*
+Disallow: *?CFTOKEN*
+Disallow: *&amp;gclid*
+Disallow: *?gclid*
+Disallow: *&amp;kw*
+Disallow: *?kw*
+Disallow: *&amp;spellcheck*
+Disallow: *?spellcheck*
+Disallow: *&amp;cr*
+Disallow: *?cr*
+Disallow: *&amp;oid*
+Disallow: *?oid*
+Disallow: *®*
+Disallow: *?reg*
+Disallow: *&amp;utm-term*
+Disallow: *?utm-term*
+Disallow: *&amp;utm_term*
+Disallow: *?utm_term*
+Disallow: *&amp;utm_content*
+Disallow: *?utm_content*
+Disallow: *&amp;utm-content*
+Disallow: *?utm-content*
+Disallow: *&amp;utm-source*
+Disallow: *?utm-source*
+Disallow: *&amp;utm_media*
+Disallow: *?utm_media*
+Disallow: *&amp;utm_compaign*
+Disallow: *?utm_compaign*
+Disallow: *&amp;utm-content*
+Disallow: *?amp;utm-content*
+Disallow: *&amp;utm-term*
+Disallow: *?amp;utm-term*
+Disallow: *&amp;utm_term*
+Disallow: *?amp;utm_term*
+
+Sitemap: https://www.eventbrite.co.uk/sitemap_xml/sitemap_index.xml
+
+User-agent: Slurp
+crawl-delay: 0.7
+
+User-agent: CCBot
+crawl-delay: 0.7
+
+User-agent: Balihoo
+Disallow: /
+
+User-agent: BotRightHere
+Disallow: /
+
+User-agent: WebZip
+Disallow: /
+
+User-agent: larbin
+Disallow: /
+
+User-agent: b2w/0.1
+Disallow: /
+
+User-agent: Copernic
+Disallow: /
+
+User-agent: psbot
+Disallow: /
+
+User-agent: Python-urllib
+Disallow: /
+
+User-agent: NetMechanic
+Disallow: /
+
+User-agent: URL_Spider_Pro
+Disallow: /
+
+User-agent: CherryPicker
+Disallow: /
+
+User-agent: EmailCollector
+Disallow: /
+
+User-agent: EmailSiphon
+Disallow: /
+
+User-agent: WebBandit
+Disallow: /
+
+User-agent: EmailWolf
+Disallow: /
+
+User-agent: ExtractorPro
+Disallow: /
+
+User-agent: CopyRightCheck
+Disallow: /
+
+User-agent: Crescent
+Disallow: /
+
+User-agent: SiteSnagger
+Disallow: /
+
+User-agent: ProWebWalker
+Disallow: /
+
+User-agent: CheeseBot
+Disallow: /
+
+User-agent: LNSpiderguy
+Disallow: /
+
+User-agent: Alexibot
+Disallow: /
+
+User-agent: Teleport
+Disallow: /
+
+User-agent: TeleportPro
+Disallow: /
+
+User-agent: MIIxpc
+Disallow: /
+
+User-agent: Telesoft
+Disallow: /
+
+User-agent: Website Quester
+Disallow: /
+
+User-agent: WebZip
+Disallow: /
+
+User-agent: moget/2.1
+Disallow: /
+
+User-agent: WebZip/4.0
+Disallow: /
+
+User-agent: WebStripper
+Disallow: /
+
+User-agent: WebSauger
+Disallow: /
+
+User-agent: WebCopier
+Disallow: /
+
+User-agent: NetAnts
+Disallow: /
+
+User-agent: Mister PiX
+Disallow: /
+
+User-agent: WebAuto
+Disallow: /
+
+User-agent: TheNomad
+Disallow: /
+
+User-agent: WWW-Collector-E
+Disallow: /
+
+User-agent: RMA
+Disallow: /
+
+User-agent: libWeb/clsHTTP
+Disallow: /
+
+User-agent: asterias
+Disallow: /
+
+User-agent: httplib
+Disallow: /
+
+User-agent: turingos
+Disallow: /
+
+User-agent: spanner
+Disallow: /
+
+User-agent: InfoNaviRobot
+Disallow: /
+
+User-agent: Harvest/1.5
+Disallow: /
+
+User-agent: Bullseye/1.0
+Disallow: /
+
+User-agent: Mozilla/4.0 (compatible; BullsEye; Windows 95)
+Disallow: /
+
+User-agent: Crescent Internet ToolPak HTTP OLE Control v.1.0
+Disallow: /
+
+User-agent: CherryPickerSE/1.0
+Disallow: /
+
+User-agent: CherryPickerElite/1.0
+Disallow: /
+
+User-agent: WebBandit/3.50
+Disallow: /
+
+User-agent: NICErsPRO
+Disallow: /
+
+User-agent: Microsoft URL Control - 5.01.4511
+Disallow: /
+
+User-agent: DittoSpyder
+Disallow: /
+
+User-agent: Foobot
+Disallow: /
+
+User-agent: SpankBot
+Disallow: /
+
+User-agent: BotALot
+Disallow: /
+
+User-agent: lwp-trivial/1.34
+Disallow: /
+
+User-agent: lwp-trivial
+Disallow: /
+
+User-agent: BunnySlippers
+Disallow: /
+
+User-agent: Microsoft URL Control - 6.00.8169
+Disallow: /
+
+User-agent: URLy Warning
+Disallow: /
+
+User-agent: Wget/1.6
+Disallow: /
+
+User-agent: Wget/1.5.3
+Disallow: /
+
+User-agent: Wget
+Disallow: /
+
+User-agent: LinkWalker
+Disallow: /
+
+User-agent: cosmos
+Disallow: /
+
+User-agent: moget
+Disallow: /
+
+User-agent: hloader
+Disallow: /
+
+User-agent: humanlinks
+Disallow: /
+
+User-agent: LinkextractorPro
+Disallow: /
+
+User-agent: Offline Explorer
+Disallow: /
+
+User-agent: Mata Hari
+Disallow: /
+
+User-agent: LexiBot
+Disallow: /
+
+User-agent: Web Image Collector
+Disallow: /
+
+User-agent: The Intraformant
+Disallow: /
+
+User-agent: True_Robot/1.0
+Disallow: /
+
+User-agent: True_Robot
+Disallow: /
+
+User-agent: BlowFish/1.0
+Disallow: /
+
+User-agent: JennyBot
+Disallow: /
+
+User-agent: MIIxpc/4.2
+Disallow: /
+
+User-agent: BuiltBotTough
+Disallow: /
+
+User-agent: ProPowerBot/2.14
+Disallow: /
+
+User-agent: BackDoorBot/1.0
+Disallow: /
+
+User-agent: toCrawl/UrlDispatcher
+Disallow: /
+
+User-agent: WebEnhancer
+Disallow: /
+
+User-agent: suzuran
+Disallow: /
+
+User-agent: TightTwatBot
+Disallow: /
+
+User-agent: VCI WebViewer VCI WebViewer Win32
+Disallow: /
+
+User-agent: VCI
+Disallow: /
+
+User-agent: Szukacz/1.4
+Disallow: /
+
+User-agent: QueryN Metasearch
+Disallow: /
+
+User-agent: Openfind data gatherer
+Disallow: /
+
+User-agent: Openfind
+Disallow: /
+
+User-agent: Xenu's Link Sleuth 1.1c
+Disallow: /
+
+User-agent: Xenu's
+Disallow: /
+
+User-agent: Zeus
+Disallow: /
+
+User-agent: RepoMonkey Bait &amp; Tackle/v1.01
+Disallow: /
+
+User-agent: RepoMonkey
+Disallow: /
+
+User-agent: Microsoft URL Control
+Disallow: /
+
+User-agent: Openbot
+Disallow: /
+
+User-agent: URL Control
+Disallow: /
+
+User-agent: Zeus Link Scout
+Disallow: /
+
+User-agent: Zeus 32297 Webster Pro V2.9 Win32
+Disallow: /
+
+User-agent: Webster Pro
+Disallow: /
+
+User-agent: EroCrawler
+Disallow: /
+
+User-agent: LinkScan/8.1a Unix
+Disallow: /
+
+User-agent: Keyword Density/0.9
+Disallow: /
+
+User-agent: Kenjin Spider
+Disallow: /
+
+User-agent: Iron33/1.0.2
+Disallow: /
+
+User-agent: Bookmark search tool
+Disallow: /
+
+User-agent: GetRight/4.2
+Disallow: /
+
+User-agent: FairAd Client
+Disallow: /
+
+User-agent: Gaisbot
+Disallow: /
+
+User-agent: Aqua_Products
+Disallow: /
+
+User-agent: Radiation Retriever 1.1
+Disallow: /
+
+User-agent: Flaming AttackBot
+Disallow: /
+
+User-agent: Oracle Ultra Search
+Disallow: /
+
+User-agent: MSIECrawler
+Disallow: /
+
+User-agent: PerMan
+Disallow: /
+
+User-agent: searchpreview
+Disallow: /
+
+User-agent: TurnitinBot
+Disallow: /
+
+User-agent: wget
+Disallow: /
+
+User-agent: ExtractorPro
+Disallow: /
+
+User-agent: WebZIP/4.21
+Disallow: /
+
+User-agent: WebZIP/5.0
+Disallow: /
+
+User-agent: HTTrack 3.0
+Disallow: /
+
+User-agent: TurnitinBot/1.5
+Disallow: /
+
+User-agent: WebCopier v3.2a
+Disallow: /
+
+User-agent: WebCapture 2.0
+Disallow: /
+
+User-agent: WebCopier v.2.2
+Disallow: /
+
+User-agent: Spinn3r
+Disallow: /
+
+User-agent: Tailrank
+Disallow: /
+
+User-agent: 008
+Disallow: /
+
+User-agent: *
+Disallow: /rest/
+Disallow: /xml/
+Disallow: /json/
+Disallow: /atom/
+Disallow: /opml/
+Disallow: /widget/
+Disallow: /register
+Disallow: /review
+Disallow: /orderconfirmation
+Disallow: /venues/
+Disallow: /affiliate-register?*
+Disallow: /tickets-external?*
+Disallow: /preview?*
+Disallow: /myevents?*
+Disallow: /rss/
+Disallow: /rsvp-update-response
+Disallow: /inviteunsubscribe
+Disallow: /affirm_checkout
+Disallow: /bancontact_checkout
+Disallow: /esi_cache/
+Disallow: /esi_nocache/
+Disallow: /passes/
+Disallow: /payment-options
+Disallow: /orderstart
+Disallow: /things-to-do/
+Disallow: /event/
+Disallow: /events/rss/
+Disallow: /events/atom/
+Disallow: /myevent/
+Disallow: /org/
+Disallow: /upload/
+Disallow: /directory/
+Allow: /directory/sitemap/
+Disallow: *&amp;ter*
+Disallow: *?ter*
+Disallow: *&amp;referrer*
+Disallow: *?referrer*
+Disallow: *&amp;tid*
+Disallow: *?tid*
+Disallow: *&amp;is_paid*
+Disallow: *?is_paid*
+Disallow: *&amp;user_type*
+Disallow: *?user_type*
+Disallow: *&amp;user_type_sig*
+Disallow: *?user_type_sig*
+Disallow: *&amp;calendar*
+Disallow: *?calendar*
+Disallow: *&amp;ref*
+Disallow: *?ref*
+Disallow: *&amp;past*
+Disallow: *?past*
+Disallow: *&amp;show_onboarding*
+Disallow: *?show_onboarding*
+Disallow: *&amp;rank*
+Disallow: *?rank*
+Disallow: *&amp;s*
+Disallow: *?s*
+Disallow: *&amp;is_miles*
+Disallow: *?is_miles*
+Disallow: *&amp;radius*
+Disallow: *?radius*
+Disallow: *&amp;lat*
+Disallow: *?lat*
+Disallow: *&amp;lng*
+Disallow: *?lng*
+Disallow: *&amp;slat*
+Disallow: *?slat*
+Disallow: *&amp;slng*
+Disallow: *?slng*
+Disallow: *&amp;sid*
+Disallow: *?sid*
+Disallow: *&amp;vp_ne_lat*
+Disallow: *?vp_ne_lat*
+Disallow: *&amp;vp_sw_lat*
+Disallow: *?vp_sw_lat*
+Disallow: *&amp;vp_ne_lng*
+Disallow: *?vp_ne_lng*
+Disallow: *&amp;vp_sw_lng*
+Disallow: *?vp_sw_lng*
+Disallow: *&amp;source*
+Disallow: *?source*
+Disallow: *&amp;lid*
+Disallow: *?lid*
+Disallow: *&amp;spot*
+Disallow: *?spot*
+Disallow: *&amp;date*
+Disallow: *?date*
+Disallow: *&amp;view*
+Disallow: *?view*
+Disallow: *&amp;__hstc*
+Disallow: *?__hstc*
+Disallow: *&amp;__hssc*
+Disallow: *?__hssc*
+Disallow: *&amp;__hsfp*
+Disallow: *?__hsfp*
+Disallow: *&amp;_eboga*
+Disallow: *?_eboga*
+Disallow: *&amp;loc*
+Disallow: *?loc*
+Disallow: *&amp;discount*
+Disallow: *?discount*
+Disallow: *&amp;nomo*
+Disallow: *?nomo*
+Disallow: *&amp;nopas*
+Disallow: *?nopas*
+Disallow: *&amp;team_reg_type*
+Disallow: *?team_reg_type*
+Disallow: *&amp;q*
+Disallow: *?q*
+Disallow: *&amp;city*
+Disallow: *?city*
+Disallow: *&amp;sort*
+Disallow: *?sort*
+Disallow: *&amp;invite*
+Disallow: *?invite*
+Disallow: *&amp;price*
+Disallow: *?price*
+Disallow: *&amp;err*
+Disallow: *?err*
+Disallow: *&amp;afu*
+Disallow: *?afu*
+Disallow: *&amp;mc_cid*
+Disallow: *?mc_cid*
+Disallow: *&amp;mc_eid*
+Disallow: *?mc_eid*
+Disallow: *&amp;cart_uuid*
+Disallow: *?cart_uuid*
+Disallow: *&amp;cat*
+Disallow: *?cat*
+Disallow: *&amp;crt*
+Disallow: *?crt*
+Disallow: *&amp;nocache*
+Disallow: *?nocache*
+Disallow: *&amp;cloc*
+Disallow: *?cloc*
+Disallow: *&amp;DB_OEM_ID*
+Disallow: *?DB_OEM_ID*
+Disallow: *&amp;SPSID*
+Disallow: *?SPSID*
+Disallow: *&amp;x*
+Disallow: *?x*
+Disallow: *&amp;platform*
+Disallow: *?platform*
+Disallow: *&amp;SPID*
+Disallow: *?SPID*
+Disallow: *&amp;srnk*
+Disallow: *?srnk*
+Disallow: *&amp;orderid*
+Disallow: *?orderid*
+Disallow: *&amp;i*
+Disallow: *?i*
+Disallow: *&amp;client_token*
+Disallow: *?client_token*
+Disallow: *&amp;subcat*
+Disallow: *?subcat*
+Disallow: *&amp;tracking_code*
+Disallow: *?tracking_code*
+Disallow: *&amp;format*
+Disallow: *?format*
+Disallow: *&amp;crumb*
+Disallow: *?crumb*
+Disallow: *&amp;access*
+Disallow: *?access*
+Disallow: *&amp;gonnado_ads*
+Disallow: *?gonnado_ads*
+Disallow: *&amp;webSyncID*
+Disallow: *?webSyncID*
+Disallow: *&amp;sessionGUID*
+Disallow: *?sessionGUID*
+Disallow: *&amp;_ga*
+Disallow: *?_ga*
+Disallow: *&amp;affiliate*
+Disallow: *?affiliate*
+Disallow: *&amp;eventpassword*
+Disallow: *?eventpassword*
+Disallow: *&amp;team_token*
+Disallow: *?team_token*
+Disallow: *&amp;mode*
+Disallow: *?mode*
+Disallow: *&amp;%3Binvite*
+Disallow: *?amp%3Binvite*
+Disallow: *&amp;ct*
+Disallow: *?ct*
+Disallow: *&amp;ebtv*
+Disallow: *?ebtv*
+Disallow: *&amp;__utmx*
+Disallow: *?__utmx*
+Disallow: *&amp;__utmz*
+Disallow: *?__utmz*
+Disallow: *&amp;__utmb*
+Disallow: *?__utmb*
+Disallow: *&amp;__utmc*
+Disallow: *?__utmc*
+Disallow: *&amp;__utma*
+Disallow: *?__utma*
+Disallow: *&amp;__utmk*
+Disallow: *?__utmk*
+Disallow: *&amp;__utmv*
+Disallow: *?__utmv*
+Disallow: *&amp;internal_ref*
+Disallow: *?internal_ref*
+Disallow: *&amp;id*
+Disallow: *?id*
+Disallow: *&amp;paged_section*
+Disallow: *?paged_section*
+Disallow: *&amp;_hsenc*
+Disallow: *?_hsenc*
+Disallow: *&amp;_hsmi*
+Disallow: *?_hsmi*
+Disallow: *&amp;r*
+Disallow: *?r*
+Disallow: *&amp;do*
+Disallow: *?do*
+Disallow: *&amp;*
+Disallow: *?amp*
+Disallow: *&amp;name*
+Disallow: *?name*
+Disallow: *&amp;viwe*
+Disallow: *?viwe*
+Disallow: *&amp;sig*
+Disallow: *?sig*
+Disallow: *&amp;hsCtaTracking*
+Disallow: *?hsCtaTracking*
+Disallow: *&amp;location*
+Disallow: *?location*
+Disallow: *&amp;option*
+Disallow: *?option*
+Disallow: *&amp;showPrivate*
+Disallow: *?showPrivate*
+Disallow: *&amp;selecteddate*
+Disallow: *?selecteddate*
+Disallow: *&amp;Itemid*
+Disallow: *?Itemid*
+Disallow: *&amp;ref*
+Disallow: *?amp;ref*
+Disallow: *&amp;w*
+Disallow: *?w*
+Disallow: *&amp;start*
+Disallow: *?start*
+Disallow: *&amp;src*
+Disallow: *?src*
+Disallow: *&amp;categories*
+Disallow: *?categories*
+Disallow: *&amp;fb_action_ids*
+Disallow: *?fb_action_ids*
+Disallow: *&amp;fb_action_types*
+Disallow: *?fb_action_types*
+Disallow: *&amp;mkt_tok*
+Disallow: *?mkt_tok*
+Disallow: *&amp;jvi*
+Disallow: *?jvi*
+Disallow: *&amp;_cldee*
+Disallow: *?_cldee*
+Disallow: *&amp;afftrack*
+Disallow: *?afftrack*
+Disallow: *&amp;%3Bref*
+Disallow: *?%3Bref*
+Disallow: *&amp;%3Bv*
+Disallow: *?%3Bv*
+Disallow: *&amp;event_types*
+Disallow: *?event_types*
+Disallow: *&amp;height*
+Disallow: *?height*
+Disallow: *&amp;width*
+Disallow: *?width*
+Disallow: *&amp;action*
+Disallow: *?action*
+Disallow: *&amp;affid*
+Disallow: *?affid*
+Disallow: *&amp;o*
+Disallow: *?o*
+Disallow: *&amp;url*
+Disallow: *?url*
+Disallow: *&amp;page_id*
+Disallow: *?page_id*
+Disallow: *&amp;wmode*
+Disallow: *?wmode*
+Disallow: *&amp;CFID*
+Disallow: *?CFID*
+Disallow: *&amp;CFTOKEN*
+Disallow: *?CFTOKEN*
+Disallow: *&amp;gclid*
+Disallow: *?gclid*
+Disallow: *&amp;kw*
+Disallow: *?kw*
+Disallow: *&amp;spellcheck*
+Disallow: *?spellcheck*
+Disallow: *&amp;cr*
+Disallow: *?cr*
+Disallow: *&amp;oid*
+Disallow: *?oid*
+Disallow: *®*
+Disallow: *?reg*

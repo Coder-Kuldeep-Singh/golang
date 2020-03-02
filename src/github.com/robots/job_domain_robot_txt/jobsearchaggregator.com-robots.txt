@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /home.php
+Disallow: /*.js
+Sitemap:http://www.moban.com/data/sitemap/www.moban.com.html
+Sitemap:http://www.moban.com/data/sitemap/www.moban.com.xml

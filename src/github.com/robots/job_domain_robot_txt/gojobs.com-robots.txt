@@ -1,0 +1,149 @@
+User-agent: IRLbot 
+Disallow: /
+
+User-agent: Spinn3r
+Disallow: / 
+
+User-agent: dotbot 
+Disallow: /
+
+User-agent: sistrix 
+Disallow: /
+
+User-agent: ScoutJet
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: Speedy
+Disallow: /
+
+user-agent: GigaBot 
+Disallow: / 
+
+user-agent: Voyager 
+disallow: / 
+
+User-agent: Baiduspider
+Disallow: /
+
+user-agent: BackRub/*.* 
+Disallow: / 
+
+User-agent: SEOkicks-Robot
+Disallow: /
+
+user-agent: Grub.org 
+Disallow: / 
+
+user-agent: BotRightHere 
+Disallow: / 
+
+user-agent: larbin 
+Disallow: / 
+
+user-agent: psbot 
+Disallow: / 
+
+user-agent: Walhello appie 
+Disallow: / 
+
+user-agent: Python-urllib 
+Disallow: / 
+
+user-agent: CherryPicker 
+Disallow: / 
+
+user-agent: EmailCollector 
+Disallow: / 
+
+user-agent: WebBandit 
+Disallow: / 
+
+user-agent: EmailWolf 
+Disallow: / 
+
+user-agent: CopyRightCheck 
+Disallow: / 
+
+user-agent: Crescent 
+Disallow: / 
+
+user-agent: twiceler
+Disallow: / 
+
+user-agent: Sosospider
+Disallow: /  
+
+User-agent: Yandex
+Disallow: / 
+
+User-agent: ShopWiki
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: Sogou
+Disallow: /
+
+User-agent: Qwantify
+Disallow: /
+
+User-agent: seoscanners.net
+Disallow: /
+
+User-agent: GrapeshotCrawler
+Disallow: /
+
+User-agent: linkdexbot
+Disallow: /
+
+User-agent: GozaikBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: / 
+
+User-agent: SemrushBot-SA
+Disallow: / 
+
+User-agent: *
+Disallow: /Jobs/
+Disallow: /jobs/
+Disallow: /Archives/
+Disallow: /archives/
+Disallow: /Admin/
+Disallow: /admin/
+Disallow: /_private/
+Disallow: /cgibin/
+Disallow: /cgi-bin/
+Disallow: /seeker/
+Disallow: /seekerV2/
+Disallow: /Seeker/
+Disallow: /oem/
+Disallow: /emp/
+Disallow: /oem/
+Disallow: /OEM/
+Disallow: /SEOv4dotNet/
+Disallow: /seov4dotnet/
+
+User-agent: SeznamBot
+Disallow: /
+
+User-agent: XoviBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: HubSpot Crawler 1.0
+Disallow:/
+
+
+# Wait till we go live and uncomment this with the site map fully exposed.
+Sitemap: https://gojobs.com/browsesitemap.xml

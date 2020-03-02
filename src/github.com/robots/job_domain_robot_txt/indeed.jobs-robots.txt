@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /icalendar/
+Allow: /career
+Sitemap: https://www.indeed.jobs/career/sitemap.xml
+Allow: /

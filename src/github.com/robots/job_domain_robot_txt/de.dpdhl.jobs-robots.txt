@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /jobsuche/
+Disallow: /search-jobs
+Disallow: /search-jobs/
+Sitemap: https://de.dpdhl.jobs/sitemap.xml
+Sitemap: https://de.dpdhl.jobs/jobs_sitemap.xml

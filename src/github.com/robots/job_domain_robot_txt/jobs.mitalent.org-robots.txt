@@ -1,0 +1,127 @@
+# Robots.txt file
+#
+
+
+Sitemap: https://www.mitalent.org/sitemap
+Sitemap: https://jobs.mitalent.org/gsa/
+
+
+#common for all sites..
+#
+# robots.txt for https://www.mitalent.org/
+#
+# Please note: There are a lot of pages on this site, and there are
+# some misbehaved spiders out there. If you're
+# irresponsible, your access to the site may be blocked.
+#
+# Do not crawl feedback screen
+User-agent: *
+Disallow: /Feedback/
+
+# Trap Bots that do not respect robots.txt
+Disallow: /bot-trap/
+
+# don't want the following to crawl..
+
+User-agent: UbiCrawler
+Disallow: /
+
+User-agent: DOC
+Disallow: /
+
+User-agent: Zao
+Disallow: /
+
+# Some of these designed to copy
+# entire sites. Please obey robots.txt.
+
+User-agent: sitecheck.internetseer.com
+Disallow: /
+
+User-agent: Zealbot
+Disallow: /
+
+User-agent: MSIECrawler
+Disallow: /
+
+User-agent: SiteSnagger
+Disallow: /
+
+User-agent: WebStripper
+Disallow: /
+
+User-agent: WebCopier
+Disallow: /
+
+User-agent: Fetch
+Disallow: /
+
+
+User-agent: Teleport
+Disallow: /
+
+User-agent: TeleportPro
+Disallow: /
+
+User-agent: WebZIP
+Disallow: /
+
+User-agent: linko
+Disallow: /
+
+User-agent: HTTrack
+Disallow: /
+
+
+User-agent: Xenu
+Disallow: /
+
+User-agent: larbin
+Disallow: /
+
+User-agent: libwww
+Disallow: /
+
+User-agent: ZyBORG
+Disallow: /
+
+User-agent: Download Ninja
+Disallow: /
+
+User-agent: wget
+Disallow: /
+
+User-agent: grub-client
+Disallow: /
+
+User-agent: k2spider
+Disallow: /
+
+User-agent: NPBot
+Disallow: /
+
+User-agent: WebReaper
+Disallow: /
+
+User-Agent: rogerBot
+Crawl-Delay: 10
+
+User-Agent: msnbot
+Crawl-Delay: 1
+
+User-Agent: YandexBot
+Crawl-Delay: 10
+
+User-Agent: TweetedTimes
+Crawl-Delay: 30
+
+User-Agent: TweetedTimes Bot/1.0
+Crawl-Delay: 30
+
+User-Agent: Motorola
+Crawl-Delay: 30
+
+User-Agent: Jakarta Commons-HttpClient/3.1
+Crawl-Delay: 30
+
+# END OF FILE

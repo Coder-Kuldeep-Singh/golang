@@ -1,0 +1,4 @@
+Sitemap: https://wrp.jobs/sitemap.xml
+User-agent: *
+Disallow: /admin/
+Disallow: /*feed/

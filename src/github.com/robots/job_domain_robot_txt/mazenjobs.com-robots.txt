@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+# Sitemaps
+Sitemap: https://www.mazenjobs.com/sitemap_index.xml
+Crawl-delay: 10

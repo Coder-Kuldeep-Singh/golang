@@ -1,0 +1,3 @@
+User-agent: *
+https://jobs.bayada.com/sitemap.xml
+https://jobs.bayada.com/jobs_sitemap.xml

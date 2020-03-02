@@ -1,0 +1,10 @@
+<!-- User-agent: * 
+Sitemap: http://suffolkjobsdirect.org/sitemap.xml 
+Disallow: /CommonFileStorageFileGrab.aspx
+Disallow: /commonfilestoragefilegrab.aspx
+Disallow: /CommonFileStorageImageGrab.aspx
+Disallow: /commonfilestorageimagegrab .aspx
+Disallow: /CommonFileStorageImageGrabResize.aspx
+Disallow: /commonfilestorageimagegrabresize.aspx
+Disallow: /SearchResults.aspx
+Disallow: /searchresults.aspx  -->

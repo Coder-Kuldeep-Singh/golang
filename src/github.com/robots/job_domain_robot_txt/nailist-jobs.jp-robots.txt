@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /cwp/wp-admin/
+Allow: /cwp/wp-admin/admin-ajax.php
+
+Sitemap: https://www.nailist-jobs.jp/sitemap.xml

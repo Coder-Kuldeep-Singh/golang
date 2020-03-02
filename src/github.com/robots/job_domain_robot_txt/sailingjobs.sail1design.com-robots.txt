@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://sailingjobs.sail1design.com/sitemap.xml

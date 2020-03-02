@@ -1,0 +1,26 @@
+
+
+User-agent: MediaPartners-Google
+Allow: /
+Disallow: /co
+
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: bingbot
+Allow: /
+Disallow: /co
+
+User-agent: AlphaSeoBot
+Disallow: /co
+
+User-agent: Arquivo-web-crawler
+Disallow: /co
+
+User-agent: *
+Disallow: /
+
+User-agent: *
+Disallow: /co
+
+Sitemap: /sitemap.xml

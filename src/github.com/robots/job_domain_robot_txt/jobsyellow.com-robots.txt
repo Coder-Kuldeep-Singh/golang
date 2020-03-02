@@ -1,0 +1,19 @@
+User-agent: *
+Crawl-delay: 1
+
+Disallow: /cgi-bin/
+Sitemap: http://www.jobsyellow.com/sitemap-index.xml.gz
+
+user-agent: AhrefsBot
+disallow: /
+user-agent: Baiduspider
+disallow: /
+user-agent: Ezooms
+disallow: /
+user-agent: MJ12bot
+disallow: /
+user-agent: YandexBot
+disallow: /
+
+User-agent: SemrushBot
+Disallow: /

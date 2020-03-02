@@ -1,0 +1,13 @@
+User-Agent: *
+Allow: /wp-content/uploads/
+Disallow: /wp-admin/
+Disallow: /readme.html
+Disallow: /refer/
+ 
+Sitemap: https://www.ststechnicaljobs.com/post-sitemap.xml
+Sitemap: https://www.ststechnicaljobs.com/page-sitemap.xml
+Sitemap: https://www.ststechnicaljobs.com/job_listing-sitemap.xml
+Sitemap: https://www.ststechnicaljobs.com/category-sitemap.xml
+Sitemap: https://www.ststechnicaljobs.com/post_tag-sitemap.xml
+Sitemap: https://www.ststechnicaljobs.com/author-sitemap.xml
+Sitemap: https://www.ststechnicaljobs.com/attachment-sitemap.xml

@@ -1,0 +1,48 @@
+User-Agent: *
+
+Sitemap: <http: sitemap.xml="" www.environmentaljobs.com="">
+
+Disallow: /_private/
+Disallow: /_vti_bin/
+Disallow: /_vti_cnf/
+Disallow: /_vti_log/
+Disallow: /_vti_pvt/
+Disallow: /_vti_txt/
+Disallow: /addon/
+Disallow: /css/
+Disallow: /fm/
+Disallow: /images/
+Disallow: /img/
+Disallow: /include/
+Disallow: /jscripts/
+Disallow: /lists/
+Disallow: /logos/
+Disallow: /manager/
+Disallow: /newsite/
+Disallow: /phpsite/
+Disallow: /plugins/
+Disallow: /style/
+Disallow: /users/
+Disallow: /vdsbackup/
+
+Disallow: /3digitcode.php
+Disallow: /_vti_inf.html
+Disallow: /ad*
+Disallow: /article*
+Disallow: /*.gif
+Disallow: /*.jpg
+Disallow: /editor.js
+Disallow: /email*
+Disallow: /forgotpassword.php
+Disallow: /freeadedit.php
+Disallow: /login*
+Disallow: /logout*
+Disallow: /org*
+Disallow: /phptemplate.php
+Disallow: /picker*
+Disallow: /postinfo.html
+Disallow: /updatesuccessful*
+#Begin Attracta SEO Tools Sitemap. Do not remove
+sitemap: http://cdn.attracta.com/sitemap/2888933.xml.gz
+#End Attracta SEO Tools Sitemap. Do not remove
+</http:>

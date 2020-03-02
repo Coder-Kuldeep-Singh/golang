@@ -1,0 +1,90 @@
+User-agent: *
+Disallow: /prd_consump/
+Disallow: /error-page/
+Disallow: /jobs-search/results/
+Disallow: /cs/
+	
+Disallow: /search?
+Disallow: /jobs-search/results?
+User-agent: OmniExplorer_Bot
+Disallow: /
+
+User-agent: YahooSeeker/CafeKelsa
+Disallow: /
+
+User-agent: WijuBot/1.0
+Disallow: /
+
+User-agent: trovitBot
+Disallow: /
+
+User-agent: ScoutJet
+Disallow: /
+
+User-agent: ltx71
+Disallow: /
+
+User-agent: SiteExplorer
+Disallow: /
+
+User-agent: seoscanners
+Disallow: /
+
+User-agent: seoscanners.net/1
+Disallow: /
+
+User-agent: SiteExplorer
+Disallow: /
+
+User-agent: SiteExplorer/1.0
+Disallow: /
+
+User-agent: SiteExplorer/1.0b
+Disallow: /
+
+User-agent: Curious George - www.analyticsseo.com/crawler
+Disallow: /
+
+User-agent: spbot 
+Disallow: /
+
+User-agent: Mozilla/5.0 (compatible; DomainAppender /1.0; +http://www.profound.net/domainappender)
+Disallow: /
+
+User-agent: SiteCheck-sitecrawl by Siteimprove.com
+Disallow: /
+
+User-agent: Feedly/1.0
+Disallow: /
+
+User-agent: Arquivo-web-crawler
+Disallow: /
+
+User-agent: Googlebot
+Disallow: /search?
+Disallow: /jobs-search/results/
+Disallow: /jobs-search/results?
+Crawl-delay: 10
+
+User-agent: Msnbot
+Crawl-delay: 10
+
+User-agent: Slurp
+Crawl-delay: 10
+
+User-agent: Gigabot
+Crawl-delay: 10
+
+User-agent: Twiceler
+Crawl-delay: 10
+
+User-agent: JobCrawlerBot
+Crawl-delay: 10
+
+User-agent: InnovantageBot
+Crawl-delay: 10
+
+User-agent: InnovantageBot
+Crawl-delay: 10
+		Sitemap: http://jobs.hays.co.uk/sitemap.xml 
+	

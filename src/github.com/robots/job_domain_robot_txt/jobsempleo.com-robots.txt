@@ -1,0 +1,5 @@
+user-agent: *
+Disallow: /admin/
+Disallow: /?attachment_id*
+Disallow: /xmlrpc.php
+Sitemap: https://jobsempleo.com/sitemap.xml

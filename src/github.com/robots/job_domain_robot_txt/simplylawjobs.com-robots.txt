@@ -1,0 +1,24 @@
+User-agent: Mediapartners-Google
+Disallow:
+
+
+User-agent: *
+Crawl-Delay: 5
+
+Disallow: /__r_frontend_dev.php
+Disallow: /__r_frontend_dev.php/
+Disallow: /apply-job/
+Disallow: /recommend-job/
+Disallow: /email-job/
+Disallow: /job-bookmark/
+Noindex: /application-signup-new/
+Noindex: /external-application-signup/
+Disallow: /application-signup-new/
+Disallow: /external-application-signup/
+Noindex: /qa-post-login/
+Disallow: /qa-post-login/
+Disallow: /careers/*/*
+
+Allow: /
+
+Sitemap: https://www.simplylawjobs.com/uploads/portal/www.simplylawjobs.com/sitemap.xml

@@ -1,0 +1,20 @@
+
+# robots.txt for www.graduate-jobs.com
+
+User-agent: *
+
+Disallow: /gad/
+Disallow: /search
+Disallow: /job/app/*
+Disallow: /apply/*
+Disallow: /sign-in
+Disallow: /sign-out
+Disallow: /forgotten-password
+Disallow: /client/
+Disallow: /fair/
+
+Disallow: /archived/
+Disallow: /*?*order=*
+
+Sitemap: https://www.graduate-jobs.com/sitemap_index.xml
+  

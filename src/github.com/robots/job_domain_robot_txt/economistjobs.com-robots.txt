@@ -1,0 +1,6 @@
+Sitemap: https://economistjobs.com/sitemap.xml
+
+
+User-agent: *
+Disallow: /cpresources/
+

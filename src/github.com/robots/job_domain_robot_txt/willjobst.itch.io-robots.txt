@@ -1,0 +1,12 @@
+User-agent: Mediapartners-Google
+Disallow:
+
+User-agent: *
+Disallow: /*/download/
+Disallow: /*/rh/
+Disallow: /*/rp/
+Disallow: /-/
+
+Sitemap: https://itch.io/sitemap.xml
+
+# vim: set ft=robots:

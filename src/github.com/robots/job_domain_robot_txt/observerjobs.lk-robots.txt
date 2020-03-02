@@ -1,0 +1,17 @@
+User-agent: *
+Disallow:
+Disallow: /uploads/
+Disallow: /themes/
+Disallow: /storage/
+Disallow: /jobseeker/job_details
+Disallow: /uploads/vacancy_upload/
+Disallow: /common/
+Disallow: /employer/page
+Disallow: /images/home/menu/
+Disallow: /jobseeker/view_job_description
+Disallow: /ccboardforum/
+Disallow: /devise/common/
+Disallow: /employer/page
+Disallow: /learning_environment/articles
+Disallow: /partner/page
+Sitemap: http://www.observerjobs.lk/sitemap.xml

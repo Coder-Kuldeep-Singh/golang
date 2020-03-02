@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /member/login
+Disallow: /terms
+Disallow: /notice
+Disallow: /support
+Disallow: /lang
+Disallow: /contact
+Disallow: /privacy
+Disallow: /abuse
+Sitemap:http://jobscoding.com/user-sitemap

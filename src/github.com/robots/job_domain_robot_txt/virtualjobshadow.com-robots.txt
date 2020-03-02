@@ -1,0 +1,12 @@
+User-Agent: *
+Allow: /public/
+Allow: /vs3/partners/
+Disallow: /vs3/
+Disallow: /webadmin/
+Disallow: /flash/
+Disallow: /Utils/
+Disallow: /vjsadmin/
+Disallow: /webdatax/
+Disallow: /portal/
+Disallow: /tools/
+Sitemap: http://www.virtualjobshadow.com/sitemap.xml

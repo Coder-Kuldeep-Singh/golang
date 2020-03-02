@@ -1,0 +1,13 @@
+User-Agent: *
+Disallow: /apps/
+Disallow: /j/
+Disallow: /auth_results/
+Disallow: /attachments/
+Disallow: /manage/
+Disallow: /admin/
+Disallow: /jobs.js
+Disallow: /account.js
+
+Sitemap: https://s3.amazonaws.com/careerplug-sitemaps/sitemaps/careerplug_com/sitemap.xml.gz
+Sitemap: https://s3.amazonaws.com/careerplug-sitemaps/sitemaps/apscareerportal_com/sitemap.xml.gz
+Sitemap: https://s3.amazonaws.com/careerplug-sitemaps/sitemaps/careinhomesjobs_com/sitemap.xml.gz

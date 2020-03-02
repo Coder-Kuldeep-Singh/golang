@@ -1,0 +1,10 @@
+# See http://www.robotstxt.org/wc/norobots.html for documentation on how to use the robots.txt file
+#
+# To ban all spiders from the entire site uncomment the next two lines:
+# User-Agent: *
+# Disallow: /
+
+# this technically isn't valid, since for some godforsaken reason 
+# sitemap paths must be ABSOLUTE and not relative. 
+#
+Sitemap: https://jobs.stib-mivb.be/sitemap.xml.gz

@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /.
+Allow: /sitemap.html
+Sitemap: http://vidyarthimitra.org/vmpune/rowdata/sitemap.xml
+Disallow: /backend_assets
+Disallow: /frontend_assets
+Disallow: /zohoverify
+Disallow: /.git
+Disallow: /error_log
+Disallow: /.gitignore
+

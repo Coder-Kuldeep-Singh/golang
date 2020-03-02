@@ -1,0 +1,37 @@
+Sitemap: http://edujobscanada.com/sitemap.xml
+
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /wp-admin/
+Disallow: /trackback/
+Disallow: /*/trackback/$
+Disallow: /search/
+Disallow: /rss/
+Disallow: /comments/
+Disallow: /comments/feed
+Disallow: */trackback/
+Disallow: /feed/$
+Disallow: /*/feed/$
+Disallow: /*/feed/rss/$
+Disallow: */feed/
+Disallow: */comments/
+Disallow: ?p=
+Disallow: /archives/
+Disallow: /tag/*
+Disallow: /tag/
+Disallow: /login/
+Disallow: /*.inc$
+Disallow: /*?s=
+Disallow: /author/
+Disallow: /test-blog/
+Disallow: /wp-login.php
+Disallow: /members/
+Disallow: /employers/
+Disallow: /my-account/
+Disallow: /sign-in/
+Disallow: /post-resumes/
+Disallow: /applicant-account-details/
+Disallow: /view-all-resume/
+Disallow: /wp-login.php
+Disallow: /?aa_page=
+

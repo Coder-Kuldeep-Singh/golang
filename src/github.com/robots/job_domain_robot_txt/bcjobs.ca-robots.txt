@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /association/
+Disallow: /agent/
+Disallow: /api/
+Allow: /api/v1.1/public/jobs?
+Disallow: /association/
+Disallow: /employer/
+Disallow: /job_apply
+Disallow: /jobseeker/
+Disallow: /redir/
+Disallow: /services/
+
+Sitemap: https://www.bcjobs.ca/sitemap.xml
+

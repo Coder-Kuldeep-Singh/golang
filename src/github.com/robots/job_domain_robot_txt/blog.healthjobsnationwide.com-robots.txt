@@ -1,0 +1,6 @@
+Sitemap: https://blog.healthjobsnationwide.com/sitemap.xml
+Sitemap: https://blog.healthjobsnationwide.com/news-sitemap.xml
+
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php

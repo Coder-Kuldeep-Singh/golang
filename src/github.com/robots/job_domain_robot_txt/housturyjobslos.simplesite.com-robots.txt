@@ -1,0 +1,37 @@
+Sitemap: https://www.simplesite.com/googlesitemap.xml
+
+User-agent: *
+Disallow: /global.asax
+Disallow: /pages/gift.aspx
+Disallow: /pages/Partner.aspx?*
+Disallow: /userpages/pages/guestbookAddEntry.aspx
+Disallow: /userpages/pages/PhotoAlbumSlideShowXml.aspy
+Disallow: /userPages/pages/PageCommentsCallback.aspx*
+Disallow: /userPages/pages/SilentMovieXml.aspy
+Disallow: /userPages/pages/FlipBookXml.aspy
+Disallow: /userPages/pages/ShowPage.aspx
+Disallow: *&amp;p=
+
+User-Agent: SiteExplorer
+Crawl-Delay:   5
+
+User-Agent: MJ12bot
+Crawl-Delay:   5
+
+User-agent: AhrefsBot 
+Crawl-Delay: 5
+
+User-Agent: SemrushBot
+Crawl-Delay:   5
+
+User-Agent: YandexBot
+Crawl-Delay:   5
+
+User-agent: DomainCrawler
+Crawl-Delay:   5
+
+User-agent: BLEXBot
+Crawl-Delay:   5
+
+User-agent: MauiBot
+Disallow:/

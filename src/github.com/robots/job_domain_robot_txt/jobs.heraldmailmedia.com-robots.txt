@@ -1,0 +1,7 @@
+# www.robotstxt.org
+# -----------------
+
+Sitemap: https://jobs.heraldmailmedia.com/places/sitemap
+
+User-agent: *
+Disallow: /wcp

@@ -1,0 +1,17 @@
+User-agent: bingbot
+Disallow: /event/map_error
+Disallow: /user/avatar
+
+User-agent: dotbot
+Disallow: /user/
+
+User-agent: Twitterbot
+Disallow: /sales/
+
+User-agent: Facebot
+Disallow: */confirmed
+
+User-agent: *
+Disallow:
+
+Sitemap: http://peatix.com/sitemap/index.xml

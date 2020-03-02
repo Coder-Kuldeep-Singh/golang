@@ -1,0 +1,10 @@
+Sitemap: https://www.diversityjobs.org/sitemap.xml
+User-agent: *
+Disallow: /api
+Disallow: /api-instagram/
+Disallow: /api-indeed
+Disallow: /ajax/update/the/password
+Disallow: /api-payment/process-order
+Disallow: /api-contact
+Disallow: /api-log
+Disallow: /get-user-cookie.asp

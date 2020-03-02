@@ -1,0 +1,23 @@
+User-Agent: *
+Allow: /
+Allow: /s/*/
+Allow: /.well-known/assetlinks.json
+Allow: /*?utm
+Allow: /*?show_only_job
+Allow: /*?is_screening_required
+Allow: /*?salary
+Allow: /*?education
+Allow: /*?experience
+Allow: /*?company
+Allow: /*?interview_date
+Disallow: /s/
+Disallow: /candidate/
+Disallow: /password/
+Disallow: /verify/
+Disallow: /candidate-zone/
+Disallow: /jf/
+Disallow: /search/
+Disallow: /locationindex/
+Disallow: /*?*
+
+Sitemap: https://m.aasaanjobs.com/sitemap.xml

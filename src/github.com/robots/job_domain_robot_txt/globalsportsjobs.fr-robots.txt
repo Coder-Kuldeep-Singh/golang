@@ -1,0 +1,4 @@
+Sitemap: https://www.globalsportsjobs.fr/sitemap.xml 
+ 
+User-agent:*
+Disallow:

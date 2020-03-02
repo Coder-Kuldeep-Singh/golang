@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /banner/
+Disallow: /cgi-bin/
+Disallow: /logs/
+Sitemap: https://www.jobsprinter.com/sitemap.xml
+Sitemap: https://www.jobsprinter.com/stellenanzeigen.xml
+Sitemap: https://www.jobsprinter.com/stellenangebote.xml
+Sitemap: https://www.jobsprinter.com/bewerberprofile.xml

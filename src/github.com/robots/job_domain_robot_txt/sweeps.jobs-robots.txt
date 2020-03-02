@@ -1,0 +1,17 @@
+# See http://www.robotstxt.org/wc/norobots.html for documentation on how to use the robots.txt file
+# www.robotstxt.org/
+# www.google.com/support/webmasters/bin/answer.py?hl=en&amp;answer=156449
+#
+# To ban all spiders from the entire site uncomment the next two lines:
+# User-Agent: *
+# Disallow: /
+
+Sitemap: https://sweeps.jobs/sitemap.xml
+
+# Slow down bots
+User-agent: *
+Crawl-delay: 10
+
+# http://moz.com/products
+User-agent: dotbot
+Disallow: /

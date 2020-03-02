@@ -1,0 +1,14 @@
+Sitemap: http://tuijobsuk.co.uk/sitemap_index.xml
+User-agent: *
+Disallow: /*replytocom*
+Disallow: /api
+Disallow: /focomponents
+Disallow: /includes
+Disallow: /ewww
+Disallow: /cms
+Disallow: /mu-plugins
+Disallow: /plugins
+Disallow: /*?*
+Disallow: /?*
+Allow: .js
+Allow: .css

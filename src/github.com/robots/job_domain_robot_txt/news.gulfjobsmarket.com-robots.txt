@@ -1,0 +1,5 @@
+
+User-agent: *
+Disallow:
+
+Sitemap: http://news.gulfjobsmarket.com/sitemap.xml.gz

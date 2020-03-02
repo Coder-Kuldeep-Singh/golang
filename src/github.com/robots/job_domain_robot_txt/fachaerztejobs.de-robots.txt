@@ -1,0 +1,11 @@
+Sitemap: https://www.fachaerztejobs.de/sitemap.xml
+
+Crawl-Delay: 5
+
+User-agent: *
+Disallow: /admin/
+Disallow: /api/
+Disallow: /beanstalkd/
+Disallow: /password/
+Disallow: /auth/
+

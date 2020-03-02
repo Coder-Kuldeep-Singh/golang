@@ -1,0 +1,6 @@
+# no robots
+User-agent: *
+Sitemap: https://jobs.merkur.de/sitemap.xml
+Sitemap: https://jobs.merkur.de/ausbildung/sitemap_index.xml
+Disallow: /feed/all
+Disallow: /feed/portal

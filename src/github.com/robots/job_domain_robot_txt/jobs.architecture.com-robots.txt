@@ -1,0 +1,46 @@
+
+# Robot exclusion file
+User-agent: *
+
+# The following pages require registration and login
+
+Disallow: /session-img/
+Disallow: /invalid-request/
+Disallow: /document/
+
+Disallow: */searchjobs/*
+Disallow: */jobsrss/*
+Disallow: /jobsrss/*
+Disallow: */jbequicksignup/*
+Disallow: /your-jobs/*
+Disallow: /external-redirect-registration* 
+Disallow: */emailjob/*
+
+# additional disallows
+Disallow: */full-time/*
+Disallow: */part-time/*
+Disallow: */flexible/*
+Disallow: */permanent/*
+Disallow: */contract/*
+Disallow: */freelance/*
+Disallow: */unspecified/*
+Disallow: */up-to-14-999/*
+Disallow: */-15-000-19-999/*
+Disallow: */-20-000-24-999/*
+Disallow: */-25-000-29-999/*
+Disallow: */-30-000-34-999/*
+Disallow: */-35-000-39-999/*
+Disallow: */-40-000-44-999/*
+Disallow: */-45-000-49-999/*
+Disallow: */-50-000-54-999/*
+Disallow: */-55-000-59-999/*
+Disallow: */-60-000-69-999/*
+Disallow: */-70-000-99-999/*
+Disallow: */-100-000-125-000/*
+Disallow: */-150-000-/*
+Disallow: */recruitment-consultant/*
+Disallow: */direct-employer/*
+Disallow: /moreterms/
+
+Sitemap: https://jobs.architecture.com/sitemapindex.xml
+

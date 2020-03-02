@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Crawl-delay: 2
+Sitemap: http://www.alabamajobs.com/sitemap/index.xml

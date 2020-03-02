@@ -1,0 +1,9 @@
+User-agent: Mediapartners-Google
+Allow: /
+Disallow:
+
+User-agent: *
+Disallow: /search
+Allow: /
+
+Sitemap: https://www.recentjobsolution.com/ /sitemap.xml

@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: */phenomtrack.min.js
+Disallow: */jobcart
+
+Sitemap: https://careers.carmax.com/us/en/sitemap.xml

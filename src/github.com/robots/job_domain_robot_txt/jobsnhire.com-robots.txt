@@ -1,0 +1,10 @@
+User-agent: *
+
+Disallow: /art/ 
+Disallow: /community/
+Disallow: /views/
+Disallow: /home/
+Disallow: /check_mobile.php
+Disallow: /133596308/
+
+Sitemap: https://www.jobsnhire.com/sitemap.php

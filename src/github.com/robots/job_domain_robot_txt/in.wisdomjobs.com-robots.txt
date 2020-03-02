@@ -1,0 +1,86 @@
+User-agent: *
+
+Disallow: /cgi-bin/
+Disallow: /sitemapphpfiles/
+Disallow: /euniv_newcity_old/
+Disallow: /newsletters/
+Disallow: /sitemapxmlfiles/
+Disallow: /statesxmlfiles/
+Disallow: /tier3citiesxml/
+Disallow: /xmlcompanies/
+Disallow: /xmleuniv/
+Disallow: /activejobsxml/
+Disallow: /dailypostedxml/
+Disallow: /category/
+Disallow: /skills/
+Disallow: /jobsearch/
+Disallow: /govtjobs/-*
+Disallow: /mobile/mob-jobview
+Disallow: /profiledashboard*
+Disallow: /registration_step4.php
+Disallow: /pragnyameter/mypragnyameter.php
+Disallow: /download.php
+Disallow: /e-university/examcaliber-MzI3MTMz
+Disallow: /dashboard.php
+Disallow: /verify-email.php
+Disallow: /applied-jobs.php
+Disallow: /recjobs.php* 
+
+Disallow: /yogiwjobs/
+Disallow: /ebrand_mkt/
+
+Disallow: /applyjob_register.php
+Disallow: /applyjob_process.php
+Disallow: /process_ssaved_jobs.php
+Disallow: /emailjob.php
+Disallow: /walkinjobs/
+Disallow: *?srch=
+Disallow: *?search=recentSrch
+
+Disallow: *?z3=eWNpbjdQLnBocA
+Disallow: /view_job.php
+Disallow: /sitemap_index.xml
+Disallow: /location/
+Disallow: /quotes-
+Disallow: /spark-of-corporate/robots.txt
+Disallow: /e-university/robots.txt
+Disallow: /e-university/euniv_newcity/
+Disallow: /search/
+Disallow: /search-results.php
+Disallow: /searchresults.php
+Disallow: *-jobs-rpage
+Disallow: /walkinjobs.php
+
+Disallow: /other_locations_view.php
+Disallow: *-jobs-careers
+Disallow: /job-listings-
+Disallow: /-tutorial/
+Disallow: /view-similarjobs.php
+
+Disallow: /e-university/*/*/
+
+
+Sitemap: https://www.wisdomjobs.com/sitemap.xml
+Sitemap: https://www.wisdomjobs.com/wj-sitemap-rw.xml
+Sitemap: https://www.wisdomjobs.com/wj-sitemap-tc.xml
+Sitemap: https://www.wisdomjobs.com/wj-sitemap1.xml
+Sitemap: https://www.wisdomjobs.com/sitemap-xml/autosuggest-new.xml
+Sitemap: https://www.wisdomjobs.com/sitemap-xml/google_search_api_index.xml
+Sitemap: https://www.wisdomjobs.com/sitemap-xml/google_sitemap_jobs_index.xml
+Sitemap: https://www.wisdomjobs.com/sitemap-xml/google_search_govtapi_index.xml
+Sitemap: https://www.wisdomjobs.com/sitemap-xml/latest-sitemap-careeredge-links.xml
+Sitemap: https://www.wisdomjobs.com/sitemap-xml/latest-sitemap-govt-joblinks.xml
+Sitemap: https://www.wisdomjobs.com/sitemap-xml/latest-sitemap-govt-searchlinks.xml
+Sitemap: https://www.wisdomjobs.com/sitemap-xml/new-company-list.xml
+Sitemap: https://www.wisdomjobs.com/sitemap-xml/sitemap-jobposting-for.xml
+Sitemap: https://www.wisdomjobs.com/sitemap-xml/sitemap-jobposting-walkins.xml
+Sitemap: https://www.wisdomjobs.com/sitemap-xml/sitemap-keyskills-all.xml
+Sitemap: https://www.wisdomjobs.com/sitemap-xml/sitemap-topcities.xml
+Sitemap: https://www.wisdomjobs.com/sitemap-xml/wj-sitemap-help.xml
+Sitemap: https://www.wisdomjobs.com/sitemap-xml/wj-sitemap-soc.xml
+Sitemap: https://www.wisdomjobs.com/sitemap-xml/wj-sitemap1-browse.xml
+Sitemap: https://www.wisdomjobs.com/sitemap-xml/wj-sitemap1-companies.xml
+Sitemap: https://www.wisdomjobs.com/sitemap-xml/wj-sitemap1-euniv.xml
+Sitemap: https://www.wisdomjobs.com/sitemap-xml/wj-sitemap1-unique.xml
+Sitemap: https://www.wisdomjobs.com/sitemap-xml/wj-sitemap3-unique.xml
+Sitemap: https://www.wisdomjobs.com/sitemap-xml/sitemap-all-walkins.xml

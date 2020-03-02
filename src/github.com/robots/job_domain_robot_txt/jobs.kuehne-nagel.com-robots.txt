@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: */phenomtrack.min.js
+Disallow: */jobcart
+
+Sitemap: https://jobs.kuehne-nagel.com/ca/fr/sitemap.xml
+Sitemap: https://jobs.kuehne-nagel.com/global/en/sitemap.xml
+Sitemap: https://jobs.kuehne-nagel.com/belux/nl/sitemap.xml
+Sitemap: https://jobs.kuehne-nagel.com/de/de/sitemap.xml

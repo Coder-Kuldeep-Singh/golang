@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /lw/*
+Disallow: /report-a-hire
+Disallow: /still-hiring
+Disallow: /forgot-password
+Disallow: /sign-up
+Disallow: /login
+Disallow: /*?
+Sitemap: http://localwise-public.s3.amazonaws.com/sitemaps/sitemap.xml.gz

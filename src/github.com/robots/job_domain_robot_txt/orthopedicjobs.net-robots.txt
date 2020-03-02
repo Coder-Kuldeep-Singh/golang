@@ -1,0 +1,12 @@
+User-agent: *
+Crawl-delay: 2
+Disallow: /stats/
+Disallow: /forms/
+
+Sitemap: http://www.orthopedicjobs.net/index/sitemap.xml
+
+User-agent: rogerbot
+Disallow:
+
+User-agent: dotbot
+Disallow:

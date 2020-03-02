@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /activate.php
+Disallow: /confirm_reset.php
+Disallow: /feedback_submitted.php
+Disallow: /notification_saved.php
+Disallow: /password_sent.php
+Disallow: /post_resume.php
+Disallow: /registration_submitted.php
+Disallow: /tos.php
+Disallow: /recruiter/
+Disallow: /blog/
+Sitemap: https://www.staticjobs.com/sitemap.php

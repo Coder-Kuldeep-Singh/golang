@@ -1,0 +1,5 @@
+<!-- User-agent: * Sitemap: http://jobs.kirklees.gov.uk/sitemap.xml
+Disallow: /CommonFileStorageFileGrab.aspx
+Disallow: /CommonFileStorageImageGrab.aspx
+Disallow: /CommonFileStorageImageGrabResize.aspx
+Disallow: /SearchResults.aspx -->

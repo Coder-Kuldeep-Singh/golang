@@ -1,0 +1,7 @@
+# robots.txt for the Ares4-System
+User-agent: *
+Allow: /
+Disallow: /fonts/
+Disallow: /img/
+
+Sitemap: https://jobs.mebgroup.ch/sitemap.xml

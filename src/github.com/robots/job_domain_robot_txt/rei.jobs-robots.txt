@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /icalendar/
+Allow: /careers
+Sitemap: https://rei.jobs/careers/sitemap.xml
+Allow: /

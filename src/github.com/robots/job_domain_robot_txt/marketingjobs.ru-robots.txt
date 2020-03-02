@@ -1,0 +1,26 @@
+User-Agent: *
+Disallow: /page836856.html
+Disallow: /expertnaya-otsenka-biznesa-i-marketingovie-yslugi
+Disallow: /page807534.html
+Disallow: /diagnostika-marketingovix-zadach
+Disallow: /page646080.html
+Disallow: /remotejob
+Disallow: /page641116.html
+Disallow: /page647670.html
+Disallow: /footer
+Disallow: /page1809634.html
+Disallow: /-404
+Disallow: /page2128678.html
+Disallow: /check-up
+Disallow: /page5925124.html
+Disallow: /blog
+Disallow: /page5929724.html
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow:
+Sitemap: https://marketingjobs.ru/sitemap.xml
+Sitemap: https://marketingjobs.ru/sitemap-feeds.xml
+Host: https://marketingjobs.ru

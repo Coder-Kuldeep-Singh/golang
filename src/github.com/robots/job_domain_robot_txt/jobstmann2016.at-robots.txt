@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /wp-admin/
+
+Sitemap: http://www.jobstmann2016.at/sitemap.xml.gz

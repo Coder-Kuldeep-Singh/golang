@@ -1,0 +1,11 @@
+User-agent: *
+
+Disallow: /uploads/cv/attachment/
+Disallow: /sendToFriend/
+Disallow: /job_application/
+Disallow: /job/externalLinkClick/
+Disallow: /__r_frontend_dev.php/
+
+Allow: /
+
+Sitemap: https://jobs.tt.com/sitemapIndex.xml

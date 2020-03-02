@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Sitemap: https://dietitiansjobs.co.uk/smapindex413.xml
+Sitemap: https://dietitiansjobs.co.uk/amaps.xml
+Sitemap: https://dietitiansjobs.co.uk/sitemaps424.xml
+Sitemap: https://dietitiansjobs.co.uk/sitemaps41 .xml
+Sitemap: https://dietitiansjobs.co.uk/sitemaps419.xml
+Sitemap: https://dietitiansjobs.co.uk/sitemaps420.xml
+Sitemap: https://dietitiansjobs.co.uk/sitemaps422.xml
+Sitemap: https://dietitiansjobs.co.uk/sitemaps426.xml
+Sitemap: https://dietitiansjobs.co.uk/sitemaps429.xml
+Sitemap: https://dietitiansjobs.co.uk/sitemaps430.xml
+Sitemap: https://dietitiansjobs.co.uk/sitemaps505.xml
+Sitemap: https://dietitiansjobs.co.uk/sitemaps507.xml
+Sitemap: https://dietitiansjobs.co.uk/sitemaps521.xml
+Sitemap: https://dietitiansjobs.co.uk/swmap.xml
+Sitemap: https://dietitiansjobs.co.uk/mapindexiofd.xml/

@@ -1,0 +1,146 @@
+#robots de hispanicoutlookjob
+#es necesario personalizar algunas opciones o puede dar problemas
+
+Disallow: /runtime-es2015.e8a2810b3b08d6a1b6aa.js
+Disallow: /polyfills-es2015.0ef207fb7b4761464817.js
+Disallow: /main-es2015.30d444cd6321bc75bdd6.js
+Disallow: /runtime-es5.e8a2810b3b08d6a1b6aa.js
+Disallow: /polyfills-es5.931f63c2feef40f602a6.js
+Disallow: /main-es5.30d444cd6321bc75bdd6.js
+Disallow: /assets/fonts/Rubik/ttf/Rubik-Regular.ttf
+Disallow: /assets/fonts/Rubik/ttf/Rubik-Bold.ttf
+Disallow: /assets/fonts/Rubik/ttf/Rubik-Medium.ttf
+Disallow: /assets/fonts/Rubik/ttf/Rubik-Light.ttf
+Disallow: /assets/images/png/home.png
+Disallow: /assets/images/png/post-higher-education.png
+Disallow: /assets/images/icons/alert-bell.svg
+Disallow: /styles.cf9480e00085d85c89cd.css
+Disallow: /*/attachment/
+Disallow: /tag/*/page/
+Disallow: /tag/*/feed/
+Disallow: /page/
+Disallow: /comments/
+Disallow: /xmlrpc.php
+Disallow: /?attachment_id*
+Disallow: /category/*
+Disallow: /tag/*
+Allow: /blog
+ 
+# Bloqueo de las URL dinamicas
+Disallow: /*?
+ 
+ 
+#Bloqueo de busquedas
+User-agent: *
+Disallow: /?s= 
+Disallow: /search
+ 
+ 
+# Bloqueo de trackbacks
+User-agent: *
+Disallow: /trackback
+Disallow: /*trackback
+Disallow: /*trackback*
+Disallow: /*/trackback
+ 
+ 
+# Bloqueo de feeds para crawlers
+User-agent: *
+Allow: /feed/$ 
+Disallow: /feed/ 
+Disallow: /comments/feed/
+Disallow: /*/feed/$ 
+Disallow: /*/feed/rss/$ 
+Disallow: /*/trackback/$ 
+Disallow: /*/*/feed/$ 
+Disallow: /*/*/feed/rss/$ 
+Disallow: /*/*/trackback/$ 
+Disallow: /*/*/*/feed/$ 
+Disallow: /*/*/*/feed/rss/$ 
+Disallow: /*/*/*/trackback/$
+ 
+ 
+# Ralentizamos algunos bots que se suelen volver locos
+User-agent: noxtrumbot
+Crawl-delay: 20
+User-agent: msnbot
+Crawl-delay: 20
+User-agent: Slurp
+Crawl-delay: 20
+ 
+ 
+# Bloqueo de bots y crawlers poco utiles
+User-agent: MSIECrawler
+Disallow: / 
+User-agent: WebCopier 
+Disallow: / 
+User-agent: HTTrack 
+Disallow: / 
+User-agent: Microsoft.URL.Control 
+Disallow: / 
+User-agent: libwww 
+Disallow: / 
+User-agent: Orthogaffe 
+Disallow: / 
+User-agent: UbiCrawler 
+Disallow: / 
+User-agent: DOC 
+Disallow: / 
+User-agent: Zao 
+Disallow: / 
+User-agent: sitecheck.internetseer.com 
+Disallow: / 
+User-agent: Zealbot 
+Disallow: / 
+User-agent: MSIECrawler 
+Disallow: / 
+User-agent: SiteSnagger 
+Disallow: / 
+User-agent: WebStripper 
+Disallow: / 
+User-agent: WebCopier 
+Disallow: / 
+User-agent: Fetch 
+Disallow: / 
+User-agent: Offline Explorer 
+Disallow: / 
+User-agent: Teleport 
+Disallow: / 
+User-agent: TeleportPro 
+Disallow: / 
+User-agent: WebZIP 
+Disallow: / 
+User-agent: linko 
+Disallow: / 
+User-agent: HTTrack 
+Disallow: / 
+User-agent: Microsoft.URL.Control 
+Disallow: / 
+User-agent: Xenu 
+Disallow: / 
+User-agent: larbin 
+Disallow: / 
+User-agent: libwww 
+Disallow: / 
+User-agent: ZyBORG 
+Disallow: / 
+User-agent: Download Ninja 
+Disallow: / 
+User-agent: wget 
+Disallow: / 
+User-agent: grub-client 
+Disallow: / 
+User-agent: k2spider 
+Disallow: / 
+User-agent: NPBot 
+Disallow: / 
+User-agent: WebReaper 
+Disallow: /
+ 
+# Previene problemas de recursos bloqueados en Google Webmaster Tools
+User-Agent: Googlebot
+Allow: /*.css$
+Allow: /*.js$
+ 
+# Si utilizas Yoast SEO estos son los sitemaps principales
+Sitemap: https://www.hispanicoutlookjobs.com/sitemap.xml

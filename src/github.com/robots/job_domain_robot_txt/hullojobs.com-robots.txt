@@ -1,0 +1,246 @@
+# Created March, 20, 2018.
+# Author: Satish Jaddu
+# Email : Satish.j[at]prathigna.co.in
+# Edited : March 20, 2018
+
+
+User-agent:  Googlebot          # Googlebot
+Disallow:
+
+Disallow:/advertiser/
+Disallow:/preview/
+Disallow:/photo/
+Disallow:/Photo/
+Disallow:/profilePic/
+
+User-agent:  Googlebot-Image    # Googlebot
+Disallow:
+
+Disallow:/advertiser/
+Disallow:/preview/
+Disallow:/photo/
+Disallow:/Photo/
+Disallow:/profilePic/
+
+User-agent:  Mediapartners-Google # GoogleMedia Partners
+Disallow:
+
+Disallow:/advertiser/
+Disallow:/preview/
+Disallow:/photo/
+Disallow:/Photo/
+Disallow:/profilePic/
+
+User-agent:  AdsBot-Google       # Google Adsbot
+Disallow:
+
+Disallow:/advertiser/
+Disallow:/preview/
+Disallow:/photo/
+Disallow:/Photo/
+Disallow:/profilePic/
+
+User-agent:  Googlebot-Mobile       # Google Mobile robot
+Disallow:
+
+Disallow:/advertiser/
+Disallow:/preview/
+Disallow:/photo/
+Disallow:/Photo/
+Disallow:/profilePic/
+
+User-agent:  GurujiBot
+Disallow:
+
+Disallow:/advertiser/
+Disallow:/preview/
+Disallow:/photo/
+Disallow:/Photo/
+Disallow:/profilePic/
+
+User-agent:  ia_archiver  # Alexa
+Disallow:
+
+Disallow:/advertiser/
+Disallow:/preview/
+Disallow:/photo/
+Disallow:/Photo/
+
+User-agent:  msnbot             # MSN search bot
+Disallow:
+
+Disallow:/advertiser/
+Disallow:/preview/
+Disallow:/photo/
+Disallow:/Photo/
+Disallow:/profilePic/
+
+User-agent:  Slurp              # Yahoo 
+Disallow:
+
+Disallow:/advertiser/
+Disallow:/preview/
+Disallow:/photo/
+Disallow:/Photo/
+Disallow:/profilePic/
+
+User-agent:  Teoma              # Ask Jeeves
+Disallow:
+
+Disallow:/advertiser/
+Disallow:/preview/
+Disallow:/photo/
+Disallow:/Photo/
+Disallow:/profilePic/
+
+User-agent:  Scooter            # Altavista
+Disallow:
+
+Disallow:/advertiser/
+Disallow:/preview/
+Disallow:/photo/
+Disallow:/Photo/
+Disallow:/profilePic/
+
+User-agent:  Robozilla          # Open directory project
+Disallow:
+
+Disallow:/advertiser/
+Disallow:/preview/
+Disallow:/photo/
+Disallow:/Photo/
+
+User-agent:  Facebot        # Facebook Bot
+Disallow:
+
+Disallow:/advertiser/
+Disallow:/preview/
+Disallow:/photo/
+Disallow:/Photo/
+Disallow:/profilePic/
+
+User-agent: Twitterbot		#Twitter Crawler
+Disallow:
+
+Disallow:/advertiser/
+Disallow:/preview/
+Disallow:/photo/
+Disallow:/Photo/
+Disallow:/profilePic/
+
+User-agent:  bingbot        # Bing Bot
+Disallow:
+
+Disallow:/advertiser/
+Disallow:/preview/
+Disallow:/photo/
+Disallow:/Photo/
+Disallow:/profilePic/
+
+User-agent:  lycos              # Lycos
+Disallow:
+
+Disallow:/advertiser/
+Disallow:/preview/
+Disallow:/photo/
+Disallow:/Photo/
+Disallow:/profilePic/
+
+User-agent:  gulliver           # Northern Light        
+Disallow:
+
+Disallow:/advertiser/
+Disallow:/preview/
+Disallow:/photo/
+Disallow:/Photo/
+
+User-agent:  Arachnoidea        # Euroseek
+Disallow:
+
+Disallow:/advertiser/
+Disallow:/preview/
+Disallow:/photo/
+Disallow:/Photo/
+Disallow:/profilePic/
+
+User-agent:  Gulper             # Yuntis
+Disallow:
+
+Disallow:/advertiser/
+Disallow:/preview/
+Disallow:/photo/
+Disallow:/Photo/
+Disallow:/profilePic/
+
+User-agent:  Fluffy the spider  # Search Hippo
+Disallow:
+
+Disallow:/advertiser/
+Disallow:/preview/
+Disallow:/photo/
+Disallow:/Photo/
+Disallow:/profilePic/
+
+User-agent:  MantraAgent        # Look smart
+Disallow:
+
+Disallow:/advertiser/
+Disallow:/preview/
+Disallow:/photo/
+Disallow:/Photo/
+
+User-agent:  MSICrawler		#MS Internet Explorer for offline viewing
+Disallow:
+
+Disallow:/advertiser/
+Disallow:/preview/
+Disallow:/photo/
+Disallow:/Photo/
+
+User-agent: Echo!
+Disallow:
+
+Disallow:/advertiser/
+Disallow:/preview/
+Disallow:/photo/
+Disallow:/Photo/
+Disallow:/profilePic/
+
+User-agent: Naverbot
+Disallow:
+
+Disallow:/advertiser/
+Disallow:/preview/
+Disallow:/photo/
+Disallow:/Photo/
+Disallow:/profilePic/
+
+User-agent: seznambot
+Disallow:
+
+Disallow:/advertiser/
+Disallow:/preview/
+Disallow:/photo/
+Disallow:/Photo/
+Disallow:/profilePic/
+
+User-agent: Yandex
+Disallow:
+
+Disallow:/advertiser/
+Disallow:/preview/
+Disallow:/photo/
+Disallow:/Photo/
+Disallow:/profilePic/
+
+User-agent: Yeti
+Disallow:
+
+Disallow:/advertiser/
+Disallow:/preview/
+Disallow:/photo/
+Disallow:/Photo/
+
+
+Sitemap: https://www.hullojobs.com/sitemap.xml
+

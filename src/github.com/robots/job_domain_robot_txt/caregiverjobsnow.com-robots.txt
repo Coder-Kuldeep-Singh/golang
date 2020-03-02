@@ -1,0 +1,12 @@
+# See http://www.robotstxt.org/robotstxt.html for documentation on how to use the robots.txt file
+#
+# To ban all spiders from the entire site uncomment the next two lines:
+# User-agent: *
+# Disallow: /
+
+Sitemap: https://reciprocarejobs.com/sitemap.xml
+Sitemap: https://reciprocarejobs.com/jobs/sitemap.xml
+Sitemap: https://reciprocarejobs.com/blog/sitemap.xml
+Disallow: /caregivers/new
+Disallow: /caregivers/new_2
+Disallow: /caregivers/new_3

@@ -1,0 +1,10 @@
+Sitemap: http://www.grapevinejobs.pl/sitemap.xml
+User-agent: *
+Disallow: /cvs
+Disallow: /images
+Disallow: /administration
+Disallow: /include
+Disallow: /uploads
+Disallow: /css
+Disallow: /Holding
+Disallow: /Common

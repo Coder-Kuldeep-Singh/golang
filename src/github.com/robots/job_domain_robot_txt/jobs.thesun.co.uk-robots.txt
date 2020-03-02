@@ -1,0 +1,23 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+# Sitemap archive
+Sitemap: https://www.thesun.co.uk/sitemap.xml
+
+
+Disallow: /search/
+Disallow: /*?s=*
+Disallow: *&amp;s=*
+Disallow: /vouchercodes/admin
+Disallow: /vouchercodes/action
+Disallow: /vouchercodes/member
+Disallow: /vouchercodes/mvp-admin
+Disallow: /vouchercodes/out/
+Disallow: /vouchercodes/outlink
+Disallow: /vouchercodes/s?q=*
+Disallow: /vouchercodes/offers
+Disallow: /vouchercodes/codes
+Disallow: /vouchercodes/system
+#Voucher Sitemaps
+Sitemap: https://www.thesun.co.uk/vouchercodes/sitemap.xml
+

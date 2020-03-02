@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /old
+Allow: /
+
+Sitemap: http://www.stevejobsthebiography.com/sitemap.xml

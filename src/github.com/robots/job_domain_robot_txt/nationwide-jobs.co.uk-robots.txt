@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.nationwide-jobs.co.uk/sitemap.xml
+
+Disallow: /*?page=
+Disallow: /*?search=
+Disallow: /internal/
+

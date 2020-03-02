@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /Details?VacancyID=*
+
+Sitemap: https://jobsplus.gov.mt/sitemap.xml
+Sitemap: https://jobsplus.gov.mt/images-sitemap.xml

@@ -1,0 +1,20 @@
+User-agent: *
+Disallow: /Microsoft.WindowsAzure.Caching/
+Disallow: /Scripts/
+Disallow: /_controls/
+Disallow: /_configuration/
+Disallow: /_customerrors/
+Disallow: /_integrations/
+Disallow: /_management/
+Disallow: /_rewritten/
+Disallow: /holding/
+Disallow: /statisticincrementer.ashx
+Disallow: /vacancyclickincrementer.ashx
+Disallow: /vacancyviewincrementer.ashx
+Disallow: /preview.aspx
+Disallow: /_feeds/
+Disallow: /jobs/rss/
+Disallow: /jobs/shortlist/
+Crawl-delay: 0.2
+
+Sitemap: https://www.justlondonjobs.com/sitemap.xml

@@ -1,0 +1,72 @@
+User-agent: *
+Disallow: /externalapplication
+Disallow: /emailalert
+Disallow: /Error
+Disallow: /jobs/g8track
+Disallow: /iframe/usershortlist
+Disallow: /iframe/relatedleft
+Disallow: /iframe/similarjobs
+Disallow: /user/addtoshortlist
+Disallow: /blank.htm
+Disallow: /search?*jobDescriptionLanguage=*
+
+User-agent: semantic-visions.com crawler
+Disallow: / 
+ 
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: XoviBot
+Disallow: /
+
+User-agent: YakazBot
+Disallow: /
+ 
+User-agent: msnbot
+Crawl-delay: 30
+Disallow: /externalapplication
+Disallow: /emailalert
+Disallow: /Error
+Disallow: /jobs/g8track
+Disallow: /iframe/usershortlist
+Disallow: /iframe/relatedleft
+Disallow: /iframe/similarjobs
+Disallow: /user/addtoshortlist
+Disallow: /blank.htm
+Disallow: /search
+
+User-agent: bingbot
+Crawl-delay: 30
+Disallow: /externalapplication
+Disallow: /emailalert
+Disallow: /Error
+Disallow: /jobs/g8track
+Disallow: /iframe/usershortlist
+Disallow: /iframe/relatedleft
+Disallow: /iframe/similarjobs
+Disallow: /user/addtoshortlist
+Disallow: /blank.htm
+Disallow: /search
+
+user-agent: AhrefsBot
+disallow: / 
+ 
+User-agent: Yandex
+disallow: / 
+ 
+User-agent: MJ12bot
+Disallow: /
+ 
+User-agent: spbot
+Disallow: /
+ 
+User-agent: Googlebot-Image
+Disallow: /
+ 
+User-agent: Baiduspider
+Disallow: /
+ 
+# this technically isn't valid, since for some reason 
+# sitemap paths must be ABSOLUTE and not relative. 
+# However, we need it to support the .co.uk sitemap
+Sitemap: /sitemap.xml

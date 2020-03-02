@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+Disallow: /recruiter
+Sitemap: https://www.aspendentaljobs.com/sitemap-index.xml

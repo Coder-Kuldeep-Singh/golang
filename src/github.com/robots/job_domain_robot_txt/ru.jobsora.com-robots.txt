@@ -1,0 +1,14 @@
+User-Agent: Mediapartners-Google
+User-Agent: AdsBot-Google-Mobile
+User-Agent: AdsBot-Google
+Allow: /
+
+User-agent: *
+Disallow: /*?
+Disallow: /vacancy
+Disallow: /ajax
+Disallow: */page
+Disallow: /v/search
+Allow: *?v
+Allow: /map/*
+Sitemap: https://ru.jobsora.com/sitemap.xml.gz

@@ -1,0 +1,57 @@
+# This virtual robots.txt file was created by the Virtual Robots.txt WordPress plugin: https://www.wordpress.org/plugins/pc-robotstxt/
+User-agent: *
+#Paths
+Disallow: /feed
+Disallow: /feed/
+Disallow: */feed
+Disallow: */feed/
+Disallow: /cgi-bin/
+Disallow: /comment
+Disallow: /comments
+Disallow: /comments/
+Disallow: */comment
+Disallow: */comments
+Disallow: */comments/
+Disallow: /trackback
+Disallow: /trackback/
+Disallow: */trackback
+Disallow: */trackback/
+Disallow: /wp-admin
+Disallow: /wp-admin/
+Disallow: /wp-content
+Disallow: /wp-content/
+Disallow: /wp-includes
+Disallow: /wp-includes/
+Disallow: /wp-login.php
+Disallow: */wp-admin
+Disallow: */wp-admin/
+Disallow: */wp-content
+Disallow: */wp-content/
+Disallow: */wp-includes
+Disallow: */wp-includes/
+Disallow: */wp-login.php
+Disallow: */page/
+Disallow: */news/page/
+Disallow: */category/
+Disallow: */tag/
+#File types
+Disallow: *.doc$
+Disallow: *.docx$
+Disallow: *.pdf$
+Disallow: *.gif$
+Disallow: *.jpg$
+Disallow: *.pdf$
+Disallow: *.png$
+Disallow: *.ppt$
+Disallow: *.pptx$
+Disallow: *.xls$
+Disallow: *.xlsx$
+#Site specific rules
+Disallow: /adp/
+Disallow: /archived-adp/
+Disallow: /employmentservices/
+Disallow: /orientation/
+Disallow: /pdf/
+Disallow: /toolkit/
+#Sitemaps
+Sitemap: https://jobs.georgiasouthern.edu/sitemap.xml

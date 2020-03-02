@@ -1,0 +1,6 @@
+Sitemap: https://www.stjobs.sg/sitemaps/sitemap-index.xml
+User-agent: *
+Disallow: /admin/
+Disallow: /api/
+Disallow: /template/
+Disallow: /mob/

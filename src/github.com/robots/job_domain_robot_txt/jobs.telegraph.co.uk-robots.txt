@@ -1,0 +1,52 @@
+
+# Robot exclusion file
+User-agent: *
+
+# The following pages require registration and login
+
+Disallow: /session-img/
+Disallow: /invalid-request/
+Disallow: /document/
+Disallow: /apply-profile/
+Disallow: /en-us/session-img/
+Disallow: /en-us/invalid-request/
+Disallow: /en-us/document/
+Disallow: /en-us/apply-profile/
+
+Disallow: */searchjobs/*
+Disallow: */jobsrss/*
+Disallow: /jobsrss/*
+Disallow: */jbequicksignup/*
+Disallow: /your-jobs/*
+Disallow: /external-redirect-registration* 
+Disallow: */emailjob/*
+
+Disallow: /searchjobs/
+Disallow: /alert/
+Disallow: /newalert/
+Disallow: /editalert/
+Disallow: /your-jobs/
+Disallow: /logoff/
+Disallow: /logon/
+Disallow: /register/
+Disallow: /apply/
+
+Disallow: /en-us/searchjobs/
+Disallow: /en-us/alert/
+Disallow: /en-us/newalert/
+Disallow: /en-us/editalert/
+Disallow: /en-us/your-jobs/
+Disallow: /en-us/logoff/
+Disallow: /en-us/logon/
+Disallow: /en-us/register/
+Disallow: /en-us/apply/
+
+Disallow: /profile/
+
+Disallow: /jobs/*/*/*/*/
+Disallow: /en-us/jobs/*/*/*/*/
+
+
+
+Sitemap: https://jobs.telegraph.co.uk/sitemapindex.xml
+

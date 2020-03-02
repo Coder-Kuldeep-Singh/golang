@@ -1,0 +1,11 @@
+# www.topjobs.ch
+
+User-agent: *
+Disallow: /api/
+Disallow: /de/_uploader
+Disallow: /en/_uploader
+Disallow: /fr/_uploader
+Disallow: /de/profil
+Disallow: /en/profile
+Disallow: /fr/profil
+Sitemap: https://topjobs.ch/sitemaps/sitemap.xml

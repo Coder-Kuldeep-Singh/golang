@@ -1,0 +1,9 @@
+User-agent: *
+sitemap: https://www.remotelyawesomejobs.com/static/sitemap.xml.gz
+
+User-agent: Yandex
+Crawl-delay: 5
+
+User-agent: BLEXBot
+Crawl-delay: 5
+

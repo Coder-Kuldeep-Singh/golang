@@ -1,0 +1,19 @@
+# robots.txt for gropag-jobs.ch
+User-agent: Googlebot
+User-agent: BingBot
+User-agent: DuckDuckBot
+Allow: /.cm4all/mediadb/
+Allow: /.cm4all/sysdb/
+Allow: /.cm4all/uproc.php/
+Disallow: /.cm4all/
+Disallow: *meta_robots-noindex
+
+User-agent: *
+Crawl-delay: 10
+Allow: /.cm4all/mediadb/
+Allow: /.cm4all/sysdb/
+Allow: /.cm4all/uproc.php/
+Disallow: /.cm4all/
+Disallow: *meta_robots-noindex
+
+Sitemap: https://gropag-jobs.ch/sitemap.xml

@@ -1,0 +1,10 @@
+User-Agent: *
+allow: /users/register_jobseeker
+allow: /users/jobseeker_login
+allow: /jobs/advance_search
+allow: /users/register_employer
+allow: /users/employer_login
+allow: /users/employer_login?ref=employer/employer_post_jobs
+allow: /users/employer_login?ref=employer/find_job_seekers
+allow: /blog
+allow:sitemap.xml

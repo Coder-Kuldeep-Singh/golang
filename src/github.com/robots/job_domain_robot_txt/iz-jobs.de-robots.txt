@@ -1,0 +1,26 @@
+Sitemap: https://www.iz-jobs.de/sitemap/sitemap.xml
+User-Agent: *
+Disallow: show_oben.php
+Disallow: /arbeitgeber/useradmin
+Disallow: /stellenmarkt/gesuch/useradmin
+Disallow: /checkcookies.php
+Disallow: /arbeitgeber/angebot/stellenanzeige/layoutbeispiele/vorschau_standard.html
+Disallow: /arbeitgeber/angebot/stellenanzeige/layoutbeispiele/vorschau_modern.html
+Disallow: /arbeitgeber/angebot/stellenanzeige/layoutbeispiele/vorschau_klassik.html
+Disallow: /vorschau/
+Disallow: /bewerber/anmelden/pages/editsetdatabranchenajax.php
+Disallow: /bewerber/suche/detailsuche/jobmail.php
+Disallow: /bewerber/suche/detailsuche/indexdeldatabranchenajax.php
+Disallow: /bewerber/suche/detailsuche/indexsetdatabranchenajax.php
+Disallow: /arbeitgeber/pages/tellme.php
+Disallow: /bewerber/pages/tellme.php
+Disallow: /allgemeinetools/changelang.php
+Disallow: /bewerber/suche/detailsuche/show_oben.php
+Disallow: /bewerber/suche/umkreissuche/show_oben.php
+Disallow: /bewerber/suche/volltextsuche/show_oben.php
+Disallow: /bewerber/suche/schnellsuche/show_oben.php
+Disallow: /bewerber/suche/unternehmen/show_oben.php
+Disallow: /stellenmarkt/zaehlergif/
+
+User-agent: SemrushBot
+Disallow: /

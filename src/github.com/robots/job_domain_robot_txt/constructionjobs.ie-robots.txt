@@ -1,0 +1,26 @@
+User-agent: *   # directed to all spiders, 
+Disallow: /private_reports
+Disallow: /cgi-bin
+Disallow: /php
+Disallow: /php/cv_db
+Disallow: /demo
+Disallow: /build-online
+Disallow: /admin
+Disallow: /employer
+Disallow: /prof/php
+Disallow: /trades/php
+Disallow: /includes
+Disallow: /feed
+Disallow: /members
+Disallow: /images
+Disallow: /js
+Disallow: /home_ads.php
+Disallow: /CO_LISTINGS
+Disallow: *PROFILELB*
+
+Sitemap: http://www.constructionjobs.ie/sitemap.xml.php
+
+
+User-agent: OmniExplorer_Bot/1
+User-agent: OmniExplorer_Bot
+Disallow: /

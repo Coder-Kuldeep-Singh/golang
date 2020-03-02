@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /?display=wide
+Allow: /wp-content/uploads
+Allow: /ads.txt
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /readme.html
+Disallow: /refer/
+
+Sitemap: http://www.afdljobs.com/sitemap_index.xml
+Sitemap: http://www.afdljobs.com/post-sitemap.xml
+Sitemap: http://www.afdljobs.com/page-sitemap.xml
+Sitemap: http://www.afdljobs.com/noo_job-sitemap.xml
+Sitemap: http://www.afdljobs.com/noo_resume-sitemap.xml
+Sitemap: http://www.afdljobs.com/noo_company-sitemap.xml
+Sitemap: http://www.afdljobs.com/product-sitemap.xml
+Sitemap: http://www.afdljobs.com/category-sitemap.xml
+Sitemap: http://www.afdljobs.com/post_tag-sitemap.xml
+Sitemap: http://www.afdljobs.com/job_category-sitemap.xml
+Sitemap: http://www.afdljobs.com/job_type-sitemap.xml
+Sitemap: http://www.afdljobs.com/job_tag-sitemap.xml
+Sitemap: http://www.afdljobs.com/job_location-sitemap.xml

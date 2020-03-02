@@ -1,0 +1,7 @@
+<pre style="word-wrap: break-word;white-space: pre-wrap;">
+#Sitemap Reference
+Sitemap:https://veteranjobsmission.com/sitemap.xml
+User-agent: *
+Allow: /
+Disallow: /search
+</pre>

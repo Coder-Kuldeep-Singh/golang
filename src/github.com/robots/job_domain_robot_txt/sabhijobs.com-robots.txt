@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Allow: /feed/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /cgi-bin/
+Disallow: /wp-admin/
+Disallow: /refer/
+Disallow: /notification/
+Disallow: /links/
+
+Sitemap: https://www.sabhijobs.com/sitemap.xml

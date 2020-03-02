@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /search/
+Disallow: /private/
+Disallow: /workarea/
+Disallow: /widgets/
+
+Sitemap: https://www.nursingjobs.com/sitemap_index.xml
+Sitemap: https://www.nursingjobs.com/sitemap_index_mobile.xml

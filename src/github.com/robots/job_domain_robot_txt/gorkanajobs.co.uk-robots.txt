@@ -1,0 +1,25 @@
+
+# Robot exclusion file
+User-agent: *
+
+# The following pages require registration and login
+
+Disallow: /session-img/
+Disallow: /invalid-request/
+Disallow: /document/
+Disallow: /en-us/session-img/
+Disallow: /en-us/invalid-request/
+Disallow: /en-us/document/
+
+Disallow: */searchjobs/*
+Disallow: */jobsrss/*
+Disallow: /jobsrss/*
+Disallow: */jbequicksignup/*
+Disallow: /your-jobs/*
+Disallow: /external-redirect-registration* 
+Disallow: */emailjob/*
+
+
+
+Sitemap: https://www.cisionjobs.co.uk/sitemapindex.xml
+

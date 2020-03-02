@@ -1,0 +1,7 @@
+User-agent: *
+Sitemap: https://staffquickjobs.com/sitemap.xml
+
+Allow: /
+Allow: /wp-admin/admin-ajax.php
+Disallow: /wp-admin/
+Disallow: /wp-includes/

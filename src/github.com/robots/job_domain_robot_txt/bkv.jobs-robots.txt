@@ -1,0 +1,12 @@
+Sitemap: https://bkv.jobs/nl/xml-sitemap
+Sitemap: https://bkv.jobs/nlz/xml-sitemap
+Sitemap: https://bkv.jobs/de/xml-sitemap
+Sitemap: https://bkv.jobs/be/xml-sitemap
+Sitemap: https://bkv.jobs/se/xml-sitemap
+Sitemap: https://bkv.jobs/en/xml-sitemap
+
+User-Agent: *
+Disallow:
+
+User-Agent: E-crawler
+Disallow:

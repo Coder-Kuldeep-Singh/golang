@@ -1,0 +1,7 @@
+User-Agent: *
+Disallow: /wpdata/wp-content/uploads/
+Disallow: /wpdata/wp-content/plugins/
+Disallow: /wpdata/wp-admin/
+Disallow: /embed/
+
+Sitemap: https://jobsinjapan.com/sitemap_index.xml

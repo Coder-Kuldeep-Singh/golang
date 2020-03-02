@@ -1,0 +1,38 @@
+
+Sitemap: https://jobs-im-suedwesten.de/sitemap.xml
+
+User-agent: Mediapartners-Google
+Disallow:
+
+User-agent: zoomRank/2.0
+Disallow: /
+User-agent: zoomRank
+Disallow: /
+
+User-agent: sistrix
+Disallow: /
+
+User-agent: Googlebot-News
+Disallow: /
+
+User-agent: *
+Disallow: /*?*
+Disallow: /clickout
+Disallow: */2823228/
+Disallow: /drucken/*
+Disallow: /suchergebnisse.atom?*
+Allow: /*sitemap*?*
+Allow: /css/*
+Allow: /js/*
+Allow: /images/*
+Allow: /bundles/*
+Allow: /fonts/*
+Allow: /vendor/*
+Allow: /stellenangebot/*
+
+User-agent: googlebot
+User-agent: bingbot
+Disallow: /clickout
+Disallow: */2823228/
+Disallow: /drucken/*
+Disallow: /suchergebnisse.atom?*

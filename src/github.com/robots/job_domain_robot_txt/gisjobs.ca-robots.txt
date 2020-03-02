@@ -1,0 +1,7 @@
+Sitemap: https://gisjobs.ca/sitemap.xml
+Sitemap: https://gisjobs.ca/news-sitemap.xml
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+Sitemap: https://gisjobs.ca/sitemap_index.xml

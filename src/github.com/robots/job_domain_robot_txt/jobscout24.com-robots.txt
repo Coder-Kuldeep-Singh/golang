@@ -1,0 +1,17 @@
+User-agent: *
+Disallow: /apply
+Disallow: /resume/new?
+Disallow: /user/register?
+Disallow: /user/login?
+Disallow: /recommended
+Disallow: /share
+Disallow: /ecommerce
+Disallow: /ECommerce
+Disallow: /suche?
+Disallow: /unternehmen
+
+# 2019-01-30 commented the Disallow /jdp line to open jobs
+# Disallow: /jdp
+
+Disallow: /jobseeker/jobs/recommendedjobs.aspx
+Sitemap: https://www.jobs.de/sitemapindex.xml

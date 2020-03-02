@@ -1,0 +1,8 @@
+User-agent: *
+
+Disallow: /cr/
+Disallow: /cr_data/
+Disallow: /winemedia.php
+Disallow: /distributor.php
+
+Sitemap: https://www.winejobsonline.com/sitemap.xml

@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://helicopterjobs.justhelicopters.com/sitemap.xml

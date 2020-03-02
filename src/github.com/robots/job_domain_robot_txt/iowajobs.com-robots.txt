@@ -1,0 +1,20 @@
+User-agent: yacybot
+Disallow: /
+
+User-agent: turnitinbot
+Disallow: /
+
+User-agent: Exabot
+Disallow: /
+
+User-agent: panscient.com
+Disallow: /
+
+User-agent: OOZBOT
+Disallow: /
+
+User-agent: *
+Crawl-delay: 5
+
+Sitemap: https://jobs.accessdubuque.com/sitemap.xml
+Sitemap: https://www.accessdubuque.com/sitemap.xml

@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /*?a=*
+Disallow: /images/*
+Disallow: /docs/*
+Disallow: /site_elements/*
+Disallow: /_designs/*
+Disallow: /nested*
+Disallow: /new_pages*
+Disallow: /international/agentportal*
+Sitemap: http://<!--#echo var="SERVER_NAME" -->/site_elements/sitemap.xml

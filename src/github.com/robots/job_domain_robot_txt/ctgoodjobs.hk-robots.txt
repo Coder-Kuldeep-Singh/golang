@@ -1,0 +1,50 @@
+# Robots.txt file for ctgoodjobs.com
+Sitemap: https://www.ctgoodjobs.hk/sitemap.xml
+User-agent: JoobleBot
+Disallow: /
+
+User-agent: trovitBot
+Disallow: /
+
+User-agent: YisouSpider  
+Disallow: /
+
+User-agent: Jobrapido
+Disallow: /
+
+User-agent: JobBot
+Disallow: /
+
+User-agent: Mozilla/5.0 (compatible; Jobrapido/1.1; +http://www.jobrapido.com)
+Disallow: /
+
+User-agent: "Mozilla/5.0 (compatible; Jobrapido/1.1; +http://www.jobrapido.com)"
+Disallow: /
+
+User-agent: *
+Disallow: /ajax/
+Disallow: /album/
+Disallow: /demo/
+Disallow: /english/hr_account/
+Disallow: /english/hr_cand_search/
+Disallow: /english/hr_mgn_sys/
+Disallow: /english/hr_account/
+Disallow: /english/pom/
+Disallow: /office/
+Disallow: /images/
+Disallow: /include/
+Disallow: /english/resume/
+Disallow: /english/resume_builder/
+Disallow: /english/centre/cream/
+Disallow: /english/centre/career_path/
+Disallow: /english/employers/mgmt/
+Disallow: /english/notification/
+Disallow: /93858332/
+Disallow: /tips/cv_doctor.asp
+Disallow: /english/centre/search_firms/firm_list.asp
+Disallow: /english/article/include/
+Disallow: /rss/
+Allow: /
+Allow: /images/company_banner/
+Allow: /images/company_profile/
+Allow: /images/company/

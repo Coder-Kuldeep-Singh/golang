@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /pro/smJobs
+Allow: /pro/views/*
+Allow: /amazon/*
+Allow: /sitemap.xml
+Sitemap: http://apply.smjobs.com/sitemap.xml

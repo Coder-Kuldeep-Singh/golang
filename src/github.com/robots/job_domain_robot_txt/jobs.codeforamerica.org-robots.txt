@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /user_feedbacks/
+
+User-agent: Dow Jones Searchbot
+Disallow: /
+
+Sitemap: https://jobs.codeforamerica.org/sitemap.xml.gz

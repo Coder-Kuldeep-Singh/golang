@@ -1,0 +1,11 @@
+#  robots.txt for https://cdldriverjobs.com/
+#  robots.txt for https://cdldriverjobs.com/
+
+User-agent: *
+Disallow: /jsp/administrator/
+
+
+User-Agent: Googlebot
+Allow: .js
+Allow: .css
+Sitemap: https://cdldriverjobs.com/sitemap.xml

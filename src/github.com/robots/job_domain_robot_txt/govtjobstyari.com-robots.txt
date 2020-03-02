@@ -1,0 +1,3 @@
+Sitemap: https://govtjobstyari.com/sitemap.xml
+User-agent: *
+Allow: /

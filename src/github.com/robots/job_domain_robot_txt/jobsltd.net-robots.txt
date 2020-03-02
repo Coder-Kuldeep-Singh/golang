@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://vistaprint1028.vpweb.com/sitemap.xml

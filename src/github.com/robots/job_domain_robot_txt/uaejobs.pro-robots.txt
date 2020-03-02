@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /templates/images/player.swf
+Host: uaejobs.pro
+Sitemap: http://uaejobs.pro/sitemap.xml

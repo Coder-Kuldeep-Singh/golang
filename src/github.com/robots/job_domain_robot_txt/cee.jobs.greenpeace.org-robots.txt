@@ -1,0 +1,3 @@
+  User-Agent: *
+  Disallow: /v/
+  Sitemap: http://cee.jobs.greenpeace.org/sitemap

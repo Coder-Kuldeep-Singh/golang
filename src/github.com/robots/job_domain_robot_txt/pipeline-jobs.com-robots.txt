@@ -1,0 +1,5 @@
+Sitemap: https://pipeline-jobs.com/sitemap.xml
+Sitemap: https://pipeline-jobs.com/news-sitemap.xml
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php

@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /jobseekers/
+Disallow: /jobseekers?*
+Disallow: /sign-up/
+Disallow: /sign-up?*
+Disallow: /Rss-Feed/
+Disallow: /jobseekers/login?*
+Disallow: /job-search-results/
+Sitemap: https://www.aocjobs.com/sitemap-index.xml

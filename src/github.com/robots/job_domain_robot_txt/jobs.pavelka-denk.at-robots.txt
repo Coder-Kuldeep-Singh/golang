@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /icalendar/
+Allow: /careersNEW
+Sitemap: https://jobs.pavelka-denk.at/careersNEW/sitemap.xml
+Allow: /SAP
+Sitemap: http://pd.avature.net/SAP/sitemap.xml
+Allow: /SAPABAP
+Sitemap: http://pd.avature.net/SAPABAP/sitemap.xml
+Allow: /

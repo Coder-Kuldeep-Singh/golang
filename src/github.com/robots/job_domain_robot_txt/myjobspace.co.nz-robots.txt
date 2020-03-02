@@ -1,0 +1,5 @@
+User-agent: *
+
+Disallow:/files/files/
+Disallow:/index.php
+Sitemap: https://www.myjobspace.co.nz/sitemap.xml

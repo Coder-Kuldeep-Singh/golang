@@ -1,0 +1,12 @@
+Sitemap: https://www.eesforjobs.com/sitemap.xml
+
+User-agent: NerdyBot
+Disallow: /
+
+User-agent: *
+Disallow: /ajax/
+Disallow: /apps/
+Disallow: /home-old.html
+Disallow: /contact-us-old.html
+Disallow: /careers-at-ees-old.html
+Disallow: /executive-team-old.html

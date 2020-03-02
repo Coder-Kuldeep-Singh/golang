@@ -1,0 +1,26 @@
+User-agent: *
+Disallow: /404/
+Disallow: /admin/
+Disallow: /advertise/
+Disallow: /ajax/*
+Disallow: /blog/wp-admin/
+Disallow: /contact/
+Disallow: /maintenance/
+Disallow: /out/
+Disallow: /privacy/
+Disallow: /terms-of-service/
+Disallow: /facebook/*
+Disallow: /twitter/*
+Disallow: /newsletter-alerts
+Disallow: /jobs-advanced-search?*
+Disallow: /trucking-companies?*
+Disallow: /direct/landing
+Disallow: /logout
+Disallow: /apply?*
+
+User-agent: Rogerbot
+Crawl-limit: 2
+
+Sitemap: https://www.alltruckjobs.com/sitemap
+
+crawl-delay: 10

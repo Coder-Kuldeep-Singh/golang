@@ -1,0 +1,11 @@
+User-agent: SemrushBot
+User-agent: SemrushBot-SA
+User-agent: MJ12bot
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: *
+Disallow: */jobs/*/out
+Disallow:
+Sitemap: https://www.heyjobs.co/sitemap.xml
+Sitemap: https://www.heyjobs.co/gfj_sitemap.xml

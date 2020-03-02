@@ -1,0 +1,51 @@
+User-agent: *
+Sitemap: http://jobs.physicstoday.org/sitemap-host.xml
+Disallow: /apps/
+Disallow: /cmsx/
+Disallow: /components/
+Disallow: /CustomTags/
+Disallow: /documents/
+Disallow: /eMentor/
+Disallow: /employers/association/
+Disallow: /employers/fe/
+Disallow: /employers/featured/
+Disallow: /employers/premium/
+Disallow: /employers/premium-employer/
+Disallow: /employers/requestResetPassword/
+Disallow: /employers/resetPassword/
+Disallow: /fusionCharts/
+Disallow: /help/
+Disallow: /hr/
+Disallow: /jobs/alerts?src* 
+Disallow: /jobseekers/events/
+Disallow: /jobseekers/messages/
+Disallow: /jobseekers/social-connector/
+Disallow: /login/
+Disallow: /logout/
+Disallow: /messages/
+Disallow: /nsutilities/
+Disallow: /person/
+Disallow: /purchase/
+Disallow: /scribble/
+Disallow: /jobs/email/
+Disallow: /jobs/saved/
+Disallow: /searchv3/
+Disallow: /searchv4/
+Disallow: /services/
+Disallow: /sn/
+Disallow: /utilities/
+
+User-agent: ia_archiver
+Disallow: /
+
+User-Agent: OmniExplorer_Bot
+Disallow: /
+
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: 008
+Disallow: /
+
+user-agent: AhrefsBot
+Disallow: /

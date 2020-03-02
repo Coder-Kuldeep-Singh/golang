@@ -1,0 +1,2 @@
+Sitemap: https://jobs.livecareer.com/sitemap-index.xml
+User-agent: *

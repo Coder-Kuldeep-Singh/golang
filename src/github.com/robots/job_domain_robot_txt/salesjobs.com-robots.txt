@@ -1,0 +1,40 @@
+#User-agent: Baiduspider
+#Disallow: /
+
+#User-agent: Yandex
+#Disallow: /
+
+User-agent: 008
+Disallow: /
+
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: EasouSpider 
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: Exabot
+Disallow: /
+ 
+User-agent: *
+disallow: /findajob/signup
+disallow: /findajob/members
+disallow: /findajob/login
+disallow: /login
+disallow: /postajob/signup
+disallow: /postajob/members
+disallow: *search=SEARCH
+disallow: *new_sort_field
+disallow: *search_params
+disallow: *jobSearchResults
+disallow: /pthru
+disallow: /jobs/titles.html
+
+
+Sitemap: https://www.salesjobs.com/sitemap.xml

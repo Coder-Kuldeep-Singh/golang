@@ -1,0 +1,8 @@
+User-agent: *
+
+Disallow: */page*.php$
+Disallow: /map*.php$
+Disallow: /sexdating.php
+
+Host: govtjobs2018.in
+Sitemap: https://govtjobs2018.in/sitemap.php

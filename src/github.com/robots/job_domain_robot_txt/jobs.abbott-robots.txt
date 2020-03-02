@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: */phenomtrack.min.js
+Disallow: */jobcart
+
+Sitemap: https://www.jobs.abbott/global/fr/sitemap.xml
+Sitemap: https://www.jobs.abbott/us/en/sitemap.xml
+Sitemap: https://www.jobs.abbott/global/es/sitemap.xml
+Sitemap: https://www.jobs.abbott/global/zh/sitemap.xml
+Sitemap: https://www.jobs.abbott/global/de/sitemap.xml

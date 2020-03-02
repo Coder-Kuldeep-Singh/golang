@@ -1,0 +1,3 @@
+Sitemap: http://www.bouwjobs.nl/sitemap.xml
+
+User-agent: *

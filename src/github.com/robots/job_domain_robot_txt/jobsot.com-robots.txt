@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /common/job_apply.php
+Disallow: /common/click.php
+Disallow: /seeker/social_login.php
+Sitemap: https://www.jobsot.com/sitemap.xml
+
+User-agent: AhrefsBot 
+Crawl-Delay: 60 

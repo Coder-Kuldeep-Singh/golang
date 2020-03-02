@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /home.php
+Disallow: /*.js
+Sitemap:http://www.domain/data/sitemap/www.domain.html
+Sitemap:http://www.domain/data/sitemap/www.domain.xml

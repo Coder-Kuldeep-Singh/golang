@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /icalendar/
+Allow: /kurzbewerbungbus
+Sitemap: http://dbgroup.avature.net/kurzbewerbungbus/sitemap.xml
+Allow: /sicherheit
+Sitemap: http://dbgroup.avature.net/sicherheit/sitemap.xml
+Disallow: /

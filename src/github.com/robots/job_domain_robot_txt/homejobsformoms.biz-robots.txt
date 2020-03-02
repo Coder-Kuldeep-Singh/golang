@@ -1,0 +1,12 @@
+User-agent: Riddler
+Disallow: /
+
+User-agent: ltx71 - (http://ltx71.com/)
+Disallow: /
+
+User-agent: Riddler
+Disallow: /
+
+User-agent: *
+Disallow: 
+Sitemap: http://homejobsformoms.biz/sitemap.xml

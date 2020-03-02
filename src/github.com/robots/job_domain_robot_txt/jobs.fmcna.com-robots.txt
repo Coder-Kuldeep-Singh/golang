@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: https://fmcna.com/sitemap.xml*
+Disallow: /search-jobs/*

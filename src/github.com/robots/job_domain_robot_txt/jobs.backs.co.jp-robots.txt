@@ -1,0 +1,3 @@
+User-Agent:*
+
+Sitemap:http://jobs.backs.co.jp/sitemap.xml

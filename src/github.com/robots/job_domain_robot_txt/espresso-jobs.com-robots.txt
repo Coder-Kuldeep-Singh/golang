@@ -1,0 +1,19 @@
+User-agent: *
+
+Disallow: /migrate/
+Disallow: /system/
+Disallow: /temp/
+Disallow: /templates/
+Disallow: /admin/
+Disallow: /files/files/
+Disallow: /cron/
+Disallow: /languages/
+
+Allow: /system/ext/ej/
+Allow: /templates/EspressoJobs/main/images/
+Allow: /system/ext/jquery/
+Allow: /system/ext/kcfinder/upload/images/
+Allow: /templates/_system/common_js/
+
+Sitemap: https://espresso-jobs.com/conseils-carriere/sitemap_index.xml
+Sitemap: https://espresso-jobs.com/conseils-carriere/sitemap1.xml

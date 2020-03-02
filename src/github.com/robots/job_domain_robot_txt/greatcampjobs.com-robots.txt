@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /admin-assets
+Disallow: /js
+Disallow: /img
+Disallow: /css
+Disallow: /modules
+
+
+Allow: /
+
+Sitemap: https://www.greatcampjobs.com/sitemap.xml

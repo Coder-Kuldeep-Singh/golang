@@ -1,0 +1,6 @@
+User-Agent: *
+Disallow: /admin/
+Disallow: /Admin/
+Disallow: /ADMIN/
+Disallow: /*.asmx
+Sitemap: https://www.flexjobs.com/sitemap-index.xml

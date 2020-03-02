@@ -1,0 +1,8 @@
+Sitemap: https://www.alaskatourjobs.com/sitemap_index.xml
+
+User-agent: *
+Disallow: /recruiting-events/[0-9]
+Disallow: /tag/
+Disallow: /*/comment
+Disallow: /events/
+Disallow: /venue/

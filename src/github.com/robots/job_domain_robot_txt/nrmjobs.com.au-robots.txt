@@ -1,0 +1,3 @@
+Sitemap: https://nrmjobs.com.au/sitemap.xml
+User-agent: *
+Disallow:

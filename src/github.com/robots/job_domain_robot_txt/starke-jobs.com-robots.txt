@@ -1,0 +1,9 @@
+User-agent: *
+Allow: / 
+Disallow: /member/
+Disallow: /bewerbungen/
+User-Agent: Googlebot-Image
+Allow: / 
+Disallow: /member/ 
+Disallow: /bewerbungen/
+Sitemap: https://starke-jobs.com/sitemap.xml

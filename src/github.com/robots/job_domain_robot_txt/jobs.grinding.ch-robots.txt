@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /*/*/*/apply
+
+Sitemap: https://jobs.grinding.ch/sitemap.xml.gz

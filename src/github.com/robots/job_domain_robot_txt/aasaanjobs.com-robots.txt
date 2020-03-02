@@ -1,0 +1,12 @@
+User-Agent: *
+Allow: /
+Disallow: /candidate/ 
+Disallow: /employer/refund/ 
+Disallow: /employer/lead/ 
+Allow:/.well-known/assetlinks.json 
+Disallow: /*?* 
+Disallow: /candidate-zone/ 
+Disallow: /employer-zone/ 
+Disallow: /verify/ 
+Disallow: /password/ 
+Sitemap: https://www.aasaanjobs.com/sitemap.xml 

@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /netx-assets/
+Disallow: /hire-now/ # PJW-3074
+
+Sitemap: https://poachedjobs.com/sitemap/

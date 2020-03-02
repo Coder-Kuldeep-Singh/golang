@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /view/*/entry/*
+Disallow: /*/entry/*
+Allow: /wp-admin/admin-ajax.php
+
+## Enable robots.txt rules for all crawlers
+User-agent: *
+Sitemap: https://captainjobs.de/sitemap_index.xml
+Sitemap: http://captainjobs.de/sitemap.xml
+Sitemap: http://captainjobs.de/sitemap_4.xml
+Sitemap: http://captainjobs.de/sitemap_5.xml
+Sitemap: http://captainjobs.de/sitemap_3.xml
+Sitemap: http://captainjobs.de/sitemap_1.xml
+Sitemap: http://captainjobs.de/sitemap_2.xml

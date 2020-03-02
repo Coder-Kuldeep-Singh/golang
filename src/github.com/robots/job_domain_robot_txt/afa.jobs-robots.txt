@@ -1,0 +1,28 @@
+# robots.txt for http://www.afa.jobs/
+
+User-agent:*
+Disallow:/admin/
+
+# Ein Spambot, der alle paar sekunden auf die betroffene Seite zugreift
+User-agent: BLEXBot
+Disallow: /
+
+# Ein Spambot, der ohne compressed-Header zugreift schliessen wir aus
+User-agent: SEOkicks
+Disallow: /
+User-agent: SEOkicks-Robot
+Disallow: / 
+
+# Ein Spambot, der in allen URLs den letzten Teil mit /index.html ersetzt -&gt; Log errors
+User-agent: MJ12bot
+Disallow: /
+User-agent: MJ12bot/v*
+Disallow: /
+User-agent: MJ12bot/v1.4.0
+Disallow: /
+User-agent: MJ12bot/v1.4.3
+Disallow: /
+User-agent: MJ12bot/v1.4.5
+Disallow: /
+
+Sitemap: http://www.afa.jobs/myinterfaces/cms/googlesitemap-overview.xml

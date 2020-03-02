@@ -1,0 +1,26 @@
+# Robots.txt file for id.jobsdb.com
+# URLs are case sensitive!! 
+Sitemap: https://id.jobsdb.com/sitemap.xml
+User-agent: trovitBot
+Disallow: /
+
+# LinkedIn Bot
+User-agent: LinkedInBot
+Disallow: /
+
+User-agent: *
+Disallow: /QuickApply.asp
+Disallow: /Login.asp
+Disallow: /OutsideJobsDB.asp
+Disallow: /ASP/
+Disallow: /asp/
+Disallow: /TW/
+Disallow: /tw/
+Disallow: /V6/
+Disallow: /v6/
+Disallow: /V6HTML/
+Disallow: /v6html/
+Disallow: /NonMemberApplication?
+Disallow: /nonmemberapplication?
+Disallow: /search/viewjobinvitation
+Allow: /

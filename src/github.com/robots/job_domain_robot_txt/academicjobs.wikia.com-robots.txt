@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /api.php?
+Allow: /api.php?action=
+Allow: /api.php?*&amp;action=
+Allow: /wiki/Special:CreateNewWiki
+Allow: /wiki/Special:CreateWiki
+Allow: /wiki/Special:Forum
+Allow: /wiki/Special:Forums
+Allow: /wiki/Special:Sitemap
+Allow: /wiki/Special:Videos
+Allow: /wiki/Special:Video
+Sitemap: https://academicjobs.wikia.org/sitemap-newsitemapxml-index.xml

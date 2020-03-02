@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /jobs/preview/
+Disallow: /companies/submit
+Disallow: /jobs/submit
+
+Sitemap: https://30hourjobs.com/sitemap.xml

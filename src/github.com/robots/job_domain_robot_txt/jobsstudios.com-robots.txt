@@ -1,0 +1,2 @@
+Sitemap: https://www.jobsstudios.com/sitemap.xml
+User-agent: *

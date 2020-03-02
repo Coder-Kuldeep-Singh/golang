@@ -1,0 +1,13 @@
+User-agent: oodlebot
+Disallow: /
+
+User-agent: Clickagy Intelligence Bot v2
+Disallow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: ksl-crawler
+Allow: /
+
+Sitemap: https://jobs.ksl.com/sitemap-index.xml

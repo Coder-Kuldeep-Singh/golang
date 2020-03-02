@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: */phenomtrack.min.js
+Disallow: */jobcart
+
+Sitemap: https://jobs.msd.com/gb/en/sitemap.xml
+Sitemap: https://jobs.msd.com/cn/zh/sitemap.xml
+Sitemap: https://jobs.msd.com/jp/ja/sitemap.xml

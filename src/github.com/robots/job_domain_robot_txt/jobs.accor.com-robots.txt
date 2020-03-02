@@ -1,0 +1,15 @@
+User-agent: *
+Sitemap: https://jobs.accor.com/sitemap.xml
+Disallow: /Admin/
+Disallow: /Pages/Job/OfferDetailPDF.aspx
+Disallow: /Pages/Popin/LoginPostulate.aspx
+Disallow: /*.document
+Disallow: /*.httpautocomplete
+
+Disallow: /Pages/Job/SendOffer.aspx*
+Disallow: /Pages/Job/SearchResults.aspx*
+Disallow: /RedirectToInes.aspx*
+Disallow: /RedirectTo.aspx*
+
+Disallow: /Pages/Applicant/*
+Disallow: /Pages/Popin/*

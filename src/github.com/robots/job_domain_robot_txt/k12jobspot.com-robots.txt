@@ -1,0 +1,2 @@
+Sitemap: http://www.k12jobspot.com/sitemap/sitemap-index.xml
+User-agent: *

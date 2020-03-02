@@ -1,0 +1,3 @@
+  User-Agent: *
+  Disallow: /v/
+  Sitemap: http://jobs.mapillary.com/sitemap

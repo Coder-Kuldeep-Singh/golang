@@ -1,0 +1,13 @@
+Sitemap: https://www.jobskin.co.uk/sitemap.xml
+User-agent: *
+Allow: /common/fonts/
+Allow: /common/fonts.css
+Allow: /common/main.css
+Allow: /common/main.js
+Allow: /common/ads-statistics.html
+Disallow: /cc/
+Disallow: /common/
+Disallow: /option-description
+Disallow: /options-description
+Disallow: /option-content
+Allow: /common/modules/private/dynamic-navigation/

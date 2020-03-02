@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /profile/
+Sitemap: https://gamejobs.global/sitemap.xml

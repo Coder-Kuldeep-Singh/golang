@@ -1,0 +1,5 @@
+Sitemap: https://libertycon.org/sitemap.xml
+Sitemap: https://libertycon.org/news-sitemap.xml
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php

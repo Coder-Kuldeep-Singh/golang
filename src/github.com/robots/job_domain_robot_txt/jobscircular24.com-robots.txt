@@ -1,0 +1,3 @@
+sitemap: https://www.jobscircular24.com/sitemap_index.xml
+User-agent: *
+Disallow:

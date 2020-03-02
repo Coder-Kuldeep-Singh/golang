@@ -1,0 +1,7 @@
+User-Agent: *
+Disallow: 
+Disallow: /tweet_maps/list-view
+Disallow: /tweet_maps/get-markers
+Disallow: /tweet_maps/info-window
+
+Sitemap: http://www.careerarc.com/sitemap_index.xml

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /*
+Disallow: /sample-inventory.html
+Disallow: /logout.html
+Disallow: /autologin.html
+
+Sitemap: https://m.timesjobs.com/sitemap.xml

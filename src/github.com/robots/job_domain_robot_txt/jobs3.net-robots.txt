@@ -1,0 +1,3 @@
+User-agent: * 
+Disallow: /comments/feed
+Sitemap: https://www.jobs3.net/sitemap.xml

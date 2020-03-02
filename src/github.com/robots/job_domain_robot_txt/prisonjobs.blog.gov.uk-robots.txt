@@ -1,0 +1,8 @@
+# XML Sitemap &amp; Google News version 5.2.7 - https://status301.net/wordpress-plugins/xml-sitemap-feed/
+Sitemap: https://prisonjobs.blog.gov.uk/sitemap.xml
+
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+User-agent: Twitterbot
+Disallow: 

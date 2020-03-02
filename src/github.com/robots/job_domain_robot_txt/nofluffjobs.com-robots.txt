@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /tel:+48509579097
+Disallow: /pdf/
+Disallow: /not-found*
+
+Sitemap: https://nofluffjobs.com/sitemap.xml

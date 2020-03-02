@@ -1,0 +1,8 @@
+User-Agent: *
+Disallow: /wp-admin
+
+Sitemap: https://axpertjobs.in/sitemap.xml
+Sitemap: https://axpertjobs.in/news-sitemap.xml
+
+Sitemap: http://axpertjobs.in/sitemap_index.xml
+Host: https://www.axpertjobs.in

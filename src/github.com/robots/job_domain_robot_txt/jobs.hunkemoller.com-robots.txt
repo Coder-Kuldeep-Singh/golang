@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: https://jobs.hunkemoller.com/sitemap.xml
+Disallow: /files

@@ -1,0 +1,69 @@
+User-Agent: *
+Disallow: /jobtools/jncustomep.printJobs
+Disallow: /jobtools/jncustomlogin.JobSeekerToolBoxAction
+Disallow: /jobtools/jncustomep.customemailJobs
+Disallow: /jobtools/apCustomAppMgr.WelcomeScreen
+Disallow: /linkedin-integration/applicationResponse
+Disallow: /vpwep/docs/vpwep_forms.pdf
+
+
+User-Agent: Googlebot
+Disallow: /jobtools/jncustomep.printJobs
+Disallow: /jobtools/jncustomlogin.JobSeekerToolBoxAction
+Disallow: /jobtools/jncustomep.customemailJobs
+Disallow: /linkedin-integration/applicationResponse
+Disallow: /jobtools/apCustomAppMgr.WelcomeScreen
+Disallow: /vpwep/docs/vpwep_forms.pdf
+Disallow: /*sesi=*
+Disallow: /*in_sessionid=1*
+Disallow: /*in_sessionid=2*
+Disallow: /*in_sessionid=3*
+Disallow: /*in_sessionid=4*
+Disallow: /*in_sessionid=5*
+Disallow: /*in_sessionid=6*
+Disallow: /*in_sessionid=7*
+Disallow: /*in_sessionid=8*
+Disallow: /*in_sessionid=9*
+Disallow: /*in_sessionid=0*
+
+
+User-agent: Slurp
+Disallow: /jobtools/jncustomep.printJobs
+Disallow: /jobtools/jncustomlogin.JobSeekerToolBoxAction
+Disallow: /jobtools/jncustomep.customemailJobs
+Disallow: /linkedin-integration/applicationResponse
+Disallow: /jobtools/apCustomAppMgr.WelcomeScreen
+Disallow: /vpwep/docs/vpwep_forms.pdf
+Disallow: /*sesi=*
+Disallow: /*in_sessionid=1*
+Disallow: /*in_sessionid=2*
+Disallow: /*in_sessionid=3*
+Disallow: /*in_sessionid=4*
+Disallow: /*in_sessionid=5*
+Disallow: /*in_sessionid=6*
+Disallow: /*in_sessionid=7*
+Disallow: /*in_sessionid=8*
+Disallow: /*in_sessionid=9*
+Disallow: /*in_sessionid=0*
+
+User-agent: bingbot
+Disallow: /jobtools/jncustomep.printJobs
+Disallow: /jobtools/jncustomlogin.JobSeekerToolBoxAction
+Disallow: /jobtools/jncustomep.customemailJobs
+Disallow: /linkedin-integration/applicationResponse
+Disallow: /jobtools/apCustomAppMgr.WelcomeScreen
+Disallow: /vpwep/docs/vpwep_forms.pdf
+Disallow: /*sesi=*
+Disallow: /*in_sessionid=1*
+Disallow: /*in_sessionid=2*
+Disallow: /*in_sessionid=3*
+Disallow: /*in_sessionid=4*
+Disallow: /*in_sessionid=5*
+Disallow: /*in_sessionid=6*
+Disallow: /*in_sessionid=7*
+Disallow: /*in_sessionid=8*
+Disallow: /*in_sessionid=9*
+Disallow: /*in_sessionid=0*
+
+
+Sitemap: https://jobs.careers.vic.gov.au/sitemap_index.xml

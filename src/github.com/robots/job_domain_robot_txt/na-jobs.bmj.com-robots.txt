@@ -1,0 +1,19 @@
+# Robot exclusion file
+User-agent: *
+
+
+Disallow: /job-alerts/
+Disallow: /quick-add-alert/
+Disallow: /add-job-alert/
+Disallow: /add-job-alert-logged-out/
+Disallow: /session-img/
+Disallow: /ads/
+Disallow: /metric-scripts/
+Disallow: /advert-scripts/
+Disallow: /health/
+Disallow: /supporting-documents/
+Disallow: /job-view/
+
+#
+
+Sitemap: https://na-jobs.bmj.com/sitemapindex.xml

@@ -1,0 +1,11 @@
+User-Agent: *
+Disallow: /feeds/
+Disallow: /apply/
+Disallow: /referral/
+Disallow: /linkedin-login/
+Disallow: /linkedin-apply/
+Disallow: /linkedin-mobile-apply/
+Disallow: /login/
+Disallow: /accounts/
+Crawl-delay: 2
+Sitemap: https://www.jobs.hopkinsmedicine.org/sitemap.xml

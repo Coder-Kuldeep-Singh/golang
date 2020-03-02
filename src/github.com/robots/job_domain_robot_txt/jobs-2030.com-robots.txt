@@ -1,0 +1,5 @@
+Sitemap: https://jobs-2030.com/sitemap.xml
+Sitemap: https://jobs-2030.com/news-sitemap.xml
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php

@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://bozdarcomputertypersandjobsd.webs.com/sitemap.xml

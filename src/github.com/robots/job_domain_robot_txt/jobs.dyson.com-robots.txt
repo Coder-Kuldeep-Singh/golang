@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /icalendar/
+Allow: /jobs
+Sitemap: https://jobs.dyson.com/jobs/sitemap.xml
+Allow: /

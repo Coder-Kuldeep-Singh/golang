@@ -1,0 +1,11 @@
+#
+# default robots.txt for sfdc communities sites
+#
+# For use by salesforce.com
+#
+User-agent: *    # applies to all robots
+Allow: /      # allow all
+Disallow: */secur/forgotpassword.jsp?*
+
+Sitemap: http://kellyconnectjobs.force.com/kcjobs/s/sitemap.xml
+Sitemap: http://kellyconnectjobs.force.com/s/sitemap.xml

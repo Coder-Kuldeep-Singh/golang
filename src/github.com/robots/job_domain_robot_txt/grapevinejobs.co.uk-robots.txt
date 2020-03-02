@@ -1,0 +1,17 @@
+Sitemap: http://www.grapevinejobs.com/sitemap.xml
+User-agent: *
+Disallow: /cvs
+Disallow: /templates
+Disallow: /administration
+Disallow: /bin
+Disallow: /uploads
+Disallow: /App_Themes
+Disallow: /App_Code
+Disallow: /Images
+Disallow: /Scripts
+Disallow: /Controls
+Disallow: /Images
+Disallow: /Common
+Disallow: /Test
+Disallow: /ckeditor
+Disallow: /WorldPay

@@ -1,0 +1,5 @@
+Sitemap: https://jobs.kitware.com/sitemap.xml
+Sitemap: https://jobs.kitware.com/news-sitemap.xml
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php

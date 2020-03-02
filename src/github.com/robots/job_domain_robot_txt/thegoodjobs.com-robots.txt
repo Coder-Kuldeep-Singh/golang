@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /insight
+Disallow: /admin/
+Disallow: /dashboard/
+Sitemap: http://www.thegoodjobs.com/sitemap.xml

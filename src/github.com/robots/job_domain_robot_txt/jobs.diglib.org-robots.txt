@@ -1,0 +1,7 @@
+Sitemap: https://jobs.diglib.org/sitemap.xml
+Sitemap: https://jobs.diglib.org/news-sitemap.xml
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+Sitemap: https://jobs.diglib.org/sitemap.xml

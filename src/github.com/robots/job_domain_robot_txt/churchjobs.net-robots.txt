@@ -1,0 +1,15 @@
+User-agent: *           # directed to all spiders, not just Scooter
+Disallow: /special-offer.html
+Disallow: /jobs/prev/
+Disallow: /church-jobs/prev/
+Disallow: /cgi-bin/get-resume.pl
+Disallow: /churchstaffsearch
+Disallow: /christianjobs1
+Disallow: /worshipjobs
+Disallow: /resume/
+Disallow: /cgi-bin/apply.pl
+Disallow: /cgi-bin/login.pl
+Disallow: /apply/*
+Disallow: /mychurchjobs/*
+
+Sitemap: https://www.churchjobs.net/sitemap.xml

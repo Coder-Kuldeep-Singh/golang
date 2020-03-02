@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /database/
+Disallow: /mobile/
+Disallow: /candidate/updateAppClicks.asp
+Disallow: /candidate/email.asp
+Disallow: /scripts/
+Disallow: /apply/
+Disallow: /admin/
+Sitemap: http://www.wazobiajobs.com/sitemap.xml

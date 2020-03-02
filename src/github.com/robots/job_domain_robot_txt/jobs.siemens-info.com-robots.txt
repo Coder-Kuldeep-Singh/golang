@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: http://jobs.siemens-info.com/sitemap.xml
+crawl-delay: 5

@@ -1,0 +1,28 @@
+User-Agent: *
+Disallow: /*marktjagd_pageflip.html*
+Disallow: /site/meinestadt/marktjagdTracking
+Disallow: /jobs-files/
+Disallow: /coop/
+Disallow: /*/redirects/deutsche_bahn
+Disallow: /site/meinestadt/resourceCached/*/htdocs/js/src/leSpecial.js
+Disallow: /*/videostellenanzeigen
+Disallow: /*/spider?id=
+Disallow: /*/ba-preview?id=
+Allow: /jobs-files/labs/amptest
+Allow: /jobs-files/sitemap/stellen/*
+Allow: /jobs-files/sitemap/google4jobs/*
+
+User-Agent: thesubot
+Disallow: /
+
+User-agent: ACONTBOT
+Disallow: /
+
+User-Agent: MAINSEEK_BOT
+Disallow: /
+
+User-agent: Cliqzbot 
+Disallow: /
+
+User-agent: bingbot
+Crawl-delay: 1

@@ -1,0 +1,4 @@
+User-agent: *
+
+Sitemap: https://jobb.tu.no/sitemaps/jobs.xml
+Sitemap: https://jobb.tu.no/sitemaps/industries.xml

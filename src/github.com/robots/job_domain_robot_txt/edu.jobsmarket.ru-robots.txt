@@ -1,0 +1,29 @@
+User-agent: Yandex
+
+Clean-param: code_id&amp;code&amp;uid /
+Disallow: /link.php
+Disallow: /*view_mode=print
+Disallow: /*_openstat=
+Disallow: /*submit_form=
+Disallow: /index.php?get_page=
+Disallow: /?get_page=
+Disallow: /landing-page-*
+Disallow: /*?code_id=
+
+Crawl-delay: 1
+
+Host: edumarket.ru
+
+User-agent: Googlebot
+
+Disallow: /link.php
+Disallow: /*view_mode=print
+Disallow: /*_openstat=
+Disallow: /*submit_form=
+Disallow: /index.php?get_page=
+Disallow: /?get_page=
+Disallow: /landing-page-*
+Disallow: /*?code_id=
+Disallow: /*?uid=
+
+Sitemap: http://edumarket.ru/sitemap_index.xml

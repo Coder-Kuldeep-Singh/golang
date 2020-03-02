@@ -1,0 +1,2 @@
+User-agent: *
+SITEMAP: http://www.jobsinpharma.co.uk/sitemap.xml

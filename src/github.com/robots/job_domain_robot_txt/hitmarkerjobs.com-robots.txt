@@ -1,0 +1,9 @@
+Sitemap: https://hitmarkerjobs.com/sitemap.xml
+
+User-agent: *
+Disallow: /zadmin/
+Disallow: /cpresources/
+Disallow: /vendor/
+Disallow: /.env
+Disallow: /jobs/save/
+Disallow: /jobs/apply/

@@ -1,0 +1,83 @@
+# If the Joomla site is installed within a folder such as at
+# e.g. www.example.com/joomla/ the robots.txt file MUST be
+# moved to the site root at e.g. www.example.com/robots.txt
+# AND the joomla folder name MUST be prefixed to the disallowed
+# path, e.g. the Disallow rule for the /administrator/ folder
+# MUST be changed to read Disallow: /joomla/administrator/
+#
+# For more information about the robots.txt standard, see:
+# http://www.robotstxt.org/orig.html
+#
+# For syntax checking, see:
+# http://tool.motoricerca.info/robots-checker.phtml
+
+User-agent: *
+Disallow: /_Dev/
+Disallow: /administrator/
+Disallow: /cache/
+Disallow: /cli/
+#Disallow: /components/
+#Disallow: /images/
+Disallow: /images/CarrierLogo/*
+Disallow: /includes/
+Disallow: /installation/
+Disallow: /language/
+Disallow: /libraries/
+Disallow: /logs/
+#Disallow: /media/
+Disallow: /modules/
+#Disallow: /plugins/
+#Disallow: /templates/
+Disallow: /tmp/
+#Disallow: */search
+Disallow: */applicationform
+Disallow: /application/viewCompanyProfile.cfm
+Disallow: /automation/
+Disallow: /administrator/index.php
+
+#EXCEPTIONS
+Allow: /media/ad_butler/
+Allow: /media/com_k2/
+Allow: /media/com_rstbox/
+Allow: /media/plg_jchoptimize/*
+Allow: /templates/default/*
+Allow: /components/com_k2/
+Allow: /media/jui/js/
+
+
+#### 20190402 Sitemap Changes ####
+Disallow: /classifieds/job/211247/
+Disallow: /classifieds/job/211248/
+Disallow: /classifieds/job/211249/
+Disallow: /classifieds/job/211250/
+Disallow: /classifieds/job/211251/
+Disallow: /classifieds/job/211252/
+Disallow: /classifieds/job/211253/
+Disallow: /classifieds/job/211254/
+Disallow: /classifieds/job/211255/
+Disallow: /classifieds/job/211256/
+Disallow: /classifieds/job/211257/
+Disallow: /classifieds/job/211258/
+Disallow: /classifieds/job/211259/
+Disallow: /classifieds/job/211260/
+Disallow: /classifieds/job/211261/
+Disallow: /classifieds/job/211262/
+Disallow: /classifieds/job/211263/
+Disallow: /classifieds/job/211264/
+Disallow: /classifieds/job/211265/
+Disallow: /classifieds/job/211266/
+Disallow: /classifieds/job/211267/
+Disallow: /classifieds/job/211268/
+Disallow: /classifieds/job/211269/
+Disallow: /classifieds/job/211270/
+Disallow: /classifieds/job/211271/
+
+
+User-Agent: Googlebot
+Allow: *.js
+Allow: *.css
+
+sitemap: https://www.cdljobs.com/index.php?option=com_osmap&amp;view=xml&amp;tmpl=component&amp;id=1
+sitemap: https://www.cdljobs.com/sitemap.xml
+
+

@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /fileadmin/_temp_/
+Disallow: /typo3/
+Disallow: /typo3_src/
+Disallow: /typo3conf/
+Disallow: /search/
+Noindex: /search/
+Noindex: /eroeffnungen/
+Noindex: /at/
+ 
+User-Agent: Googlebot
+Allow: .js
+Allow: .css
+ 
+Sitemap: https://tedi.com/sitemap.xml

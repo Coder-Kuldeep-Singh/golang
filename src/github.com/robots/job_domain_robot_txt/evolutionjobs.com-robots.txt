@@ -1,0 +1,7 @@
+user-agent: *
+disallow: /*?keyword=
+disallow: /*?sector=
+disallow: */tag-name/*
+disallow: */article-category/*
+
+sitemap: https://www.evolutionjobs.com/sitemaplist.xml

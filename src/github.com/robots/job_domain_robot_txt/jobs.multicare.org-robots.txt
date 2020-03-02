@@ -1,0 +1,13 @@
+User-Agent: *
+Disallow: /feeds/
+Disallow: /apply/
+Disallow: /mobile/
+Disallow: /quick-apply/
+Disallow: /send-link/
+Disallow: /m/
+Disallow: /referral/
+Disallow: /linkedin-login/
+Disallow: /linkedin-apply/
+Disallow: /linkedin-mobile-apply/
+crawl-delay: 2
+Sitemap: https://jobs.multicare.org/sitemap.xml

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: http://restaurantjobs.mcdonalds.com/sitemap.xml
+crawl-delay: 5

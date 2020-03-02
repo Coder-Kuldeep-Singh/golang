@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /xy/
+
+Sitemap: https://www.appjobs.com/sitemap.xml

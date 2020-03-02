@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://jobs.ascension.org/sitemap.xml

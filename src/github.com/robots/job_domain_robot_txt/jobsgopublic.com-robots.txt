@@ -1,0 +1,6 @@
+User-Agent: *
+Disallow: /api/
+Disallow: /register
+Disallow: /login
+Disallow: /job_boards/register
+Sitemap: https://www.jobsgopublic.com/sitemap

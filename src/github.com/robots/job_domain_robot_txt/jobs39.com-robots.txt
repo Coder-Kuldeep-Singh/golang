@@ -1,0 +1,14 @@
+User-agent: *
+Disallow:/test/
+Disallow:/testdan/
+Disallow:/testone/
+Disallow:/training/
+Disallow:/_cascade/
+Disallow:/audio/
+Disallow:/blocks/
+Disallow:/css/
+Disallow:/includes/
+Disallow:/js/
+Disallow:/university-alerts/
+Disallow:/juicer-feeds/
+Sitemap: https://www.jwu.edu/sitemap.xml

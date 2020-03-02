@@ -1,0 +1,22 @@
+Sitemap: https://www.jobsinrockcounty.com/sitemap.aspx
+
+User-agent: *
+Disallow: /admin/
+Disallow: /Install/
+
+User-agent: msnbot
+Disallow: /admin/
+Disallow: /Install/
+
+User-agent: Slurp
+Disallow: /admin/
+Disallow: /Install/
+
+User-agent: Googlebot
+Disallow: /admin/
+Disallow: /Install/
+
+User-agent: Bingbot
+Disallow: /admin/
+Disallow: /Install/
+

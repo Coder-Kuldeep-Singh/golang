@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /gravity_forms/
+Disallow: /uploads/
+Disallow: /download/
+Disallow: /wp-content/plugins/
+
+
+Sitemap: https://www.drsresearch.org/sitemap_index.xml
+

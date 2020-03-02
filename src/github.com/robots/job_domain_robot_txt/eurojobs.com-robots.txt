@@ -1,0 +1,23 @@
+User-agent: Mediapartners-Google
+Disallow:
+
+User-agent: *
+Disallow: /browse-by-city/
+Disallow: /browse-by-country/
+Disallow: /browse-by-category/
+Disallow: /search-results-jobs/
+Disallow: /display-job-map/ 
+Disallow: /print-job/
+Disallow: /browse-by-company/
+Disallow: /flag-listing/
+Disallow: /tell-friends/
+Disallow: /my-listings/
+Disallow: /files/files/
+Disallow: /blog/tag
+Disallow: /blog/author
+
+User-Agent: sp_auditbot
+Allow: /
+Crawl-delay: 0
+
+Sitemap: https://eurojobs.com/sitemap.xml

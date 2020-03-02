@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap:https://akamaijobs.referrals.selectminds.com/sitemap-seo

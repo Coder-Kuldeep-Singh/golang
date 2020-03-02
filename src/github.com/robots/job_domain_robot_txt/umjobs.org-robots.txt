@@ -1,0 +1,2 @@
+Sitemap: https://careers.umich.edu/sitemap.xml
+Sitemap: https://careers.umich.edu/feed/sitemap

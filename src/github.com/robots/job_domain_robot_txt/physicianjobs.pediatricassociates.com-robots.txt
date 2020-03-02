@@ -1,0 +1,4 @@
+Sitemap: https://physicianjobs.pediatricassociates.com/sitemap.xml
+User-agent:*
+Disallow: /email1/
+Disallow: /pediatric-persona/

@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /404/
+Disallow: /admin/
+Disallow: /advertise/
+Disallow: /blog/wp-admin/
+Disallow: /contact/
+Disallow: /maintenance/
+Disallow: /out/
+Disallow: /privacy/
+Disallow: /terms-of-service/
+
+crawl-delay: 10
+
+Sitemap: https://www.locumjobsonline.com/sitemap.xml

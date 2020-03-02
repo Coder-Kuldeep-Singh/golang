@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /admin-dashboard/ 
+Disallow: /employers-dashboard/
+Disallow: /job-seekers-dashboard/
+Disallow: /companies-dashboard/
+Disallow: /jobs-dashboard/
+Disallow: /resume-dashboard/
+Disallow: /users-list/
+Disallow: /resume/
+Disallow: /page/
+
+Sitemap: https://www.canada-jobs.com/sitemap_index.xml

@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /companies/
+Disallow: /qa/
+
+Sitemap: https://www.hospitalityjobs.com/index_sitemap.xml

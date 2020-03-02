@@ -1,0 +1,5 @@
+Sitemap: https://gamejobs.eu/sitemap.xml
+Sitemap: https://gamejobs.eu/news-sitemap.xml
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php

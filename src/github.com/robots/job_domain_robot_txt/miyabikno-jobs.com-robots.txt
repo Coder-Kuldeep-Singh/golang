@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /main/wp-admin/
+Disallow: /main/wp-includes/
+Disallow: /main/wp-login.php
+Allow: /main/wp-admin/admin-ajax.php
+Sitemap: https://miyabikno-jobs.com/sitemap.xml

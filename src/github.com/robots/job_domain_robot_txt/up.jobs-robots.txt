@@ -1,0 +1,13 @@
+# www.robotstxt.org/
+# www.google.com/support/webmasters/bin/answer.py?hl=en&amp;answer=156449
+
+Sitemap: https://up.jobs/sitemap.xml
+
+#User-agent: *
+#Disallow: /attachments/
+#
+#User-agent: *
+#Disallow: /eo-course/
+#
+#User-agent: *
+#Disallow: /administration/

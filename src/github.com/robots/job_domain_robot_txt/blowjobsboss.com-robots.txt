@@ -1,0 +1,5 @@
+User-agent: *
+Sitemap: https://blowjobsboss.com/sitemap.xml
+Disallow: /models/$
+Disallow: /categories/$
+Disallow: /suggest/?q=*

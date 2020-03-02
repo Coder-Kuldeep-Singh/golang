@@ -1,0 +1,13 @@
+# Forbin Robots Generator
+User-agent: *
+Disallow: /members/
+Disallow: /VPanel/
+Disallow: /cgi-bin/
+Disallow: /aspnet_client/
+Disallow: /vpanel/
+Disallow: /old/
+
+Noindex: /VPanel
+
+Crawl-delay: 1
+Sitemap: http://www.jobst-usa.com/sitemap.xml

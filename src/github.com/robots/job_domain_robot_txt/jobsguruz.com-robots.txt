@@ -1,0 +1,9 @@
+User-agent: *
+Disallow:
+
+# Blocks robots from specific folders / directories
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /junk/
+Sitemap: https://jobsguruz.com/sitemap_index.xml

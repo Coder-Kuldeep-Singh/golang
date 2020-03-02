@@ -1,0 +1,5 @@
+Sitemap: http://usspi.org/sitemap.xml
+Sitemap: http://usspi.org/news-sitemap.xml
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php

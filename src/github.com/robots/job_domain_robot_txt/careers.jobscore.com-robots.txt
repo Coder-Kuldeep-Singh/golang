@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: https://careers.jobscore.com/sitemaps/careers.xml.gz
+Disallow: /apply_flow/

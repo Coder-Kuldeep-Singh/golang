@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /tb.php/
+Sitemap: http://stevejobsbook.blog.fc2.com/sitemaps.xml

@@ -1,0 +1,17 @@
+Sitemap: https://schneiderjobs.com/sitemap.xml
+
+User-Agent: *
+Disallow: /*?
+Disallow: /landing-pages*
+Disallow: /lp*
+Disallow: /nlp*
+Disallow: /rm*
+Disallow: /users*
+Disallow: /innerpagemodules/messagetocongressexternal
+disallow: /innerpagemodules/messagetocongress
+disallow: /TaleoMapLinks/DisplayTaleoErrorForm
+disallow: /InnerPageModules/TeamDriverForm
+disallow: /DrivingSchools/DisplayForm
+disallow: /3uupzadql8kjxpssrz0ia7e7824jba.html
+Allow: /
+Allow: /*?b_page=*

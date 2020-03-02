@@ -1,0 +1,8 @@
+# robots.txt for http://www.jobsinkashmir.in/
+
+User-agent: *
+allow: /
+
+
+
+Sitemap: http://www.jobsinkashmir.in/sitemap.xml 

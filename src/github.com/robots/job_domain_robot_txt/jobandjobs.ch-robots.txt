@@ -1,0 +1,11 @@
+# robots.txt for http://www.jobandjobs.ch/
+
+User-agent:*
+Disallow:/admin/
+#Disallow:/*jsessionid
+
+# Ein Spambot, der alle paar sekunden auf die betroffene Seite zugreift
+User-agent: BLEXBot
+Disallow: /
+
+Sitemap: http://www.jobandjobs.ch/myinterfaces/cms/googlesitemap-overview.xml

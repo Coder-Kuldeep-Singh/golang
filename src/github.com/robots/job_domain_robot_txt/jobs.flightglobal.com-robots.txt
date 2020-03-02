@@ -1,0 +1,211 @@
+
+# Robot exclusion file
+#badbots
+User-agent: Alexibot
+User-agent: 008
+User-agent: Alexibot
+User-agent: Aqua_Products
+User-agent: b2w/0.1
+User-agent: BackDoorBot/1.0
+User-agent: Baiduspider
+User-agent: BlowFish/1.0
+User-agent: Bookmark search tool
+User-agent: BotALot
+User-agent: BotRightHere
+User-agent: BuiltBotTough
+User-agent: Bullseye/1.0
+User-agent: BunnySlippers
+User-agent: CCBot
+User-agent: CheeseBot
+User-agent: CherryPicker
+User-agent: CherryPickerElite/1.0
+User-agent: CherryPickerSE/1.0
+User-agent: Copernic
+User-agent: CopyRightCheck
+User-agent: cosmos
+User-agent: Crescent Internet ToolPak HTTP OLE Control v.1.0
+User-agent: Crescent
+User-agent: Daumoa
+User-agent: DittoSpyder
+User-agent: DotBot
+User-agent: EmailCollector
+User-agent: EmailSiphon
+User-agent: EmailWolf
+User-agent: EroCrawler
+User-agent: ExaBot
+User-agent: ExtractorPro
+User-agent: Ezooms
+User-agent: FairAd Client
+User-agent: Flaming AttackBot
+User-agent: Foobot
+User-agent: Gaisbot
+User-agent: GetRight/4.2
+User-agent: Gigabot
+User-agent: Harvest/1.5
+User-agent: hloader
+User-agent: httplib
+User-agent: HTTrack 3.0
+User-agent: humanlinks
+User-agent: InfoNaviRobot
+User-agent: Iron33/1.0.2
+User-agent: JennyBot
+User-agent: Kenjin Spider
+User-agent: Keyword Density/0.9
+User-agent: larbin
+User-agent: LexiBot
+User-agent: libWeb/clsHTTP
+User-agent: LinkextractorPro
+User-agent: LinkScan/8.1a Unix
+User-agent: LinkWalker
+User-agent: LNSpiderguy
+User-agent: lwp-trivial/1.34
+User-agent: lwp-trivial
+User-agent: Mata Hari
+User-agent: Microsoft URL Control - 5.01.4511
+User-agent: Microsoft URL Control - 6.00.8169
+User-agent: Microsoft URL Control
+User-agent: MIIxpc/4.2
+User-agent: MIIxpc
+User-agent: Mister PiX
+User-agent: MJ12bot/2.1
+User-agent: moget/2.1
+User-agent: moget
+User-agent: Mozilla/4.0 (compatible; BullsEye; Windows 95)
+User-agent: MSIECrawler
+User-agent: NetAnts
+User-agent: NICErsPRO
+User-agent: NOTHING
+User-agent: Nutch
+User-agent: Offline Explorer
+User-agent: Openbot
+User-agent: Openfind data gatherer
+User-agent: Openfind
+User-agent: Oracle Ultra Search
+User-agent: PerMan
+User-agent: ProPowerBot/2.14
+User-agent: ProWebWalker
+User-agent: psbot
+User-agent: Purebot
+User-agent: Python-urllib
+User-agent: QueryN Metasearch
+User-agent: Radiation Retriever 1.1
+User-agent: RepoMonkey Bait &amp; Tackle/v1.01
+User-agent: RepoMonkey
+User-agent: RMA
+User-agent: Robozilla
+User-agent: Rogerbot
+User-agent: Screaming Frog SEO Spider
+User-agent: Scrubby
+User-agent: searchpreview
+User-agent: SiteSnagger
+User-agent: Slurp
+User-agent: Slurp/si
+User-agent: SpankBot
+User-agent: spanner
+User-agent: Spbot
+User-agent: suzuran
+User-agent: Szukacz/1.4
+User-agent: TechnoratiBot/8.1
+User-agent: Teleport
+User-agent: TeleportPro
+User-agent: Telesoft
+User-agent: The Intraformant
+User-agent: TheNomad
+User-agent: TightTwatBot
+User-agent: toCrawl/UrlDispatcher
+User-agent: True_Robot/1.0
+User-agent: True_Robot
+User-agent: turingos
+User-agent: TurnitinBot/1.5
+User-agent: TurnitinBot
+User-agent: Updownerbot
+User-agent: URL Control
+User-agent: URL_Spider_Pro
+User-agent: URLy Warning
+User-agent: VCI WebViewer VCI WebViewer Win32
+User-agent: VCI
+User-agent: Voilabot
+User-agent: Web Image Collector
+User-agent: WebAuto
+User-agent: WebBandit/3.50
+User-agent: WebBandit
+User-agent: WebCapture 2.0
+User-agent: WebCopier v.2.2
+User-agent: WebCopier v3.2a
+User-agent: WebCopier
+User-agent: WebEnhancer
+User-agent: WebSauger
+User-agent: Website Quester
+User-agent: Webster Pro
+User-agent: WebStripper
+User-agent: WebZip/4.0
+User-agent: WebZIP/4.21
+User-agent: WebZIP/5.0
+User-agent: WebZip
+User-agent: Wget/1.5.3
+User-agent: Wget/1.6
+User-agent: Wget
+User-agent: wget
+User-agent: WWW-Collector-E
+User-agent: Xenu's Link Sleuth 1.1c
+User-agent: Xenu's
+User-agent: yahoo-mmcrawler
+User-agent: yahoo-blogs/v3.9
+User-agent: Zeus 32297 Webster Pro V2.9 Win32
+User-agent: Zeus Link Scout
+User-agent: Zeus
+Disallow: /
+
+#goodbots
+User-agent: SpeedySpider
+User-agent: asterias
+User-agent: Twiceler
+User-agent: ScoutJet
+User-agent: ia_archiver
+
+User-agent: YandexAntivirus/2.0
+User-agent: YandexBot/3.0
+User-agent: YandexImageResizer/2.0
+User-agent: YandexImages/3.0
+User-agent: YandexMedia/3.0
+User-agent: YandexPagechecker/1.0
+User-agent: YandexWebmaster/2.0
+User-agent: YandexZakladki/3.0
+
+User-agent: Bingbot
+User-agent: msnbot
+
+User-agent: TwitterBot
+
+User-agent: Mediapartners-Google
+User-agent: Adsbot-Google
+User-agent: Googlebot
+User-agent: Googlebot-Mobile
+User-agent: Googlebot-Image
+
+
+#parameters
+
+Disallow: /*?*LinkSource=
+Disallow: /*?*sort=
+Disallow: /*?*PipelinedPage=
+
+
+# The following pages require registration and login
+
+Disallow: /session-img/
+Disallow: /invalid-request/
+Disallow: /document/
+Disallow: /apply-profile/
+
+
+
+
+#User-agent: *
+#Disallow: /
+
+Sitemap: https://jobs.flightglobal.com/sitemapindex.xml
+
+
+
+

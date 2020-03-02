@@ -1,0 +1,252 @@
+User-agent: dialect
+Disallow: /
+
+User-agent: *
+User-agent: Googlebot
+# disallow all files in these WordPress directories
+Disallow: /wp-content/update/
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /xmlrpc.php
+Allow: /wp-content/themes/*
+Allow: /wp-content/uploads/*
+Allow: /wp-content/uploads/*.gif
+Allow: /wp-content/uploads/*.jpg
+Allow: /wp-content/uploads/*.pdf
+Allow: /wp-content/uploads/*.png
+Allow: /images/*.gif
+Allow: /images/*.jpg
+Allow: /images/*.png
+Allow: /plugins/*.js
+Allow: /plugins/*.css
+Allow: /plugins/*.gif
+Allow: /plugins/*.jpg
+Allow: /plugins/*.png
+Disallow: /plugins/
+
+User-agent: *
+User-agent: Googlebot
+# disallow the following specific files
+Disallow: /*URL
+Disallow: /quickstart.html
+Disallow: /leaflet-maps-marker/
+Disallow: /visitor-maps/
+Disallow: /?wordfence*
+Disallow:/login-customizer/
+Allow: /sitemap.xml
+Allow: /about-us/
+
+User-agent: *
+User-agent: Googlebot
+# disallow all files in these directories
+Disallow: /blog/*
+Disallow: /cache/*
+Disallow: /cgi-bin/*
+Disallow: /errors/
+Disallow: /includes/*
+Disallow: /index.php/
+Allow: /category/
+Allow: /tag/
+Disallow: /sets/
+Disallow: /show/
+Disallow: /2008/*
+Disallow: /2009/*
+Disallow: /2010/*
+Disallow: /2011/*
+Disallow: /2012/*
+Disallow: *aricept*
+Disallow: *avandia*
+Disallow: *bactrim*
+Disallow: *benicar*
+Disallow: *bystolic*
+Disallow: *baclofen*
+Disallow: /buy*
+Disallow: /canada*
+Disallow: /cheap*
+Disallow: /lowest*
+Disallow: /online*
+Disallow: /very*
+Disallow: /viagra*
+Disallow: *Cash-on-Delivery*
+Disallow: *cheap*
+Disallow: cialis
+Allow: specialist
+Disallow: *cipro*
+Disallow: *delivery-cod*
+Disallow: *drug*
+Disallow: *fosamax*
+Disallow: *fuck*
+Disallow: *metformin*
+Disallow: *generic/
+Disallow: *paxil*
+Disallow: *pharm*
+Disallow: *prescription*
+Disallow: *propranolol*
+Disallow: *risperdal*
+Disallow: *useronline*
+Disallow: *viagra*
+Disallow: *zofran*
+
+User-agent: *
+User-agent: Googlebot
+# disallow robots from parsing individual post feeds and trackbacks
+Disallow: /feed/
+Disallow: /trackback/
+Disallow: */trackback*
+Disallow: /*?*
+Disallow: /*?
+Disallow: /?stc=*
+
+User-agent: *
+User-agent: Googlebot
+# disallow any files that are stats related
+Disallow: /polls/
+Disallow: /pollsarchive/
+Disallow: /useronline/
+Disallow: /stats/
+Disallow: /stats*
+Disallow: /survey/
+Disallow: /surveys/
+Disallow: /docs*
+Disallow: /manual*
+Disallow: /category/uncategorized*
+
+User-agent: *
+User-agent: Googlebot
+# disallow files ending with the following extensions
+Disallow: /*.cgi$
+Disallow: /*.inc$
+Disallow: /*.inc*
+Disallow: /*.php$
+Disallow: /*.php*
+Disallow: /*.rss$
+Disallow: /*.site$
+Disallow: /*.wmv$
+Disallow: /*.xsl$
+
+# Certain social media sites are whitelisted to allow crawlers to access page markup when links to /images are shared.
+User-agent: Twitterbot
+Allow: /images
+
+User-agent: facebookexternalhit
+Allow: /images
+
+User-agent: *
+Disallow: /
+
+User-agent: Twitterbot
+Disallow:
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /
+
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: Adsbot-Google
+Allow: /
+
+User-agent: Ezooms
+Disallow: /
+
+User-agent: Markmonitor
+Disallow: /
+
+User-agent: static.flickr.com
+Allow: /*
+
+User-agent: validator.w3.org
+Allow: /*
+
+User-agent: wp.com
+Allow: /
+
+#Disallow WayBack archiving site
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: ia_archiver-web.archive.org
+Disallow: /
+
+User-agent: Msnbot
+Allow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: baiduspider
+Disallow: /
+
+User-agent: baiduspider-180-76-15-34.crawl.baidu.com
+Disallow: /
+
+User-agent: Baiduspider/2.0
+Disallow: /
+
+User-agent: Baiduspider-image
+Disallow: /
+
+User-agent: Baiduspider-mobile
+Disallow: /
+
+User-agent: Baiduspider-video
+Disallow: /
+
+User-agent: Baiduspider-news
+Disallow: /
+
+User-agent: Baiduspider-favo
+Disallow: /
+
+User-agent: JikeSpider
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: SemrushBot-SA
+Disallow: /
+
+User-agent: SemrushBot-SI
+Disallow: /
+
+User-agent: Sogou web spider
+Disallow: /
+
+User-agent: Sogou inst spider
+Disallow: /
+
+User-agent: Sogou spider2
+Disallow: /
+
+User-agent: Sogou blog
+Disallow: /
+
+User-agent: Sogou News Spider
+Disallow: /
+
+User-agent: Sogou Orion spider
+Disallow: /
+
+User-agent: Sosospider
+Disallow: /
+
+User-agent: Yahoo-slurp
+Disallow: /
+
+User-agent: Yandex spider
+Disallow: /
+
+User-agent: Yesspider
+Disallow: /
+
+User-agent: YoudaoBot
+Disallow: /
+
+Sitemap: https://jobs.stcwdc.org/sitemap.xml

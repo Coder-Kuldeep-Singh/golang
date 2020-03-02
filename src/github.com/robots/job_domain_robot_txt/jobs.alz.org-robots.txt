@@ -1,0 +1,3 @@
+Sitemap: http://jobs.alz.org/sitemap.xml
+User-agent: *
+Disallow: /api/

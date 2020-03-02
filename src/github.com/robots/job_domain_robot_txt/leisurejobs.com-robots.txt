@@ -1,0 +1,27 @@
+
+# Robot exclusion file
+User-agent: *
+
+# The following pages require registration and login
+
+Disallow: /session-img/
+Disallow: /invalid-request/
+Disallow: /document/
+Disallow: /apply-profile/
+
+Disallow: */searchjobs/*
+Disallow: */jobsrss/*
+Disallow: /jobsrss/*
+Disallow: */jbequicksignup/*
+Disallow: /your-jobs/*
+Disallow: /external-redirect-registration* 
+Disallow: */emailjob/*
+
+# additional disallows
+Disallow: /emailjob/
+
+User-agent: trovitBot
+Disallow: /
+
+Sitemap: https://www.leisurejobs.com/sitemapindex.xml
+

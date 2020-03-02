@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+Disallow: /redirect/
+
+Sitemap: https://next-jobs24.com/sitemap_index.xml

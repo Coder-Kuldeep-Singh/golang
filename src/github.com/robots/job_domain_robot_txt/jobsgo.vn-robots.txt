@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /site/login?*
+Disallow: /candidate/*
+Disallow: /access/*
+Sitemap: https://jobsgo.vn/sitemap.xml

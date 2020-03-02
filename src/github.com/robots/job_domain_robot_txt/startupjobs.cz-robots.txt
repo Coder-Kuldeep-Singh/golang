@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.startupjobs.cz/sitemap/categories.xml
+Sitemap: https://www.startupjobs.cz/sitemap/companies.xml
+Sitemap: https://www.startupjobs.cz/sitemap/offers.xml

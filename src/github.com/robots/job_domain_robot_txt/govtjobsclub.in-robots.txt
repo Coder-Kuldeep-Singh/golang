@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /wp-content/uploads/
+Disallow: /wp-content/themes/
+Disallow: /tag/
+Disallow: /notification/
+Disallow: /*comment-page-
+Disallow: /author/
+Disallow: /wp-admin/
+Disallow: /search/
+Disallow: /latest/
+Allow: /wp-admin/admin-ajax.php
+
+Sitemap: https://www.govtjobsclub.in/sitemap_index.xml

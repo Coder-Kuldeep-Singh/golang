@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: 
+Sitemap: https://www.jobs24.co.uk/sitemap_index.xml
+
+

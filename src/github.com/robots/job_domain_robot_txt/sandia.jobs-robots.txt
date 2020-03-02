@@ -1,0 +1,4 @@
+Sitemap: https://sandia.jobs/sitemap.xml
+User-agent: *
+Disallow: /admin/
+Disallow: /*feed/

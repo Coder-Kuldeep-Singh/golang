@@ -1,0 +1,25 @@
+# ------------------------------------------
+# Zoho Corp. -- http://www.zoho.com/recruit
+# Robot Exclusion File -- robots.txt
+# Author:  Webmaster/CRM-SecurityTeam
+# Last Updated:  12/02/2016 
+# For security reason blocking all authenticated url's from search engine crawlers.
+# ------------------------------------------
+
+User-agent: *
+Allow: /recruit/Portal.na
+Allow: /recruit/ViewJob.na
+Allow: /recruit/Apply.na
+Allow: /recruit/PortalDetail.na
+Allow: /recruit/PortalForm.na
+Allow: /recruit/RegisterForm.na
+Allow: /recruit/WebFormServeServlet
+Allow: /recruit/downloadrssfeed
+Allow: /recruit/sitemapfeed
+Allow: /ats/Portal.na
+Allow: /ats/ViewJob.na
+Allow: /ats/Apply.na
+Allow: /careers
+Allow: /clientportal
+Disallow: /
+Noindex: /

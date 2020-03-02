@@ -1,0 +1,3 @@
+  User-Agent: *
+  Disallow: /v/
+  Sitemap: http://jobs.4players.de/sitemap

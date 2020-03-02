@@ -1,0 +1,6 @@
+Sitemap: http://3djobs.ru/sitemap.xml
+
+# global
+User-agent: *
+Disallow: /xmlrpc.php
+

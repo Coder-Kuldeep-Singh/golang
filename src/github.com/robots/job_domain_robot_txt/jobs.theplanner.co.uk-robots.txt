@@ -1,0 +1,25 @@
+
+# Robot exclusion file
+User-agent: *
+
+# The following pages require registration and login
+
+Disallow: /session-img/
+Disallow: /invalid-request/
+Disallow: /document/
+
+Disallow: */searchjobs/*
+Disallow: */jobsrss/*
+Disallow: /jobsrss/*
+Disallow: */jbequicksignup/*
+Disallow: /your-jobs/*
+Disallow: /external-redirect-registration* 
+Disallow: */emailjob/*
+
+Disallow: */jbequicksignup/*
+
+User-agent: DotBot
+Disallow: /
+
+Sitemap: https://jobs.theplanner.co.uk/sitemapindex.xml
+

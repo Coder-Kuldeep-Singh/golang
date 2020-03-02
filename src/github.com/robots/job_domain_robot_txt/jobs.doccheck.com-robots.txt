@@ -1,0 +1,19 @@
+User-Agent: *
+Allow: /
+
+User-Agent: *
+Disallow: /de/contentextension
+Disallow: /com/contentextension
+Disallow: /de/user/loginform
+Disallow: /com/user/loginform
+Disallow: /de/user/loginpage
+Disallow: /com/user/loginpage
+Disallow: /de/joboffer/contact-joboffer-owner
+Disallow: /com/joboffer/contact-joboffer-owner
+Disallow: /de/core/user/loginformajax/
+Disallow: /com/core/user/loginformajax/
+Disallow: /de/jobapplication/
+Disallow: /com/jobapplication/
+Disallow: /upload/
+
+Sitemap: http://jobs.doccheck.com/sitemap/index/

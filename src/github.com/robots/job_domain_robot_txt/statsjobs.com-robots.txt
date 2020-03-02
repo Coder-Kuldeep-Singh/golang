@@ -1,0 +1,6 @@
+Sitemap: https://www.statsjobs.com/sitemap.xml
+
+
+User-agent: *
+Disallow: /cpresources/
+

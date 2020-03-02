@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /icalendar/
+Allow: /jobs
+Sitemap: https://jobs.cisco.com/jobs/sitemap.xml
+Allow: /jobsfr
+Sitemap: https://jobs.cisco.com/jobsfr/sitemap.xml
+Allow: /

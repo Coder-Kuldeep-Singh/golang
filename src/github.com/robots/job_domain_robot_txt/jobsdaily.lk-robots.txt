@@ -1,0 +1,3 @@
+Sitemap: https://www.jobsdaily.lk/sitemap.xml
+User-agent: *
+Disallow:

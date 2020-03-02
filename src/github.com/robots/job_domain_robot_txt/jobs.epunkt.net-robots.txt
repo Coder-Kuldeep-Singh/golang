@@ -1,0 +1,10 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://www.epunkt.com/sitemap.xml
+
+Sitemap: https://www.epunkt.com/news_de.rss
+Sitemap: https://www.epunkt.com/news_en.rss
+
+Sitemap: https://www.epunkt.com/jobs_de.rss
+Sitemap: https://www.epunkt.com/jobs_en.rss

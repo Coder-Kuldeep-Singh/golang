@@ -1,0 +1,4 @@
+Sitemap: https://dowjones-technology.jobs/sitemap.xml
+User-agent: *
+Disallow: /admin/
+Disallow: /*feed/

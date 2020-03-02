@@ -1,0 +1,3 @@
+Sitemap: http://jobs.flex-n-gate.com/sitemap.xml
+User-agent: *
+Disallow: /api/

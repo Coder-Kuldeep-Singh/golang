@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: */phenomtrack.min.js
+Disallow: */jobcart
+
+Sitemap: https://www.uscellular.jobs/sitemap.xml

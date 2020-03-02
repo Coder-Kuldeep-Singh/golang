@@ -1,0 +1,5 @@
+# Findlaw robots.txt file
+
+User-Agent: *
+Disallow:
+Sitemap: https://careers.findlaw.com/sitemap.xml

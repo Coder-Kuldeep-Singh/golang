@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: http://jobs.conduent.com/sitemap.xml
+crawl-delay: 5

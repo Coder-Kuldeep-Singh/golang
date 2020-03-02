@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: http://www.pepsicojobs.com/sitemap.xml
+crawl-delay: 5

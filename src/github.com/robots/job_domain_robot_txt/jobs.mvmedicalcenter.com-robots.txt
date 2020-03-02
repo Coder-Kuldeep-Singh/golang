@@ -1,0 +1,3 @@
+Sitemap: http://jobs.mvmedicalcenter.com/sitemap.xml
+User-agent: *
+Disallow: /api/

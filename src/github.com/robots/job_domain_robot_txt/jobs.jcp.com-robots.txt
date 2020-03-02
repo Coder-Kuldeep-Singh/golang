@@ -1,0 +1,10 @@
+User-agent: *
+Disallow:
+
+User-agent: JOBCentralBot
+Disallow: /
+
+User-agent: Apache-HttpClient 
+Disallow: /
+
+Sitemap: https://jobs.jcp.com/seo/sitemap.xml

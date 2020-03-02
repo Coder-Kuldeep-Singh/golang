@@ -1,0 +1,23 @@
+User-agent: *
+Disallow: /ops/
+Disallow: /inc/
+Disallow: /jobseeker/
+Disallow: /careerfair/ops/
+# Disallow: /api/
+Disallow: /api/apply/external-with-redirect
+Disallow: /JC/JobSeeker/BeforeApply.aspx
+Disallow: /jobseeker/applyonline/externalapply.aspx
+Disallow: /cb/
+Disallow: /user/
+Disallow: /emailCBjob.php
+Disallow: /emailJCjob.php
+Disallow: /reportad.php
+Disallow: /jsloginform.php
+Disallow: /pubApplyJobSimple.php
+Disallow: /terms.php
+Disallow: /viewEmpProfile.php?eid=43216&amp;
+Disallow: /viewEmpProfile.php?eid=8027&amp;
+Disallow: /JobSeeker/Accessible/JobFeedback.aspx
+Disallow: /jc/jobseeker/jobs/jobresults.aspx
+Disallow: /jc/jobseeker/jobs/jrp.aspx
+Sitemap: https://jobscentral.com.sg/sitemapindex.xml

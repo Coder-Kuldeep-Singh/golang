@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Sitemap: http://www.blowjobstarlets.com/sitemap.xml
+Disallow: /error404.shtml
+Disallow: /cgi-bin/crtr/
+Disallow: /crtr/
+Disallow: /blowjob-site/
+Disallow: /blowjob/

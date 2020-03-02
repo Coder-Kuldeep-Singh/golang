@@ -1,0 +1,24 @@
+User-Agent: *
+Disallow: /
+Allow: /index
+Allow: /signup
+Allow: /login
+Allow: /employer-profile/
+Allow: /details/
+
+
+# Blocking bots from crawling DoubleClick for Publisher and Google Analytics related URL's (which aren't real URL's)
+
+User-agent: ia_archiver
+Disallow: /
+
+User-Agent: OmniExplorer_Bot
+Disallow: /
+
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+Sitemap: https://jobs.alongside.com/sitemap.xml

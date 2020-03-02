@@ -1,0 +1,8 @@
+User-agent: x28-job-bot
+Disallow: /
+
+User-agent: *
+Allow: /
+Disallow: /api
+Disallow: /statistics/*
+Sitemap: https://jobs.nzz.ch/sitemap.xml

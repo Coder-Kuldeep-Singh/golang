@@ -1,0 +1,10 @@
+# Robots.txt for https://www.coople.com/
+
+User-agent: *
+Disallow: /clsd/
+Disallow: /uk/pw-trial/
+Disallow: /ch/test-zendesk-form/
+Sitemap: https://www.coople.com/uk/sitemap_index.xml
+Sitemap: https://www.coople.com/ch/sitemap_index.xml
+Sitemap: https://www.coople.com/ch/fr/sitemap_index.xml
+Sitemap: https://www.coople.com/ch/en/sitemap_index.xml

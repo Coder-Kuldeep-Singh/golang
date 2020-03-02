@@ -1,0 +1,9 @@
+User-agent: *
+Sitemap: https://njobs.hatenablog.jp/sitemap_index.xml
+Disallow: /api/
+Disallow: /draft/
+Disallow: /preview
+
+User-agent: Mediapartners-Google
+Disallow: /draft/
+Disallow: /preview

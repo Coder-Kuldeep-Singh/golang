@@ -1,0 +1,32 @@
+
+User-agent: *
+Disallow: /admin
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: SemrushBot-SA
+Disallow: /
+
+User-agent: SemrushBot-BA
+Disallow: /
+
+User-agent: SemrushBot-SI
+Disallow: /
+
+User-agent: SemrushBot-SWA
+Disallow: /
+
+User-agent: SemrushBot-CT
+Disallow: /
+
+User-agent: SemrushBot-BM
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+Sitemap: https://www.acjobs.cz/sitemap.xml
+
+User-Agent: Seznambot
+Request-rate: 1/10s

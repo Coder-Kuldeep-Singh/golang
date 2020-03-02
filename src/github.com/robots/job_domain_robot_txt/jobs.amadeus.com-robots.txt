@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: *?migration=*
+Sitemap: https://jobs.amadeus.com/sitemap.xml

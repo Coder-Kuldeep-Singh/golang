@@ -1,0 +1,11 @@
+Sitemap: https://jobsinmalta.com/sitemap.xml
+
+User-Agent: *
+Allow: /
+Disallow: /jobs/search/
+Disallow: /job-vacancies/flexitime
+Disallow: /filters/
+Disallow: /skill/
+Disallow: ?
+Disallow: /level/
+Disallow: /js/

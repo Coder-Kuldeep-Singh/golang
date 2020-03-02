@@ -1,0 +1,14 @@
+User-agent: *
+https://marketingjobs.com/sitemap-main.xml
+https://marketingjobs.com/sitemap-recruiters-marketing.xml
+https://marketingjobs.com/sitemap-jobs-sales.xml
+https://marketingjobs.com/sitemap-jobs-marketing.xml
+https://marketingjobs.com/sitemap-city-sales.xml
+https://marketingjobs.com/sitemap-city-marketing.xml
+Disallow: /_notes
+Disallow: /2013
+Disallow /backup
+Disallow /email
+Disallow /images2010
+Disallow /kernel
+Disallow /ResumeWriting

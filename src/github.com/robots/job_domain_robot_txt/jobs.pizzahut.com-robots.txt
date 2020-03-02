@@ -1,0 +1,3 @@
+Sitemap: https://jobs.pizzahut.com/sitemap.xml
+User-agent:*
+Disallow:

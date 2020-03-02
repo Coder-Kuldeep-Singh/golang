@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+User-agent: Googlebot
+Disallow: 
+
+User-agent: YandexBot
+Disallow: 
+
+Sitemap: https://shegerjobs.ga/sitemap_index.xml
+sitemap: https://shegerjobs.ga/page-sitemap.xml

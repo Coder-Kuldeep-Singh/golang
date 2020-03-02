@@ -1,0 +1,5 @@
+Sitemap: https://sidejobs.be/sitemap.xml
+Sitemap: https://sidejobs.be/news-sitemap.xml
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php

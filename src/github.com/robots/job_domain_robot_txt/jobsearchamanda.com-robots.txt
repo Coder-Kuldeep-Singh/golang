@@ -1,0 +1,119 @@
+# Squarespace Robots Txt
+
+User-agent: AdsBot-Google
+Disallow: /config
+Disallow: /search
+Disallow: /account$
+Disallow: /account/
+Disallow: /api/
+Disallow: /static/
+Disallow:/*?author=*
+Disallow:/*&amp;author=*
+Disallow:/*?tag=*
+Disallow:/*&amp;tag=*
+Disallow:/*?month=*
+Disallow:/*&amp;month=*
+Disallow:/*?view=*
+Disallow:/*&amp;view=*
+Disallow:/*?format=json
+Disallow:/*&amp;format=json
+Disallow:/*?format=page-context
+Disallow:/*&amp;format=page-context
+Disallow:/*?format=main-content
+Disallow:/*&amp;format=main-content
+Disallow:/*?format=json-pretty
+Disallow:/*&amp;format=json-pretty
+Disallow:/*?format=ical
+Disallow:/*&amp;format=ical
+Disallow:/*?reversePaginate=*
+Disallow:/*&amp;reversePaginate=*
+
+
+User-agent: AdsBot-Google-Mobile
+Disallow: /config
+Disallow: /search
+Disallow: /account$
+Disallow: /account/
+Disallow: /api/
+Disallow: /static/
+Disallow:/*?author=*
+Disallow:/*&amp;author=*
+Disallow:/*?tag=*
+Disallow:/*&amp;tag=*
+Disallow:/*?month=*
+Disallow:/*&amp;month=*
+Disallow:/*?view=*
+Disallow:/*&amp;view=*
+Disallow:/*?format=json
+Disallow:/*&amp;format=json
+Disallow:/*?format=page-context
+Disallow:/*&amp;format=page-context
+Disallow:/*?format=main-content
+Disallow:/*&amp;format=main-content
+Disallow:/*?format=json-pretty
+Disallow:/*&amp;format=json-pretty
+Disallow:/*?format=ical
+Disallow:/*&amp;format=ical
+Disallow:/*?reversePaginate=*
+Disallow:/*&amp;reversePaginate=*
+
+
+User-agent: AdsBot-Google-Mobile-Apps
+Disallow: /config
+Disallow: /search
+Disallow: /account$
+Disallow: /account/
+Disallow: /api/
+Disallow: /static/
+Disallow:/*?author=*
+Disallow:/*&amp;author=*
+Disallow:/*?tag=*
+Disallow:/*&amp;tag=*
+Disallow:/*?month=*
+Disallow:/*&amp;month=*
+Disallow:/*?view=*
+Disallow:/*&amp;view=*
+Disallow:/*?format=json
+Disallow:/*&amp;format=json
+Disallow:/*?format=page-context
+Disallow:/*&amp;format=page-context
+Disallow:/*?format=main-content
+Disallow:/*&amp;format=main-content
+Disallow:/*?format=json-pretty
+Disallow:/*&amp;format=json-pretty
+Disallow:/*?format=ical
+Disallow:/*&amp;format=ical
+Disallow:/*?reversePaginate=*
+Disallow:/*&amp;reversePaginate=*
+
+
+User-agent: *
+Disallow: /config
+Disallow: /search
+Disallow: /account$
+Disallow: /account/
+Disallow: /api/
+Disallow: /static/
+Disallow:/*?author=*
+Disallow:/*&amp;author=*
+Disallow:/*?tag=*
+Disallow:/*&amp;tag=*
+Disallow:/*?month=*
+Disallow:/*&amp;month=*
+Disallow:/*?view=*
+Disallow:/*&amp;view=*
+Disallow:/*?format=json
+Disallow:/*&amp;format=json
+Disallow:/*?format=page-context
+Disallow:/*&amp;format=page-context
+Disallow:/*?format=main-content
+Disallow:/*&amp;format=main-content
+Disallow:/*?format=json-pretty
+Disallow:/*&amp;format=json-pretty
+Disallow:/*?format=ical
+Disallow:/*&amp;format=ical
+Disallow:/*?reversePaginate=*
+Disallow:/*&amp;reversePaginate=*
+
+
+Sitemap: http://www.jobsearchamanda.com/sitemap.xml

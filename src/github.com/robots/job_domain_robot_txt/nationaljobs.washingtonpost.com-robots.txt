@@ -1,0 +1,19 @@
+# Robot exclusion file
+User-agent: *
+
+
+Disallow: /add-job-alert-logged-out/
+Disallow: /job-alerts/
+Disallow: /quick-add-alert/
+Disallow: /add-job-alert/
+Disallow: /session-img/
+Disallow: /ads/
+Disallow: /metric-scripts/
+Disallow: /advert-scripts/
+Disallow: /health/
+Disallow: /supporting-documents/
+Disallow: /job-view/
+
+#
+
+Sitemap: https://nationaljobs.washingtonpost.com/sitemapindex.xml

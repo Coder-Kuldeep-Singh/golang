@@ -1,0 +1,11 @@
+# robots.txt for http://www.apple.com/jobs
+
+User-agent: *
+Disallow: /*?*search=
+Disallow: /*?*key=
+Disallow: /*?*lang=
+Disallow: /*?*sort=
+Disallow: /app/*/apply/*
+Disallow: /*/login?favId*
+
+sitemap: https://jobs.apple.com/sitemap/sitemap-index.xml

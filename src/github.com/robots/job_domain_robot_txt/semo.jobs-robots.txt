@@ -1,0 +1,7 @@
+# www.robotstxt.org
+# -----------------
+
+Sitemap: https://semo.jobs/places/sitemap
+
+User-agent: *
+Disallow: /wcp

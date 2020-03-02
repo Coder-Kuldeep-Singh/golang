@@ -1,0 +1,34 @@
+Sitemap: https://www.engineering.jobs/sitemap.v2.xml/
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: dotbot
+Disallow: /
+
+User-agent: rogerbot
+Disallow: /
+
+User-agent: Yandex
+Disallow: /
+
+User-agent: Mail.RU_Bot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: *
+Disallow: /apply/
+Disallow: /accounts/*
+Disallow: /services$
+Disallow: /faq$
+Disallow: /f/
+Disallow: *vs=*
+Disallow: */job/$
+Disallow: /reports/*
+Disallow: /profile/
+

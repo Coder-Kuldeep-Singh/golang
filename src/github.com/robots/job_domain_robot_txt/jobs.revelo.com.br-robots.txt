@@ -1,0 +1,5 @@
+User-agent: * 
+Disallow:
+
+Sitemap: https://jobs.revelo.com.br/sitemap.xml
+

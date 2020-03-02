@@ -1,0 +1,13 @@
+# Every bot that might possibly read and respect this file.
+User-agent: *
+Allow: /*
+
+Disallow: /my/*
+Disallow: /order/*
+
+# Wait 1 second between successive requests. See ONBOARD-2698 for details.
+Crawl-delay: 1
+
+# Independent of user agent. Links in the sitemap are full URLs using https:// and need to match
+# the protocol of the sitemap.
+Sitemap: https://startupjobs.asia/sitemap.xml

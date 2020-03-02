@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /administration
+Disallow: /admin
+Disallow: /account/loginRequiredModal
+Disallow: /account/loginRequiredModal?
+Disallow: /candidate/jobApplication/wizard
+Disallow: /candidate/jobApplication/wizard?
+Disallow: /captcha
+Disallow: /captcha?
+Disallow: /activateTestVersion
+Disallow: /activateTestVersion?
+Disallow: /jobPosting/feed
+Disallow: /jobPosting/feed?
+Disallow: /features
+Disallow: /features?
+
+Sitemap: https://jobsinberlin.de/sitemap

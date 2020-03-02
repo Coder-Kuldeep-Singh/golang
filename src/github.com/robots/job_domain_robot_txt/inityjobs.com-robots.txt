@@ -1,0 +1,11 @@
+User-agent: *
+
+Disallow: /wp-admin/
+Disallow: /xmlrpc.php
+Disallow: /readme.html
+Allow: /wp-content/uploads/
+Allow: /wp-admin/admin-ajax.php
+Disallow:
+Allow: /
+
+Sitemap: http://www.inityjobs.com/sitemap_index.xml

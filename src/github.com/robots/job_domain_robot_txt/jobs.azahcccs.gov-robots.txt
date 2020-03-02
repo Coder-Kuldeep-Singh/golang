@@ -1,0 +1,3 @@
+Sitemap: http://jobs.azahcccs.gov/sitemap.xml
+User-agent: *
+Disallow: /api/

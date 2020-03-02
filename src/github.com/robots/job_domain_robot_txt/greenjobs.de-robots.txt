@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /_ads/
+Disallow: /a/
+Allow: /
+Sitemap: https://www.greenjobs.de/sitemap.xml 

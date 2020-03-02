@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://juggle.jobs/sitemap.xml
+Host: https://juggle.jobs

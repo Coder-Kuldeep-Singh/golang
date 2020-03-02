@@ -1,0 +1,14 @@
+Sitemap: https://www.hopkinscokyjobs.com/sitemap.xml
+
+User-agent: NerdyBot
+Disallow: /
+
+User-agent: *
+Disallow: /ajax/
+Disallow: /apps/
+Disallow: /http://www.thinkkentucky.com/Workforce/BSSC.aspx
+Disallow: /https://kcc.ky.gov/veterans/Pages/default.aspx
+Disallow: /https://kcc.ky.gov/Pages/default.aspx
+Disallow: /http://www.movetomadisonvilleky.com/
+Disallow: /https://www.hopkinscokyjobs.com/training--workshops.html
+Disallow: /https://kcc.ky.gov/veterans/Pages/default.aspx

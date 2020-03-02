@@ -1,0 +1,12 @@
+#robots.txt for https://jobs.chicagotribune.com/
+
+Sitemap: https://jobs.chicagotribune.com/sitemap.xml
+
+User-agent: *
+Allow: /
+Disallow: /app_dev.php
+Disallow: /p/*
+
+Disallow: /home
+Disallow: /hc
+Disallow: /post-a-job

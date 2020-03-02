@@ -1,0 +1,21 @@
+# See http://www.robotstxt.org/robotstxt.html for documentation on how to use the robots.txt file
+#
+# To ban all spiders from the entire site uncomment the next two lines:
+# User-agent: *
+# Disallow: /
+host: jobsgalore.eu
+User-agent: *
+Disallow: /gatetway/
+Disallow: /clients/
+Disallow: /bill
+Disallow: /payment/
+Disallow: /payments/
+Disallow: /admin/
+Disallow: /contact/
+Disallow: /privacy/
+Disallow: /terms_and_conditions/
+Disallow: /sign_up_employer
+Disallow: /clients/password/new
+
+
+Sitemap: https://jobsgalore.eu/sitemap.xml

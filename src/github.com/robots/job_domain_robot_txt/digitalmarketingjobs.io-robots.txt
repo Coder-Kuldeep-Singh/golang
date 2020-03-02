@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /job/
+Disallow: /shop__trashed/
+Disallow: /job-gender/
+Disallow: /job-experience/
+Disallow: /job-industry/
+Disallow: /job-salary/
+Disallow: /job-career-level/
+Disallow: /job_listing_type/
+Sitemap: https://digitalmarketingjobs.io/sitemap_index.xml

@@ -1,0 +1,7 @@
+Sitemap: http://www.jobsweb.com/sitemaps/sitemap.xml 
+Sitemap: http://www.jobsweb.com/sitemaps/sitemap-cities-major1.xml
+Sitemap: http://www.jobsweb.com/sitemaps/sitemap-job-types1.xml
+Sitemap: http://www.jobsweb.com/sitemaps/sitemap-states.xml
+
+user-agent: *
+Disallow:

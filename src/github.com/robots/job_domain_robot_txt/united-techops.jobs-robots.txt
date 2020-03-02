@@ -1,0 +1,4 @@
+Sitemap: https://united-techops.jobs/sitemap.xml
+User-agent: *
+Disallow: /admin/
+Disallow: /*feed/

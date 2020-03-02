@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /lib/
+
+Disallow: /jobsoid-admin
+Disallow: /jobsoid-admin/
+
+Disallow: /job-descriptions/generator/
+
+Sitemap: https://resources.jobsoid.com/sitemap.xml

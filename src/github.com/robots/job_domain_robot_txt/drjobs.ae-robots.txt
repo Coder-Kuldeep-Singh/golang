@@ -1,0 +1,7 @@
+Sitemap: https://drjobs.ae/sitemap.xml
+
+User-agent: *
+Disallow: 
+
+User-agent: ia_archiver
+Disallow: 

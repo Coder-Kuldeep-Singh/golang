@@ -1,0 +1,5 @@
+Sitemap: https://blog.shopjobs.de/sitemap.xml
+Sitemap: https://blog.shopjobs.de/news-sitemap.xml
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php

@@ -1,0 +1,9 @@
+User-agent: Googlebot
+
+Disallow: /*job_*
+Disallow: /firmen*
+Disallow: /seiten*
+Disallow: /search*
+Disallow: /system*
+
+Sitemap: http://www.stellenanzeiger.ch/sitemap.xml

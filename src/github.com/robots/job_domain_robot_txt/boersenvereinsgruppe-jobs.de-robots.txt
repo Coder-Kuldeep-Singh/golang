@@ -1,0 +1,4 @@
+Sitemap: http://boersenvereinsgruppe-jobs.de/sitemap.xml
+
+User-agent: *
+Disallow:

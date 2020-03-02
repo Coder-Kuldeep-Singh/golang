@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://www.thejobshop.com.au/sitemap/index.xml

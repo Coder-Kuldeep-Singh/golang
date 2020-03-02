@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /icalendar/
+Allow: /jobs
+Sitemap: https://jobs.colorado.edu/jobs/sitemap.xml
+Allow: /

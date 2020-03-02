@@ -1,0 +1,6 @@
+User-agent: *
+Disallow:
+Sitemap: http://jobsdekatsi.diarynote.jp/sitemap/diaries?id=118532
+
+User-agent: bingbot
+Crawl-delay: 10

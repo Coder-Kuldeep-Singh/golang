@@ -1,0 +1,27 @@
+# robots.txt zu https://www.gelegenheitsjobs.de/
+
+User-agent: *
+
+Disallow: /admin/
+Disallow: /cron/
+Disallow: /extern/
+Disallow: /fehler/
+Disallow: /frag/
+Disallow: /jobber/pics/
+Disallow: /jobber/ref/
+Disallow: /jobber/vita/
+Disallow: /login/
+Disallow: /pics/admin/
+Disallow: /pics/screenshots/
+Disallow: /nebenjobs/bewerben.php
+Disallow: /nebenjobs/empfehlen.php
+Disallow: /xml/
+
+Disallow: /jobboerse/wp-admin/
+Allow: /jobboerse/wp-admin/admin-ajax.php
+
+Sitemap: https://www.gelegenheitsjobs.de/sitemapindex.xml
+
+
+User-agent: seoscanners.net
+Disallow: /

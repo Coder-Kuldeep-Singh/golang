@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: */phenomtrack.min.js
+Disallow: */jobcart
+
+Sitemap: https://jobs.merck.com/ca/fr/sitemap.xml
+Sitemap: https://jobs.merck.com/us/en/sitemap.xml

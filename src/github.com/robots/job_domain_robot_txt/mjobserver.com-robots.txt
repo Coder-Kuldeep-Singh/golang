@@ -1,0 +1,5 @@
+Sitemap: https://mjobserver.com/sitemap.xml
+Sitemap: https://mjobserver.com/news-sitemap.xml
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php

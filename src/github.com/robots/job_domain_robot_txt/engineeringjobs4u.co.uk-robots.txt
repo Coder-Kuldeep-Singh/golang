@@ -1,0 +1,7 @@
+Sitemap: http://engineeringjobs4u.co.uk/sitemap.xml
+Sitemap: http://engineeringjobs4u.co.uk/news-sitemap.xml
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+Sitemap: http://engineeringjobs4u.co.uk/sitemap.xml

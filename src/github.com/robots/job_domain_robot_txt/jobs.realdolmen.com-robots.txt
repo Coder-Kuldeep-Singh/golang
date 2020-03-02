@@ -1,0 +1,2 @@
+Sitemap: http://jobs.realdolmen.com/sitemap.xml
+User-agent: *

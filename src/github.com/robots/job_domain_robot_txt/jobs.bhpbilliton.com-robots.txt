@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /icalendar/
+Allow: /careers
+Sitemap: https://careers.bhp.com/careers/sitemap.xml
+Allow: /TalentCommunity
+Sitemap: https://resourcing.bhp.com/TalentCommunity/sitemap.xml
+Allow: /TalentCommunityES
+Sitemap: https://resourcing.bhp.com/TalentCommunityES/sitemap.xml
+Disallow: /

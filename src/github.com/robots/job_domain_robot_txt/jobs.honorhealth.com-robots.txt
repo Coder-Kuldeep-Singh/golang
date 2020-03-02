@@ -1,0 +1,3 @@
+Sitemap: http://jobs.honorhealth.com/sitemap.xml
+User-agent: *
+Disallow: /api/

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /images/*
+Sitemap: http://jobs-point.com/sitemap.xml.gz

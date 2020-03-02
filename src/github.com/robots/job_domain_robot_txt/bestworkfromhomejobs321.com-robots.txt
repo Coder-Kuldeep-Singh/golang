@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://bestworkfromhomejobs321.com/sitemap.xml
+Sitemap: https://bestworkfromhomejobs321.com/sitemap.txt

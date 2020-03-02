@@ -1,0 +1,30 @@
+# Mopro Crawling Controller
+
+# ***     ***  ****  ****   ****    ****
+# ****   **** **  ** **  ** **  ** **  **
+# ***** ***** **  ** **  ** **  ** **  **
+# ***  *  *** **  ** ****   *****  **  **
+# ***     ***  ****  **     ** ***  ****
+
+Sitemap: https://www.harperjobs.com/sitemap.xml
+Sitemap: https://www.harperjobs.com/sitemapvid.xml
+
+User-agent: Twitterbot
+Disallow:
+#Updated on 10/14/2018
+#User-agent Disallow &amp; Crawl Delay List
+
+User-agent: AhrefsBot
+Disallow: /
+User-agent: SemrushBot
+Disallow: /
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: *
+Disallow: /testimonials
+Disallow: /connect
+Disallow: /how-to-apply
+Disallow: /opportunities
+
+# Contact Us at hello@mopro.com

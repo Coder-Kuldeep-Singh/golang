@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow:
+Sitemap: https://mt-jobs.ch/sitemap_index.xml

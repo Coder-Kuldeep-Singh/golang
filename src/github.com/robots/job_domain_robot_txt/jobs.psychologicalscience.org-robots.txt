@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /files/files/
+Sitemap: https://jobs.psychologicalscience.org/sitemap.xml
+
+User-agent: YandexBot
+Disallow: /files/files/
+Crawl-delay: 5

@@ -1,0 +1,40 @@
+
+# Robot exclusion file
+User-agent: *
+
+# The following pages require registration and login
+
+Disallow: /session-img/
+Disallow: /invalid-request/
+Disallow: /document/
+Disallow: /apply-profile/
+
+Disallow: */searchjobs/*
+Disallow: */jobsrss/*
+Disallow: /jobsrss/*
+Disallow: */jbequicksignup/*
+Disallow: /your-jobs/*
+Disallow: /external-redirect-registration* 
+Disallow: */emailjob/*
+
+#parameters
+Disallow: /*?*v=
+Disallow: /*?*LinkSource=
+Disallow: /*?*Sector=
+Disallow: /*?*intcmp=
+Disallow: /*?*sort=
+
+#directories
+Disallow: /logon
+Disallow: /newalert
+Disallow: /remindme
+Disallow: /profile
+Disallow: /session-img
+Disallow: /invalid-request
+Disallow: /document
+Disallow: /logon
+Disallow: /searchjobs
+
+
+Sitemap: https://jobs.fwi.co.uk/sitemapindex.xml
+

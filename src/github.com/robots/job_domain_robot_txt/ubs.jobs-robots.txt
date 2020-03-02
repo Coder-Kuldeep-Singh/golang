@@ -1,0 +1,4 @@
+Sitemap: https://ubs.dejobs.org/sitemap.xml
+User-agent: *
+Disallow: /admin/
+Disallow: /*feed/

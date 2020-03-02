@@ -1,0 +1,13 @@
+User-Agent: *
+Disallow: /cgi-bin/
+Disallow: /Region/
+Disallow: /wp-admin/
+Disallow: /testimonial/
+Allow: /wp-admin/admin-ajax.php
+
+sitemap: http://pakjobscareer.com/sitemap.xml
+sitemap: http://pakjobscareer.com/sitemap_index.xml
+sitemap: http://www.pakjobscareer.com/sitemap_index.xml
+
+sitemap: pakjobscareer.com/sitemap.xml
+sitemap: pakjobscareer.com/sitemap_index.xml

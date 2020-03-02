@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /whoisjeremy
+
+Sitemap: https://www.showcasejobs.com/sitemap.xml
+

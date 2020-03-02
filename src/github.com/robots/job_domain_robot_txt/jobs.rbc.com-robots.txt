@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: */phenomtrack.min.js
+Disallow: */jobcart
+
+Sitemap: https://jobs.rbc.com/ca/fr/sitemap.xml
+Sitemap: https://jobs.rbc.com/ca/en/sitemap.xml

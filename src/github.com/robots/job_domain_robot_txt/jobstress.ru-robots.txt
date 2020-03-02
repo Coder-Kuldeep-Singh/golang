@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /search
+Crawl-Delay: 20
+Sitemap: http://jobstress.ru/sitemap.xml
