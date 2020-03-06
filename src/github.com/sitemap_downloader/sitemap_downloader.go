@@ -13,6 +13,7 @@ import (
 	"os"
 	"regexp"
 	"strings"
+	"sync"
 )
 
 type SitemapIndex struct {
@@ -42,6 +43,8 @@ func (l Location) String() string {
 	return fmt.Sprintf(l.Loc)
 }
 
+var waitGroup sync.WaitGroup
+
 //Unzip files from the webpage
 func gunzipWrite(w io.Writer, data []byte) error {
 	// Write gzipped data to the client
@@ -56,12 +59,13 @@ func gunzipWrite(w io.Writer, data []byte) error {
 }
 
 func DetectType(urlSitemap, pageType string) {
+	defer waitGroup.Done()
 	re := regexp.MustCompile(`/(xml|x-gzip|html)`)
 	ContentType := re.FindAllStringSubmatch(string(pageType), -1)
 	for _, contents := range ContentType {
 		log.Println(contents[1])
 		if contents[1] == "xml" {
-			ParseXml(urlSitemap)
+			go ParseXml(urlSitemap)
 			fmt.Println("********************************************************************")
 			return
 		} else if contents[1] == "x-gzip" {
@@ -151,12 +155,13 @@ func DetectTypeOfFiles(urlSitemap string) {
 	// log.Println(headerInfo.Header.Get("Content-type"))
 	pageType1 := headerInfo.Header.Get("Content-type")
 	pageType2 := headerInfo.Header.Get("content-type")
-
+	waitGroup.Add(1)
 	if headerInfo.Header.Get("Content-type") == pageType1 {
-		DetectType(urlSitemap, pageType1)
+		go DetectType(urlSitemap, pageType1)
 	} else if headerInfo.Header.Get("content-type") == pageType2 {
-		DetectType(urlSitemap, pageType2)
+		go DetectType(urlSitemap, pageType2)
 	}
+	waitGroup.Wait()
 }
 
 //fetch all domain+urls
@@ -202,12 +207,15 @@ func getSitemapFromRobotsTxt(domain string) {
 		log.Println("No sitemap url found", domain)
 		return
 	}
+	waitGroup.Add(len(FileToDomain))
 	for _, Domain := range FileToDomain {
 		response := strings.Replace(Domain[1], " ", "", -1)
 		// log.Println(Domain[1])
-		DetectTypeOfFiles(response)
+		go DetectTypeOfFiles(response)
 		// CreateDomainsFile(string(Domain[1]))
 	}
+	waitGroup.Wait()
+	waitGroup.Done()
 	return
 }
 
@@ -274,7 +282,6 @@ func ParseXml(url string) {
 			// for _, Location := range s.Urls {
 			// fmt.Printf("%s\n", Location)
 			// }
-			urlCount := 0
 			for i := range SS.Urls {
 				url := SS.Urls[i]
 				log.Println(url)
@@ -286,6 +293,8 @@ func ParseXml(url string) {
 		log.Println("Numbers of url found", urlCount)
 		return
 	}
+	waitGroup.Done()
+
 }
 
 func IfBodyDataIsSimple(pageContent string) {
@@ -319,6 +328,7 @@ func ReadFile(filepath string) {
 	}
 	split := strings.Split(string(readfile), "\n")
 	// EachDomains := []string{}
+	waitGroup.Add(len(split))
 	for _, line := range split {
 		// timeout := time.Duration(1 * time.Second)
 		// conn, err := net.DialTimeout("tcp","mysyte:myport", timeout)
@@ -326,19 +336,23 @@ func ReadFile(filepath string) {
 		// log.Println("Site unreachable, error: ", err)
 		// }
 		// fetch(line)
-		getSitemapFromRobotsTxt(line)
+		go getSitemapFromRobotsTxt(line)
 		// EachDomains = append(EachDomains, line)
 
 	}
 	// fmt.Println(EachDomains)
-	// wg.Done()
+	waitGroup.Wait()
+	waitGroup.Done()
 }
 
 func main() {
 	domain := flag.String("f", "", "Provide the path of the file")
 	flag.Parse()
-	// ReadFile(*domain)
-	getSitemapFromRobotsTxt(*domain)
+	waitGroup.Add(1)
+	// go ReadFile(*domain)
+	go getSitemapFromRobotsTxt(*domain)
 	// fetch("https://chaufferus.us/https-sitemap_index.xml")
+	waitGroup.Wait()
+	waitGroup.Done()
 
 }
