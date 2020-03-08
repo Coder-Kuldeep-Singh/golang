@@ -13,6 +13,7 @@ import (
 	"os"
 	"regexp"
 	"strings"
+
 )
 
 type SitemapIndex struct {
