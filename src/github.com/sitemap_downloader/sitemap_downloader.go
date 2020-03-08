@@ -29,10 +29,10 @@ type URLSet struct {
 }
 
 type SitemapURL struct {
-	Location string `xml:"loc"`
-	// LastModifiedDate string `xml:"lastmod"`
-	// ChangeFrequency string `xml:"changefreq"`
-	// Priority string `xml:"priority"`
+	Location         string `xml:"loc"`
+	LastModifiedDate string `xml:"lastmod"`
+	ChangeFrequency  string `xml:"changefreq"`
+	Priority         string `xml:"priority"`
 }
 
 type Location struct {
@@ -131,10 +131,34 @@ func DetectType(urlSitemap, pageType string) {
 			return
 
 		} else {
-			// simplePage := FetchUrl(urlSitemap)
-			// // IfBodyDataIsSimple(string(filename.Host), string(simplePage))
-			// IfBodyDataIsSimple(string(simplePage))
-			log.Println("Program not able to read the content of the page")
+			// xmlData := FetchUrl(urlSitemap)
+			// if string(xmlData) == "" {
+			// 	log.Println("Xml file is Empty")
+			// } else {
+			// 	var s URLSet
+			// 	xml.Unmarshal(xmlData, &s)
+			// 	urlCount := 0
+			// 	for i := range s.Urls {
+			// 		url := s.Urls[i]
+			// 		log.Println(url)
+			// 		urlCount++
+			// 	}
+			// 	var N URLSets
+			// 	xml.Unmarshal(xmlData, &N)
+			// 	// for _, Location := range s.Urls {
+			// 	// fmt.Printf("%s\n", Location)
+			// 	// }
+			// 	for i := range N.Urls {
+			// 		url := N.Urls[i]
+			// 		log.Println(url)
+			// 		urlCount++
+
+			// 	}
+			// 	log.Println("Numbers of url found", urlCount)
+			// 	return
+			// }
+			ParseXml(urlSitemap)
+			// log.Println("Program not able to read the content of the page")
 			fmt.Println("********************************************************************")
 			return
 		}
