@@ -32,7 +32,7 @@ func main() {
 		record, err := r.Read()
 		if err == io.EOF {
 			break
-		}
+		}	
 		if err != nil {
 			log.Fatal(err)
 		}
